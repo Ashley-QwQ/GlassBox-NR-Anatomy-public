@@ -1,5 +1,7 @@
 # L3.attention-softmax：分数、分母归约与值汇合
 
+> 本页有些证据链接指向作者的私有项目档案（`../../../experiments/…`、`E:/…` 等），在公开仓库里打不开，只作出处记录保留；说明见[证据路径图例](INDEX.md#private-links)。
+
 <!-- beginner-r04m:start intro -->
 <a id="beginner-attention"></a>
 【入门简化】当前位置用Q与候选位置的K比较，再按[份额](APPENDIX_beginner_glossary.md#g048)取它们的V内容；Q/K/V都由内部数生成。先用[三位置故事与并排分数表](L1_00_one_block_primer.md#qkv-story)理解谁比较、谁被取回。普通[softmax](APPENDIX_beginner_glossary.md#g047)先取[指数](APPENDIX_beginner_glossary.md#g047)再除总量；本链先按规定改[编码](APPENDIX_beginner_glossary.md#g057)生成正[权重](APPENDIX_beginner_glossary.md#g048)，训练意图未定。[窗口](APPENDIX_beginner_glossary.md#g015)“除总量→转粗格式→组合V”，全局“转粗格式→组合V→除总量”，[两条四格线](L1_00_one_block_primer.md#quantisation-position)把转换标出；这不是可随意交换的实数平均。

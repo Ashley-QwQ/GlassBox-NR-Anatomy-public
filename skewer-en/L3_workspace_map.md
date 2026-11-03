@@ -1,5 +1,7 @@
 # L3.workspace-map: Workspace, Padding Zero-Writes, and Bidirectional repack
 
+> Some evidence links on this page point into the authors' private project archive (`../../../experiments/…`, `E:/…` and similar); they do not open in the public repository and are kept as provenance records. See the [evidence path legend](INDEX.md#private-links).
+
 <!-- beginner-r04m:start intro -->
 <a id="beginner-storage"></a>
 [Synthetic Storage Illustration] The same group (a,b,c,d) can be placed in two rows as (a,b)/(c,d) or placed in storage as (a,c,b,d); [rearrangement](APPENDIX_beginner_glossary.md#g019) only swaps the boxes, and once interpreted they are still the same four numbers. The actual rule is not an arbitrarily chosen arrangement, and must follow the [contract](APPENDIX_beginner_glossary.md#g101) of this instance. When reading the diagrams, separate three boxes: "where to fetch numbers from → what arithmetic to perform → where to write numbers to".

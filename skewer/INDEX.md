@@ -1,5 +1,7 @@
 # GLASSBOX-NR：从一帧到算术的洋葱烤串
 
+> 本页有些证据链接指向作者的私有项目档案（`../../../experiments/…`、`E:/…` 等），在公开仓库里打不开，只作出处记录保留；说明见[证据路径图例](#private-links)。
+
 <!-- beginner-r04m:start entry -->
 <a id="beginner-entry"></a>
 ## 先用一张图的故事读它
@@ -114,9 +116,10 @@
 
 各切片用 $Span(A)$ 表示[张量](APPENDIX_beginner_glossary.md#g076)角色 A 在工作区的区间：$[p_A-b,\ p_A-b+N_A)$，$b$ 为本次工作区基址，$p_A$ 取该 launch 的 params，$N_A$ 是物理角色字节数。E4 的 $X_r(C)$ 为 $W_rH_rC$ B，F16 再乘 2；padding 和同步写另计，不套用一个跨几何固定偏移。[纹理](APPENDIX_beginner_glossary.md#g027)按 id、格式、尺寸、pitch 与时点绑定；[RGBA16F](APPENDIX_beginner_glossary.md#g028) 有效行长 $8W$ B，MV 为 RG16F、有效行长 $4W$ B。
 
+<a id="private-links"></a>
 ## 证据路径图例
 
-下列链接在当前工作站可打开；只拿本串[镜像](APPENDIX_beginner_glossary.md#g099)时，外部源码和私有记录不一定随包附带。路径不是对象身份，具体版本仍看绑定SHA。
+指向 `../../../experiments/…`、`../../../ARCHITECTURE_V3_ZH.md`、`E:/…`、`F:/…` 等的链接属于作者的私有项目档案：在公开仓库或单独的本串[镜像](APPENDIX_beginner_glossary.md#g099)里打不开，只作出处记录保留（其中一部分被 `examples/` 里的 SHA pin 覆盖，所以不改写）。源码链接指向 GitHub 上 GlassBox-NR 的固定提交，可以直接打开。路径不是对象身份，具体版本仍看绑定SHA。
 
 | 路径族 | 内容角色 | 独立读者能否打开 |
 |---|---|---|

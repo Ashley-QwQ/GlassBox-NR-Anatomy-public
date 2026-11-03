@@ -1,5 +1,7 @@
 # L0b 确定性与可复现性
 
+> 本页有些证据链接指向作者的私有项目档案（`../../../experiments/…`、`E:/…` 等），在公开仓库里打不开，只作出处记录保留；说明见[证据路径图例](INDEX.md#private-links)。
+
 [整串目录](INDEX.md) · [对象与方法](L0a_object_method.md) · [一帧接线](L0_frame.md) · [证据词表](APPENDIX_evidence_history.md#project-terms)
 
 本页收集既有记录对“固定输入、控制、[资源](APPENDIX_beginner_glossary.md#g079)与前态产生可复现字节”的支持，结论逐项受观察范围限制。统一M、发布子[封存](APPENDIX_beginner_glossary.md#g103)[M2](APPENDIX_beginner_glossary.md#g107)和后续child candidate分别记账；M的实测不能自动转成M2的新测，census也不能代替数值运行。[ARCHITECTURE_V3_ZH.md:1519–1523](../../../ARCHITECTURE_V3_ZH.md#L1519)。

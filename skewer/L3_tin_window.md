@@ -1,5 +1,7 @@
 # L3.tin-window：完整 TIN 窗口块与编解码交接
 
+> 本页有些证据链接指向作者的私有项目档案（`../../../experiments/…`、`E:/…` 等），在公开仓库里打不开，只作出处记录保留；说明见[证据路径图例](INDEX.md#private-links)。
+
 <!-- beginner-r04m:start intro -->
 <a id="beginner-tin"></a>
 【入门简化】一个小[窗口](APPENDIX_beginner_glossary.md#g015)内，先各位置改自己的[通道](APPENDIX_beginner_glossary.md#g007)，再比较位置、组合内容，两条较早的数字各在规定的起始小计处接回。先画少框版：

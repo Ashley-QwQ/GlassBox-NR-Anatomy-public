@@ -1,5 +1,7 @@
 ### L0 一帧（launch L0–L157 / B0–B70）
 
+> 本页有些证据链接指向作者的私有项目档案（`../../../experiments/…`、`E:/…` 等），在公开仓库里打不开，只作出处记录保留；说明见[证据路径图例](INDEX.md#private-links)。
+
 <!-- beginner-r04m:start frame -->
 <a id="beginner-frame"></a>
 ## 先画作用，再读精确接线

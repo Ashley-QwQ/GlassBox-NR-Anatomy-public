@@ -1,5 +1,7 @@
 # L0a 对象与方法
 
+> 本页有些证据链接指向作者的私有项目档案（`../../../experiments/…`、`E:/…` 等），在公开仓库里打不开，只作出处记录保留；说明见[证据路径图例](INDEX.md#private-links)。
+
 [整串目录](INDEX.md) · 下一层：[L0一帧](L0_frame.md) · [确定性与可复现性](L0b_determinism.md)
 
 [公开v2复现指南](REPRODUCE.md) · [权重组织](L2_weights_layout.md)

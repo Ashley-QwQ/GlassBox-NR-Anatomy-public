@@ -1,5 +1,7 @@
 # L0b Determinism and Reproducibility
 
+> Some evidence links on this page point into the authors' private project archive (`../../../experiments/…`, `E:/…` and similar); they do not open in the public repository and are kept as provenance records. See the [evidence path legend](INDEX.md#private-links).
+
 [Full Skewer Index](INDEX.md) · [Object and Method](L0a_object_method.md) · [One-Frame Wiring](L0_frame.md) · [Evidence Glossary](APPENDIX_evidence_history.md#project-terms)
 
 This page collects existing records supporting the statement that "fixed inputs, controls, [resources](APPENDIX_beginner_glossary.md#g079), and pre-states produce reproducible bytes", with each conclusion bounded by its observation scope. Unified M, the release sub-[seal](APPENDIX_beginner_glossary.md#g103) [M2](APPENDIX_beginner_glossary.md#g107), and subsequent child candidates are accounted for separately; measured results on M cannot be automatically transferred as new measurements on M2, nor can census substitute for numeric runs. [ARCHITECTURE_V3_ZH.md:1519–1523](../../../ARCHITECTURE_V3_ZH.md#L1519).

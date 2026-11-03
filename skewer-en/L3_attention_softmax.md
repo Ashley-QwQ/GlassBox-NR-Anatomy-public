@@ -1,5 +1,7 @@
 # L3.attention-softmax: Scores, Denominator Reduction, and Value Aggregation
 
+> Some evidence links on this page point into the authors' private project archive (`../../../experiments/…`, `E:/…` and similar); they do not open in the public repository and are kept as provenance records. See the [evidence path legend](INDEX.md#private-links).
+
 <!-- beginner-r04m:start intro -->
 <a id="beginner-attention"></a>
 [Beginner Simplification] The current position uses Q to compare against candidate positions' K, and then fetches their V content according to the resulting [shares](APPENDIX_beginner_glossary.md#g048); Q/K/V are all generated from internal numbers. First use the [3-position story and side-by-side score table](L1_00_one_block_primer.md#qkv-story) to understand what is compared and what is retrieved. Standard [softmax](APPENDIX_beginner_glossary.md#g047) takes the [exponential](APPENDIX_beginner_glossary.md#g047) first and then divides by the total; this chain first modifies the [encoding](APPENDIX_beginner_glossary.md#g057) by a prescribed rule to generate positive [weights](APPENDIX_beginner_glossary.md#g048), with undetermined training intent. [Window](APPENDIX_beginner_glossary.md#g015) attention performs "divide by total → convert to coarse format → combine V", whereas global attention performs "convert to coarse format → combine V → divide by total", with the [2 4-box lines](L1_00_one_block_primer.md#quantisation-position) marking the conversions; this is not a real-number average whose steps can be swapped at will.

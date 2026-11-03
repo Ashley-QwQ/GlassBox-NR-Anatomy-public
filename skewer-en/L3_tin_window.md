@@ -1,5 +1,7 @@
 # L3.tin-window: Complete TIN Window Block and Encoder/Decoder Handoff
 
+> Some evidence links on this page point into the authors' private project archive (`../../../experiments/…`, `E:/…` and similar); they do not open in the public repository and are kept as provenance records. See the [evidence path legend](INDEX.md#private-links).
+
 <!-- beginner-r04m:start intro -->
 <a id="beginner-tin"></a>
 [Beginner Simplification] Within a small [window](APPENDIX_beginner_glossary.md#g015), each position first modifies its own [channels](APPENDIX_beginner_glossary.md#g007), then positions are compared and content is combined, while 2 sets of earlier numbers each reconnect at their prescribed starting subtotals. First, a fewer-box version:

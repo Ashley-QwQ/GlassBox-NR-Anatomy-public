@@ -1,5 +1,7 @@
 ### L1.02 输入端 B0（launch L2 / B0）
 
+> 本页有些证据链接指向作者的私有项目档案（`../../../experiments/…`、`E:/…` 等），在公开仓库里打不开，只作出处记录保留；说明见[证据路径图例](INDEX.md#private-links)。
+
 <!-- beginner-r04m:start stage -->
 阅读深度：L1（阶段）<br>[执行编号](APPENDIX_beginner_glossary.md#g081)：[launch](APPENDIX_beginner_glossary.md#g080) L2<br>[逻辑块](APPENDIX_beginner_glossary.md#g036)编号：B0
 

@@ -1,5 +1,7 @@
 # L3.workspace-map：工作区、padding 零写与双向 repack
 
+> 本页有些证据链接指向作者的私有项目档案（`../../../experiments/…`、`E:/…` 等），在公开仓库里打不开，只作出处记录保留；说明见[证据路径图例](INDEX.md#private-links)。
+
 <!-- beginner-r04m:start intro -->
 <a id="beginner-storage"></a>
 【人工存放示意】同一组(a,b,c,d)，可按两行(a,b)/(c,d)放，也可在存储中按(a,c,b,d)放；[重排](APPENDIX_beginner_glossary.md#g019)只换盒子，解读后仍是原来的四个数。实际规则不是随便选一种排列，需按本实例[合同](APPENDIX_beginner_glossary.md#g101)。读图时分三格：“从哪取数→做什么算术→往哪写数”。

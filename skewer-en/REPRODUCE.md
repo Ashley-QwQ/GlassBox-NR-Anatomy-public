@@ -1,5 +1,7 @@
 # Which Result Can Be Reproduced with Public GlassBox-NR v2
 
+> Some evidence links on this page point into the authors' private project archive (`../../../experiments/…`, `E:/…` and similar); they do not open in the public repository and are kept as provenance records. See the [evidence path legend](INDEX.md#private-links).
+
 [Full Skewer Index](INDEX.md) · [Object and Method](L0a_object_method.md) · [One-Frame Wiring](L0_frame.md) · [Determinism and Boundaries](L0b_determinism.md) · [Weight Organization](L2_weights_layout.md)
 
 <a id="versions"></a>

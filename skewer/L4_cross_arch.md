@@ -1,5 +1,7 @@
 # L4 跨架构：同一语义接口不保证同一字节规则
 
+> 本页有些证据链接指向作者的私有项目档案（`../../../experiments/…`、`E:/…` 等），在公开仓库里打不开，只作出处记录保留；说明见[证据路径图例](INDEX.md#private-links)。
+
 [整串目录](INDEX.md) · [QMMA](L3_qmma_e4m3.md) · [half](L4_half_arith.md) · [HMMA](L4_hmma.md) · [MUFU](L4_mufu.md) · [FTZ](L4_fp32_ftz.md) · [纹理](L4_tex_filter.md)
 
 比较基准是本串[M/M2](APPENDIX_beginner_glossary.md#g107)所复现的[sm_120](APPENDIX_beginner_glossary.md#g078)具名原生观察。下表的30系/40系材料具体对应sm_86的RTX A2000 Laptop和sm_89的RTX 4090 D；sm_75只作为较早对照。架构名称不把单卡测量升级成全系列[合同](APPENDIX_beginner_glossary.md#g101)，原语候选也不提供全部输入上的唯一硬件解释。measured/census/inferred沿用[证据词表](APPENDIX_evidence_history.md#project-terms)；“未见记录”限于本轮所读项目资料。

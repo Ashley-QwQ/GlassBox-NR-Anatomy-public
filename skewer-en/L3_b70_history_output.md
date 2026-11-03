@@ -1,5 +1,7 @@
 # L3.b70-history-output: Final Block, Display Output, and History Loop
 
+> Some evidence links on this page point into the authors' private project archive (`../../../experiments/…`, `E:/…` and similar); they do not open in the public repository and are kept as provenance records. See the [evidence path legend](INDEX.md#private-links).
+
 <!-- beginner-r04m:start intro -->
 <a id="beginner-tail"></a>
 [Beginner Simplification] First distinguish four objects: ① three predicted numbers modify RGB; ② when [history](APPENDIX_beginner_glossary.md#g024) is present, the fourth predicted number participates in the blending [share](APPENDIX_beginner_glossary.md#g048); ③ the fourth stored component of the result image is fixed at 1; ④ display strength controls the final blending with the current-frame original-image backup. ②, ③, and ④ are not the same fourth number. By default, the pre-display [state](APPENDIX_beginner_glossary.md#g002) is saved first, and display processing is done separately; read the [two-frame-plus-reset timeline](L1_00_history_primer.md#timeline) before the detailed coordinate/color formulas. The B70 [resource](APPENDIX_beginner_glossary.md#g079) [confidence scale](APPENDIX_beginner_glossary.md#g052) is checked first, and the old image is fetched only if permitted; B0 conditioning history is a separate path.

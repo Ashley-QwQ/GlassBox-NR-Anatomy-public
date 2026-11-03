@@ -1,5 +1,7 @@
 # L3.window-attention: Complete split16 Block and Four-Kernel Handoff
 
+> Some evidence links on this page point into the authors' private project archive (`../../../experiments/…`, `E:/…` and similar); they do not open in the public repository and are kept as provenance records. See the [evidence path legend](INDEX.md#private-links).
+
 <!-- beginner-r04m:start intro -->
 <a id="beginner-split"></a>
 [Beginner Simplification] This section passes the [512](APPENDIX_beginner_glossary.md#g007) items at each position through eight [window](APPENDIX_beginner_glossary.md#g015) blocks. Each block first processes each position individually and then exchanges content within 8×8 positions; the entry [bypass](APPENDIX_beginner_glossary.md#g016) connects to [feed-forward](APPENDIX_beginner_glossary.md#g037) contraction, and the feed-forward-result bypass connects to [attention](APPENDIX_beginner_glossary.md#g039) [post-projection](APPENDIX_beginner_glossary.md#g038). The fewer-box version is:

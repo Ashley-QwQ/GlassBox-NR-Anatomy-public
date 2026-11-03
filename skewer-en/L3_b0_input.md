@@ -1,5 +1,7 @@
 # L3.b0-noise-reprojection: B0 Noise, 16 Channels, and History Reprojection
 
+> Some evidence links on this page point into the authors' private project archive (`../../../experiments/…`, `E:/…` and similar); they do not open in the public repository and are kept as provenance records. See the [evidence path legend](INDEX.md#private-links).
+
 <!-- beginner-r04m:start intro -->
 <a id="beginner-b0"></a>
 [Beginner Simplification] These 16 slots are the conditioning list fed to the network, not 16 colors. The first three perturbation items are generated separately from position/counter, not grain measured from the original image; the overall visual purpose of the conditioning remains unknown. When no [history](APPENDIX_beginner_glossary.md#g024) is available, the three old-RGB slots repeat the current RGB. Next, 16 items per position become 32 items, which are then processed in small [windows](APPENDIX_beginner_glossary.md#g015).

@@ -1,5 +1,7 @@
 # L3.ffn: Per-Channel Gate Function, Expansion, and Residual Wiring
 
+> Some evidence links on this page point into the authors' private project archive (`../../../experiments/…`, `E:/…` and similar); they do not open in the public repository and are kept as provenance records. See the [evidence path legend](INDEX.md#private-links).
+
 <!-- beginner-r04m:start intro -->
 <a id="beginner-ffn"></a>
 [Beginner Simplification] First let each position independently recombine its own number sequence, pass through an item-by-item function, and combine back to the original item count; this sub-stage does not fetch content from elsewhere, and only afterward does [attention](APPENDIX_beginner_glossary.md#g039) perform cross-position exchange. Position A goes 2 items → 4 items → item-by-item function → 2 items, and Position B independently follows its own path; see the [synthetic two-position diagram](L1_00_one_block_primer.md#per-position). One [bypass](APPENDIX_beginner_glossary.md#g016) comes from the block entry and is brought in at the start of contraction; the other comes from the [feed-forward](APPENDIX_beginner_glossary.md#g037) result and is brought in at the start of attention [post-projection](APPENDIX_beginner_glossary.md#g038); read the [complete two-bypass diagram](L1_00_one_block_primer.md#two-residuals) before the detailed per-[family](APPENDIX_beginner_glossary.md#g080) table below.

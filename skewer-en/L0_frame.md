@@ -1,5 +1,7 @@
 ### L0 One Frame (launch L0–L157 / B0–B70)
 
+> Some evidence links on this page point into the authors' private project archive (`../../../experiments/…`, `E:/…` and similar); they do not open in the public repository and are kept as provenance records. See the [evidence path legend](INDEX.md#private-links).
+
 <!-- beginner-r04m:start frame -->
 <a id="beginner-frame"></a>
 ## Draw the Function First, Then Read the Exact Wiring

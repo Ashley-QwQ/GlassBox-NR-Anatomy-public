@@ -1,5 +1,7 @@
 # L3.ffn：逐通道门函数、扩张与残差接线
 
+> 本页有些证据链接指向作者的私有项目档案（`../../../experiments/…`、`E:/…` 等），在公开仓库里打不开，只作出处记录保留；说明见[证据路径图例](INDEX.md#private-links)。
+
 <!-- beginner-r04m:start intro -->
 <a id="beginner-ffn"></a>
 【入门简化】先让每个位置各自重组自己的数字串，经过逐项函数，再组合回原项数；这段不向别处取内容，随后[注意力](APPENDIX_beginner_glossary.md#g039)才做位置间交换。甲的2项→4项→逐项函数→2项，乙也独立走自己的线，见[人工双位置图](L1_00_one_block_primer.md#per-position)。一条[旁路](APPENDIX_beginner_glossary.md#g016)来自块入口，在收缩开始带入；另一条来自[前馈](APPENDIX_beginner_glossary.md#g037)结果，在注意力[后投影](APPENDIX_beginner_glossary.md#g038)开始带入，[完整两线图](L1_00_one_block_primer.md#two-residuals)先于下面的[家族](APPENDIX_beginner_glossary.md#g080)细表阅读。

@@ -1,5 +1,7 @@
 ### L1.04 split16 Encoder (launch L25–L57 / B23–B30)
 
+> Some evidence links on this page point into the authors' private project archive (`../../../experiments/…`, `E:/…` and similar); they do not open in the public repository and are kept as provenance records. See the [evidence path legend](INDEX.md#private-links).
+
 <!-- beginner-r04m:start stage -->
 Reading depth: L1 (stage)<br>[Execution numbering](APPENDIX_beginner_glossary.md#g081): [launch](APPENDIX_beginner_glossary.md#g080) L25–L57<br>[Logical block](APPENDIX_beginner_glossary.md#g036) numbering: B23–B30
 

@@ -1,5 +1,7 @@
 # L2 权重组织：153个打包条目与各阶段的字节账
 
+> 本页有些证据链接指向作者的私有项目档案（`../../../experiments/…`、`E:/…` 等），在公开仓库里打不开，只作出处记录保留；说明见[证据路径图例](INDEX.md#private-links)。
+
 [整串目录](INDEX.md) · [一帧与成本口径](L0_frame.md) · [B0](L2_02_b0.md) · [TIN](L2_03_tin_encoder.md) · [split16](L2_04_split16_encoder.md) · [ViT](L2_05_vit.md) · [解码桥](L2_06_decoder_bridge.md) · [B70](L2_09_b70.md)
 
 本页横切各[调用](APPENDIX_beginner_glossary.md#g080)家族，只增加资产组织说明，不新增launch或覆盖归属。

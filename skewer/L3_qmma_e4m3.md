@@ -1,5 +1,7 @@
 # L3.qmma-e4m3：矩阵乘由哪些 K32 步组成
 
+> 本页有些证据链接指向作者的私有项目档案（`../../../experiments/…`、`E:/…` 等），在公开仓库里打不开，只作出处记录保留；说明见[证据路径图例](INDEX.md#private-links)。
+
 <!-- beginner-r04m:start intro -->
 <a id="beginner-qmma"></a>
 【入门简化】把一行与一列对应相乘再相加时，这条规则每次处理32对，带入一个小计，先把各项朝零放到同一刻度，再加起来、保存[F16](APPENDIX_beginner_glossary.md#g054)小计；下一篮用这个已保存结果继续。有些出口还要转成更粗[E4](APPENDIX_beginner_glossary.md#g055)。先读[有限数点与小篮](L1_00_numbers_primer.md)，再下钻下面的整数式、候选和证据范围；篮子是教学比喻，不是设备内部结构证明。

@@ -1,5 +1,18 @@
 # GlassBox-NR Anatomy
 
+**What it is.** A layer-by-layer account of how DLSS5NR, NVIDIA's neural renderer (exactly the shipped
+`nvngx_dlssnr.dll` 310.8.0.0, no other version), computes a frame in 158 kernel launches, written down precisely enough
+that its CPU reimplementation, [GlassBox-NR](https://github.com/Ashley-QwQ/GlassBox-NR), reproduces the output byte for
+byte: at 1080p, 1440p and 4K, over several frames each, every byte of the final image is identical, not just close.
+In Chinese and English.<br>
+**Why it is hard.** Bit-exactness leaves no room for "close enough": FP8 (E4M3) and FP16 matrix products in the GPU's own
+accumulation order, flush-to-zero boundaries, and special functions such as reciprocal and reciprocal square root that
+only match through certified tables.<br>
+**Why it is worth reading.** Every rule comes with how it was established and how far it reaches. The number-format pages
+(L4) and their small worked examples are useful to anyone porting or verifying low-precision inference.
+
+![One 1080p frame is 158 GPU kernel launches: preparation, input B0, TIN encoder, split16 encoder, ViT bottleneck, decoder bridge, split16 decoder, TIN decoder, temporal B70, output](img/chain-158.svg)
+
 Implementation-level architectural dissection of one specific neural-rendering implementation:
 `nvngx_dlssnr.dll` **310.8.0.0** (and nothing else). Companion to the CPU reference implementation
 [GlassBox-NR](https://github.com/Ashley-QwQ/GlassBox-NR).
@@ -44,5 +57,5 @@ This public repository is a snapshot of the authors' working repository; the rev
 
 ## Licence
 
-Documentation (the Markdown pages, figures and this README): **CC-BY-4.0** (`LICENSE-docs`). Code and data in
+Documentation (the Markdown pages, figures including `img/`, and this README): **CC-BY-4.0** (`LICENSE-docs`). Code and data in
 `skewer/examples/` and `skewer-en/examples/`: **Apache-2.0** (`LICENSE`). Details in `NOTICE`.

@@ -1,5 +1,7 @@
 # L3.b0-noise-reprojection：B0 的噪声、16 通道与历史重投影
 
+> 本页有些证据链接指向作者的私有项目档案（`../../../experiments/…`、`E:/…` 等），在公开仓库里打不开，只作出处记录保留；说明见[证据路径图例](INDEX.md#private-links)。
+
 <!-- beginner-r04m:start intro -->
 <a id="beginner-b0"></a>
 【入门简化】这16格是送给网络的条件清单，不是16种颜色。前三项扰动另由位置/计数生成，不是从原图测出的颗粒；条件的总体视觉目的仍未知。无可用[历史](APPENDIX_beginner_glossary.md#g024)时，旧RGB三格重复当前RGB。接着每位置16项变32项，再在小[窗口](APPENDIX_beginner_glossary.md#g015)处理。

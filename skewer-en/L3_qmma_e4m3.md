@@ -1,5 +1,7 @@
 # L3.qmma-e4m3: Which K32 Steps Make Up a Matrix Multiplication
 
+> Some evidence links on this page point into the authors' private project archive (`../../../experiments/…`, `E:/…` and similar); they do not open in the public repository and are kept as provenance records. See the [evidence path legend](INDEX.md#private-links).
+
 <!-- beginner-r04m:start intro -->
 <a id="beginner-qmma"></a>
 [Beginner Simplification] When multiplying a row and a column pair by pair and adding them up, this rule processes 32 pairs at a time, brings in a subtotal, first places each item toward zero onto the same scale, and then adds them up and saves an [F16](APPENDIX_beginner_glossary.md#g054) subtotal; the next basket continues with this saved result. Some exits must then also convert to the coarser [E4](APPENDIX_beginner_glossary.md#g055). Read [Finite Number Points and Small Baskets](L1_00_numbers_primer.md) first, and then drill down into the integer formulas, candidates, and evidence scope below; the basket is a teaching metaphor, not a proof of internal device structure.

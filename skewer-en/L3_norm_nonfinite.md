@@ -1,5 +1,7 @@
 # L3.norm-nonfinite: 32-Channel Vector Norm, Scaling, and Nonfinite Boundaries
 
+> Some evidence links on this page point into the authors' private project archive (`../../../experiments/…`, `E:/…` and similar); they do not open in the public repository and are kept as provenance records. See the [evidence path legend](INDEX.md#private-links).
+
 <!-- beginner-r04m:start intro -->
 <a id="beginner-norm"></a>
 [Synthetic Concept Example, Not a Measurement] The sum of squares of (3,4) is 25 and its length is 5; multiplying both by 1/5 gives (0.6,0.8). Replacing the input with (6,8) doubles the length as well, and [scaling](APPENDIX_beginner_glossary.md#g031) the pair as a whole still yields the same direction. This uses only two items and ideal real numbers to illustrate "rescaling the magnitude of a group of numbers," without impersonating the actual 32-item and [function-table](APPENDIX_beginner_glossary.md#g074) results.

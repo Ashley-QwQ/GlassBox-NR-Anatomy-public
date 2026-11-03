@@ -1,5 +1,7 @@
 # L4 Cross-Architecture: The Same Semantic Interface Does Not Guarantee the Same Byte Rule
 
+> Some evidence links on this page point into the authors' private project archive (`../../../experiments/…`, `E:/…` and similar); they do not open in the public repository and are kept as provenance records. See the [evidence path legend](INDEX.md#private-links).
+
 [Full Skewer Index](INDEX.md) · [QMMA](L3_qmma_e4m3.md) · [half](L4_half_arith.md) · [HMMA](L4_hmma.md) · [MUFU](L4_mufu.md) · [FTZ](L4_fp32_ftz.md) · [Texture](L4_tex_filter.md)
 
 The baseline for comparison is the named native observations on [sm_120](APPENDIX_beginner_glossary.md#g078) reproduced by [M/M2](APPENDIX_beginner_glossary.md#g107) in this skewer. In the table below, the 30-series / 40-series materials correspond specifically to the sm_86 RTX A2000 Laptop and the sm_89 RTX 4090 D; sm_75 serves only as an earlier control. Architecture names do not upgrade single-card measurements into a full-series [contract](APPENDIX_beginner_glossary.md#g101), nor do primitive candidates provide a unique hardware explanation across all inputs. measured/census/inferred follow the [evidence glossary](APPENDIX_evidence_history.md#project-terms); "not recorded" is scoped to the project materials read in this round.

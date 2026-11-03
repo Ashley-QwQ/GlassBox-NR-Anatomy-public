@@ -1,5 +1,7 @@
 # 用公开GlassBox-NR v2复现哪一项结果
 
+> 本页有些证据链接指向作者的私有项目档案（`../../../experiments/…`、`E:/…` 等），在公开仓库里打不开，只作出处记录保留；说明见[证据路径图例](INDEX.md#private-links)。
+
 [整串目录](INDEX.md) · [对象与方法](L0a_object_method.md) · [一帧接线](L0_frame.md) · [确定性与边界](L0b_determinism.md) · [权重组织](L2_weights_layout.md)
 
 <a id="versions"></a>

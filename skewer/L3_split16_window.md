@@ -1,5 +1,7 @@
 # L3.window-attention：split16完整块与四核交接
 
+> 本页有些证据链接指向作者的私有项目档案（`../../../experiments/…`、`E:/…` 等），在公开仓库里打不开，只作出处记录保留；说明见[证据路径图例](INDEX.md#private-links)。
+
 <!-- beginner-r04m:start intro -->
 <a id="beginner-split"></a>
 【入门简化】这段让每位置[512](APPENDIX_beginner_glossary.md#g007)项数经过八个[窗口](APPENDIX_beginner_glossary.md#g015)块。每块先各位置处理，再在8×8位置内交换内容；入口[旁路](APPENDIX_beginner_glossary.md#g016)接[前馈](APPENDIX_beginner_glossary.md#g037)收缩，前馈结果旁路接[注意力](APPENDIX_beginner_glossary.md#g039)[后投影](APPENDIX_beginner_glossary.md#g038)。少框版是：

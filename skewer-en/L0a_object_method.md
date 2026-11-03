@@ -1,5 +1,7 @@
 # L0a Object and Method
 
+> Some evidence links on this page point into the authors' private project archive (`../../../experiments/…`, `E:/…` and similar); they do not open in the public repository and are kept as provenance records. See the [evidence path legend](INDEX.md#private-links).
+
 [Full Skewer Index](INDEX.md) · Next level down: [L0 One Frame](L0_frame.md) · [Determinism and Reproducibility](L0b_determinism.md)
 
 [Public v2 Reproduction Guide](REPRODUCE.md) · [Weight Organization](L2_weights_layout.md)

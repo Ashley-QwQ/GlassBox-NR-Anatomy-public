@@ -1,5 +1,7 @@
 # GLASSBOX-NR: The Onion Skewer from One Frame Down to Arithmetic
 
+> Some evidence links on this page point into the authors' private project archive (`../../../experiments/…`, `E:/…` and similar); they do not open in the public repository and are kept as provenance records. See the [evidence path legend](#private-links).
+
 <!-- beginner-r04m:start entry -->
 <a id="beginner-entry"></a>
 ## Read It First as a One-Picture Story
@@ -114,9 +116,10 @@ For 1440, $X_5$ has valid height 46 and physical height 48; for 4K, ViT has 16 e
 
 Each slice uses $Span(A)$ to denote the interval of [tensor](APPENDIX_beginner_glossary.md#g076) role A in the workspace: $[p_A-b,\ p_A-b+N_A)$, where $b$ is the workspace base address for this run, $p_A$ is taken from the launch's params, and $N_A$ is the physical role size in bytes. An E4 role $X_r(C)$ is $W_rH_rC$ B, and F16 multiplies that by 2; padding and synchronization writes are counted separately rather than applying a fixed cross-geometry offset. [Textures](APPENDIX_beginner_glossary.md#g027) are bound by id, format, dimensions, pitch, and point in time; [RGBA16F](APPENDIX_beginner_glossary.md#g028) has valid row length $8W$ B, and MV is RG16F with valid row length $4W$ B.
 
+<a id="private-links"></a>
 ## Evidence Path Legend
 
-The links below can be opened on the current workstation; when taking only a [mirror](APPENDIX_beginner_glossary.md#g099) of this skewer, external source code and private records are not necessarily bundled with it. Paths are not object identities; exact versions still follow bound SHAs.
+Links to `../../../experiments/…`, `../../../ARCHITECTURE_V3_ZH.md`, `E:/…`, `F:/…` and similar belong to the authors' private project archive: they do not open in the public repository or in a standalone [mirror](APPENDIX_beginner_glossary.md#g099) of this skewer and are kept only as provenance records (some of them are covered by SHA pins in `examples/`, so they are not rewritten). Source-code links point at fixed commits of GlassBox-NR on GitHub and open directly. Paths are not object identities; exact versions still follow bound SHAs.
 
 | Path family | Content role | Can an independent reader open it? |
 |---|---|---|

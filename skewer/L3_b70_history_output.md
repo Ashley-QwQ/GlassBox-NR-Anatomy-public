@@ -1,5 +1,7 @@
 # L3.b70-history-output：末块、显示输出与历史回路
 
+> 本页有些证据链接指向作者的私有项目档案（`../../../experiments/…`、`E:/…` 等），在公开仓库里打不开，只作出处记录保留；说明见[证据路径图例](INDEX.md#private-links)。
+
 <!-- beginner-r04m:start intro -->
 <a id="beginner-tail"></a>
 【入门简化】先区分四个对象：①三个预测数改动RGB；②有[历史](APPENDIX_beginner_glossary.md#g024)时的第四预测数参与混合[份额](APPENDIX_beginner_glossary.md#g048)；③结果图的第四存储分量固定为1；④显示强度控制最后与本帧原图备份的混合。②③④不是同一个第四数。默认先保存显示前[状态](APPENDIX_beginner_glossary.md#g002)，再另做显示；[两帧加reset时间线](L1_00_history_primer.md#timeline)先于坐标/颜色细式阅读。B70[资源](APPENDIX_beginner_glossary.md#g079)[置信尺度](APPENDIX_beginner_glossary.md#g052)先检查，允许才取旧图；B0条件历史是另一条路径。

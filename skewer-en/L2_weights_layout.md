@@ -1,5 +1,7 @@
 # L2 Weight Organization: 153 Packed Entries and Per-Stage Byte Accounting
 
+> Some evidence links on this page point into the authors' private project archive (`../../../experiments/…`, `E:/…` and similar); they do not open in the public repository and are kept as provenance records. See the [evidence path legend](INDEX.md#private-links).
+
 [Full Skewer Index](INDEX.md) · [One Frame and Cost Conventions](L0_frame.md) · [B0](L2_02_b0.md) · [TIN](L2_03_tin_encoder.md) · [split16](L2_04_split16_encoder.md) · [ViT](L2_05_vit.md) · [Decoder Bridge](L2_06_decoder_bridge.md) · [B70](L2_09_b70.md)
 
 This page cuts across all [launch](APPENDIX_beginner_glossary.md#g080) families, adding only asset-organization explanations without introducing new launches or coverage attribution.

@@ -1,5 +1,7 @@
 # L3.norm-nonfinite：32 通道范数、缩放与非有限边界
 
+> 本页有些证据链接指向作者的私有项目档案（`../../../experiments/…`、`E:/…` 等），在公开仓库里打不开，只作出处记录保留；说明见[证据路径图例](INDEX.md#private-links)。
+
 <!-- beginner-r04m:start intro -->
 <a id="beginner-norm"></a>
 【人工概念例，非测量】(3,4)的平方和是25、长度是5；都乘1/5变(0.6,0.8)。把输入换成(6,8)，长度也成倍，整体[缩放](APPENDIX_beginner_glossary.md#g031)后仍得同一方向。这里仅用两项和理想实数说明“调一组数的大小”，不冒充实际32项与[函数表](APPENDIX_beginner_glossary.md#g074)的结果。
