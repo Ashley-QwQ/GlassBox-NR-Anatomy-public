@@ -1,0 +1,79 @@
+{
+  "status": "PASS",
+  "scope": "made-up pedagogy, not a measurement or model run",
+  "scores": [
+    -1,
+    0,
+    1
+  ],
+  "contents": [
+    2,
+    4,
+    8
+  ],
+  "ordinary_fractions": [
+    0.09003057317038046,
+    0.24472847105479764,
+    0.6652409557748218
+  ],
+  "window_phi": [
+    0.00927734375,
+    0.025390625,
+    0.06640625
+  ],
+  "window_ideal_fractions_before_real_rounding": [
+    0.09178743961352658,
+    0.25120772946859904,
+    0.6570048309178744
+  ],
+  "ideal_content_outputs": [
+    6.480902676758526,
+    6.444444444444445
+  ],
+  "B0_coordinate_example": {
+    "size": [
+      8,
+      8
+    ],
+    "current_index": [
+      2,
+      3
+    ],
+    "motion": [
+      0.5,
+      -0.5
+    ],
+    "scale": [
+      0.125,
+      0.125
+    ],
+    "history_normalized": [
+      0.375,
+      0.375
+    ],
+    "history_centre": [
+      3.0,
+      3.0
+    ],
+    "history_continuous_index": [
+      2.5,
+      2.5
+    ],
+    "base_centre": [
+      2.5,
+      2.5
+    ],
+    "fraction": [
+      0.5,
+      0.5
+    ]
+  },
+  "new_GPU_runs": 0,
+  "new_model_runs": 0,
+  "new_chain_runs": 0,
+  "new_compile_runs": 0,
+  "svg_sha256": {
+    "r04m.score_curve.svg": "4724605a2d2c4d3768232b02b2a28af417592d4ef62fec513111357fb11be055",
+    "r04m.colour_cards.svg": "2cdc342068b915129f5c52b8d6d31dc0851da04ea94f281d79850ad0cabf0231"
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "status": "PASS",
+  "scope": "integer maps only; source coordinates use the independent L99 repack formula; no logical output/skip coordinate claim",
+  "source_sha256": {
+    "E:/dlssnr-work-e/1080-close-r04-codex/assets/tail-l100-b39-r02-codex/maps/b39-map.npz": "12701da070a98f9242fa0e60e5fe767917902bdc6c1b9266109d91c161d42dd5",
+    "E:/dlssnr-work-e/1080-close-r04-codex/maps/s1080-v1/L56-lane.npz": "f9280f62d910b66cdb728860fe27d36153da6a71367182b6cb4951667b42bb01"
+  },
+  "L100_output_byte": 0,
+  "L100_reduction_half_byte_offset": 0,
+  "L100_reduction_index": 0,
+  "L100_skip_byte_offset": 0,
+  "L100_four_partial_sources": [
+    {
+      "D_selector": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "source_spatial_xy": [
+        [
+          0,
+          0
+        ]
+      ],
+      "channel_min_max": [
+        0,
+        255
+      ],
+      "read_events": 256,
+      "unique_input_bytes": 256
+    },
+    {
+      "D_selector": [
+        160,
+        0,
+        0,
+        0
+      ],
+      "source_spatial_xy": [
+        [
+          0,
+          0
+        ]
+      ],
+      "channel_min_max": [
+        256,
+        511
+      ],
+      "read_events": 256,
+      "unique_input_bytes": 256
+    },
+    {
+      "D_selector": [
+        320,
+        0,
+        0,
+        0
+      ],
+      "source_spatial_xy": [
+        [
+          0,
+          0
+        ]
+      ],
+      "channel_min_max": [
+        512,
+        767
+      ],
+      "read_events": 256,
+      "unique_input_bytes": 256
+    },
+    {
+      "D_selector": [
+        480,
+        0,
+        0,
+        0
+      ],
+      "source_spatial_xy": [
+        [
+          0,
+          0
+        ]
+      ],
+      "channel_min_max": [
+        768,
+        1023
+      ],
+      "read_events": 256,
+      "unique_input_bytes": 256
+    }
+  ],
+  "L56_pooled_byte": 0,
+  "L56_concatenated_output_byte": 1105920,
+  "L56_writer_index": [
+    0,
+    0,
+    0,
+    8
+  ],
+  "L56_writer_start": 1105920,
+  "L56_byte_within_16B_event": 0,
+  "unknown": "native independent logical output and skip labeling; full logical spatial relation of L56/L100"
+}

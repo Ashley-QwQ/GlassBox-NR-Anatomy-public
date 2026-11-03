@@ -1,0 +1,69 @@
+{
+  "status": "PASS",
+  "candidate": "R2",
+  "candidate_content_seal": "905bf2b65362cbf04d38862429be8bfc1846b1270a245dfd5447007dd73c3b6e",
+  "scope": "artificial CB scalar controls only; not a model/geometry/native gate",
+  "raw_structure": 2,
+  "reset_masks": [
+    2,
+    2
+  ],
+  "history_masks": [
+    1,
+    2
+  ],
+  "style": 0.5,
+  "tone": 0.25,
+  "rows": [
+    {
+      "case": "reset",
+      "p5": 1,
+      "reset": 1,
+      "temporal": 0,
+      "feature_10_15_half": [
+        "3800",
+        "3400",
+        "3c00",
+        "4000",
+        "4000",
+        "0000"
+      ]
+    },
+    {
+      "case": "history",
+      "p5": 1,
+      "reset": 0,
+      "temporal": 1,
+      "feature_10_15_half": [
+        "3800",
+        "3400",
+        "3c00",
+        "3c00",
+        "4000",
+        "0000"
+      ]
+    }
+  ],
+  "guard_refusals": [
+    "extra_aux_handle",
+    "counter16",
+    "wrong_history_binding"
+  ],
+  "source_sha256": {
+    "E:/dlssnr-pytorch-cpu-20260909/experiments/parity-cpp-param-change-r01-20261024-codex/stage_d1_r2/returned/snapshot/CONTENT_SEAL_D1.json": "905bf2b65362cbf04d38862429be8bfc1846b1270a245dfd5447007dd73c3b6e",
+    "E:/dlssnr-pytorch-cpu-20260909/experiments/parity-cpp-param-change-r01-20261024-codex/stage_d1_r2/returned/snapshot/candidate/repo/cpp/opt/M/entry/b00.hpp": "a30349cb4a2630dc847bb0d1a3dc4c0e4d3eafc099bdd22f256ca45555542e79",
+    "E:/dlssnr-pytorch-cpu-20260909/experiments/parity-cpp-param-change-r01-20261024-codex/stage_d1_r2/returned/snapshot/candidate/repo/cpp/opt/M/entry/mapexec_base.hpp": "0ac19678e7b4a31857434ffda3b250f508c98e76970485b3c70f7948b65eeb60",
+    "E:/dlssnr-pytorch-cpu-20260909/experiments/parity-cpp-param-change-r01-20261024-codex/stage_d1_r2/returned/snapshot/candidate/repo/cpp/opt/M/shared/portable_bits.hpp": "4309a826730758f4a4dbda24b73178f612a82d09bf50cd6b0671c86abd3132e4"
+  },
+  "generated_scalar_sha256": "7a84fe3b3306f168a709131f5106b3de9a73a71dffc3f01bd16a796a1eda8413",
+  "compiler": "C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WinGet\\Packages\\BrechtSanders.WinLibs.POSIX.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\\mingw64\\bin\\g++.EXE",
+  "flags": [
+    "-std=c++17",
+    "-O2",
+    "-fno-fast-math",
+    "-ffp-contract=off",
+    "-frounding-math",
+    "-static"
+  ],
+  "descriptors": "artificial id6/id3 binding handles; real R2 binding predicate"
+}

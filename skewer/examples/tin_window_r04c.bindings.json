@@ -1,0 +1,1022 @@
+{
+  "scope": "read-only 1080 default captured params and CPU source; no model or target reads and no execution",
+  "source_sha256": {
+    "E:/GlassBox-NR/cpp/chain_tin_optm/tin.cpp": "371d33d205655f75c809f0f9990a8054edf8e930a31733f72dbf916f87b4f1f8",
+    "experiments/parity-cpp-chain-tin-r01-20260930-codex/s00-bindings.json": "55bdba63b3324c410c3983b90fffb51d176bcd39fe9daff3e1f3ac963e103fbc"
+  },
+  "rows": [
+    {
+      "launch": 3,
+      "block": "B01",
+      "C": 32,
+      "kind": "inpview",
+      "W_H": [
+        960,
+        576
+      ],
+      "origin_x_y": [
+        0,
+        0
+      ],
+      "inputlayout": 1,
+      "outputlayout": 0,
+      "inW": 480,
+      "inH": 288,
+      "pool_word": -1,
+      "skip_word": -1,
+      "release_word": 7,
+      "params_path": "E:/dlssnr-work-e/1080-close-r04-codex/inputs/params/session.launch-0003.params",
+      "params_sha256": "23a7db8ba7744f3f3b7ae4b3c9a72363b5e77d499ff33ae35b33995fc7cdc0d5"
+    },
+    {
+      "launch": 4,
+      "block": "B02",
+      "C": 32,
+      "kind": "chained",
+      "W_H": [
+        960,
+        576
+      ],
+      "origin_x_y": [
+        -4,
+        -4
+      ],
+      "inputlayout": 0,
+      "outputlayout": 0,
+      "inW": 480,
+      "inH": 288,
+      "pool_word": -1,
+      "skip_word": -1,
+      "release_word": 7,
+      "params_path": "E:/dlssnr-work-e/1080-close-r04-codex/inputs/params/session.launch-0004.params",
+      "params_sha256": "105025231e1f57c4fadb617ec307796281ca223fc5a006aece4c628a2aa8aac2"
+    },
+    {
+      "launch": 5,
+      "block": "B03",
+      "C": 32,
+      "kind": "chained",
+      "W_H": [
+        960,
+        576
+      ],
+      "origin_x_y": [
+        -4,
+        0
+      ],
+      "inputlayout": 0,
+      "outputlayout": 0,
+      "inW": 480,
+      "inH": 288,
+      "pool_word": -1,
+      "skip_word": -1,
+      "release_word": 7,
+      "params_path": "E:/dlssnr-work-e/1080-close-r04-codex/inputs/params/session.launch-0005.params",
+      "params_sha256": "e9b782a1bf24dc1890ec7923969d71700e0f324ea4fa554079f65cc27a0e80d2"
+    },
+    {
+      "launch": 6,
+      "block": "B04",
+      "C": 32,
+      "kind": "ds_wait",
+      "W_H": [
+        960,
+        576
+      ],
+      "origin_x_y": [
+        0,
+        -4
+      ],
+      "inputlayout": 0,
+      "outputlayout": 0,
+      "inW": 480,
+      "inH": 288,
+      "pool_word": 8,
+      "skip_word": -1,
+      "release_word": -1,
+      "params_path": "E:/dlssnr-work-e/1080-close-r04-codex/inputs/params/session.launch-0006.params",
+      "params_sha256": "7c4f858f8c4865e9b6b36ed535fa86cc1bec7246dcb0d54a303f90030cd1aeee"
+    },
+    {
+      "launch": 7,
+      "block": "B05",
+      "C": 64,
+      "kind": "inpview",
+      "W_H": [
+        480,
+        288
+      ],
+      "origin_x_y": [
+        0,
+        0
+      ],
+      "inputlayout": 1,
+      "outputlayout": 0,
+      "inW": 240,
+      "inH": 144,
+      "pool_word": -1,
+      "skip_word": -1,
+      "release_word": 8,
+      "params_path": "E:/dlssnr-work-e/1080-close-r04-codex/inputs/params/session.launch-0007.params",
+      "params_sha256": "0ffd4a15e51beded80d3b862013b6366ba8bf47fcaf1e8ed7a1c3a1bee3e5e97"
+    },
+    {
+      "launch": 8,
+      "block": "B06",
+      "C": 64,
+      "kind": "chained",
+      "W_H": [
+        480,
+        288
+      ],
+      "origin_x_y": [
+        -4,
+        -4
+      ],
+      "inputlayout": 0,
+      "outputlayout": 0,
+      "inW": 240,
+      "inH": 144,
+      "pool_word": -1,
+      "skip_word": -1,
+      "release_word": 8,
+      "params_path": "E:/dlssnr-work-e/1080-close-r04-codex/inputs/params/session.launch-0008.params",
+      "params_sha256": "7020858f9fbef1e8542efa02af9ad0140fdf329d03a5e5aecd79e436044a986d"
+    },
+    {
+      "launch": 9,
+      "block": "B07",
+      "C": 64,
+      "kind": "chained",
+      "W_H": [
+        480,
+        288
+      ],
+      "origin_x_y": [
+        -4,
+        0
+      ],
+      "inputlayout": 0,
+      "outputlayout": 0,
+      "inW": 240,
+      "inH": 144,
+      "pool_word": -1,
+      "skip_word": -1,
+      "release_word": 8,
+      "params_path": "E:/dlssnr-work-e/1080-close-r04-codex/inputs/params/session.launch-0009.params",
+      "params_sha256": "2e773701ec28f66f53109645019db7d2987e3ce072eeaf640d80386ef34209ea"
+    },
+    {
+      "launch": 10,
+      "block": "B08",
+      "C": 64,
+      "kind": "ds_wait",
+      "W_H": [
+        480,
+        288
+      ],
+      "origin_x_y": [
+        0,
+        -4
+      ],
+      "inputlayout": 0,
+      "outputlayout": 0,
+      "inW": 240,
+      "inH": 144,
+      "pool_word": 9,
+      "skip_word": -1,
+      "release_word": -1,
+      "params_path": "E:/dlssnr-work-e/1080-close-r04-codex/inputs/params/session.launch-0010.params",
+      "params_sha256": "7073421190b9e96b3109f19ebc17c58a09867c6276136b07848638507a63c619"
+    },
+    {
+      "launch": 11,
+      "block": "B09",
+      "C": 128,
+      "kind": "inpview",
+      "W_H": [
+        240,
+        144
+      ],
+      "origin_x_y": [
+        0,
+        0
+      ],
+      "inputlayout": 1,
+      "outputlayout": 0,
+      "inW": 120,
+      "inH": 72,
+      "pool_word": -1,
+      "skip_word": -1,
+      "release_word": 8,
+      "params_path": "E:/dlssnr-work-e/1080-close-r04-codex/inputs/params/session.launch-0011.params",
+      "params_sha256": "0ebd3d5c8517062c006d0ae4f611839e76a2cb6c6ba0c61da706d959a0c7bd7a"
+    },
+    {
+      "launch": 12,
+      "block": "B10",
+      "C": 128,
+      "kind": "chained",
+      "W_H": [
+        240,
+        144
+      ],
+      "origin_x_y": [
+        -4,
+        -4
+      ],
+      "inputlayout": 0,
+      "outputlayout": 0,
+      "inW": 120,
+      "inH": 72,
+      "pool_word": -1,
+      "skip_word": -1,
+      "release_word": 8,
+      "params_path": "E:/dlssnr-work-e/1080-close-r04-codex/inputs/params/session.launch-0012.params",
+      "params_sha256": "a428c1f6da522a5396f65b0865680f1c505e3674cb525164d0fa571e23c6ed9c"
+    },
+    {
+      "launch": 13,
+      "block": "B11",
+      "C": 128,
+      "kind": "chained",
+      "W_H": [
+        240,
+        144
+      ],
+      "origin_x_y": [
+        -4,
+        0
+      ],
+      "inputlayout": 0,
+      "outputlayout": 0,
+      "inW": 120,
+      "inH": 72,
+      "pool_word": -1,
+      "skip_word": -1,
+      "release_word": 8,
+      "params_path": "E:/dlssnr-work-e/1080-close-r04-codex/inputs/params/session.launch-0013.params",
+      "params_sha256": "00d867cb68e03d00dca9f9fef77e3679135e5ac07280863b24e0802aa8ce1797"
+    },
+    {
+      "launch": 14,
+      "block": "B12",
+      "C": 128,
+      "kind": "chained",
+      "W_H": [
+        240,
+        144
+      ],
+      "origin_x_y": [
+        0,
+        -4
+      ],
+      "inputlayout": 0,
+      "outputlayout": 0,
+      "inW": 120,
+      "inH": 72,
+      "pool_word": -1,
+      "skip_word": -1,
+      "release_word": 8,
+      "params_path": "E:/dlssnr-work-e/1080-close-r04-codex/inputs/params/session.launch-0014.params",
+      "params_sha256": "871ce48d057a5a5b6b61687108cd22cf577bafe0b5203bf4ea14a0070b348ab5"
+    },
+    {
+      "launch": 15,
+      "block": "B13",
+      "C": 128,
+      "kind": "chained",
+      "W_H": [
+        240,
+        144
+      ],
+      "origin_x_y": [
+        0,
+        0
+      ],
+      "inputlayout": 0,
+      "outputlayout": 0,
+      "inW": 120,
+      "inH": 72,
+      "pool_word": -1,
+      "skip_word": -1,
+      "release_word": 8,
+      "params_path": "E:/dlssnr-work-e/1080-close-r04-codex/inputs/params/session.launch-0015.params",
+      "params_sha256": "95cb9ed785ab1116a8bd490a02fe426cde62dd917f705eab1caba8115b2cea76"
+    },
+    {
+      "launch": 16,
+      "block": "B14",
+      "C": 128,
+      "kind": "ds_wait",
+      "W_H": [
+        240,
+        144
+      ],
+      "origin_x_y": [
+        -4,
+        -4
+      ],
+      "inputlayout": 0,
+      "outputlayout": 0,
+      "inW": 120,
+      "inH": 72,
+      "pool_word": 9,
+      "skip_word": -1,
+      "release_word": -1,
+      "params_path": "E:/dlssnr-work-e/1080-close-r04-codex/inputs/params/session.launch-0016.params",
+      "params_sha256": "20d675b62f60a8b3d594a0772bf27eb0539f011151450d909edd9bb040c2c0bc"
+    },
+    {
+      "launch": 17,
+      "block": "B15",
+      "C": 256,
+      "kind": "inpview",
+      "W_H": [
+        120,
+        72
+      ],
+      "origin_x_y": [
+        0,
+        0
+      ],
+      "inputlayout": 1,
+      "outputlayout": 0,
+      "inW": 60,
+      "inH": 36,
+      "pool_word": -1,
+      "skip_word": -1,
+      "release_word": 8,
+      "params_path": "E:/dlssnr-work-e/1080-close-r04-codex/inputs/params/session.launch-0017.params",
+      "params_sha256": "fe2156a1b51c722ecd18ae2234ca3627586e41580298c117286fe41ddf1235e8"
+    },
+    {
+      "launch": 18,
+      "block": "B16",
+      "C": 256,
+      "kind": "chained",
+      "W_H": [
+        120,
+        72
+      ],
+      "origin_x_y": [
+        -4,
+        -4
+      ],
+      "inputlayout": 0,
+      "outputlayout": 0,
+      "inW": 60,
+      "inH": 36,
+      "pool_word": -1,
+      "skip_word": -1,
+      "release_word": 8,
+      "params_path": "E:/dlssnr-work-e/1080-close-r04-codex/inputs/params/session.launch-0018.params",
+      "params_sha256": "eb757f6177596426e2fa4c0d903419ba1f64748875b589c37ed49b52e1c94299"
+    },
+    {
+      "launch": 19,
+      "block": "B17",
+      "C": 256,
+      "kind": "chained",
+      "W_H": [
+        120,
+        72
+      ],
+      "origin_x_y": [
+        -4,
+        0
+      ],
+      "inputlayout": 0,
+      "outputlayout": 0,
+      "inW": 60,
+      "inH": 36,
+      "pool_word": -1,
+      "skip_word": -1,
+      "release_word": 8,
+      "params_path": "E:/dlssnr-work-e/1080-close-r04-codex/inputs/params/session.launch-0019.params",
+      "params_sha256": "d609da8675604f4c6016acd16fec0e96911ab3118afb4672b0d10ba970a18df6"
+    },
+    {
+      "launch": 20,
+      "block": "B18",
+      "C": 256,
+      "kind": "chained",
+      "W_H": [
+        120,
+        72
+      ],
+      "origin_x_y": [
+        0,
+        -4
+      ],
+      "inputlayout": 0,
+      "outputlayout": 0,
+      "inW": 60,
+      "inH": 36,
+      "pool_word": -1,
+      "skip_word": -1,
+      "release_word": 8,
+      "params_path": "E:/dlssnr-work-e/1080-close-r04-codex/inputs/params/session.launch-0020.params",
+      "params_sha256": "cd203e049d39fe6125062c6899733cd3e582db0adbdfcd42ecaff03691b444fe"
+    },
+    {
+      "launch": 21,
+      "block": "B19",
+      "C": 256,
+      "kind": "chained",
+      "W_H": [
+        120,
+        72
+      ],
+      "origin_x_y": [
+        0,
+        0
+      ],
+      "inputlayout": 0,
+      "outputlayout": 0,
+      "inW": 60,
+      "inH": 36,
+      "pool_word": -1,
+      "skip_word": -1,
+      "release_word": 8,
+      "params_path": "E:/dlssnr-work-e/1080-close-r04-codex/inputs/params/session.launch-0021.params",
+      "params_sha256": "e7efea37380411bf5b3a7b8b0dc9089cb3638bc4bb6e44707d3bca4fffbb584b"
+    },
+    {
+      "launch": 22,
+      "block": "B20",
+      "C": 256,
+      "kind": "chained",
+      "W_H": [
+        120,
+        72
+      ],
+      "origin_x_y": [
+        -4,
+        -4
+      ],
+      "inputlayout": 0,
+      "outputlayout": 0,
+      "inW": 60,
+      "inH": 36,
+      "pool_word": -1,
+      "skip_word": -1,
+      "release_word": 8,
+      "params_path": "E:/dlssnr-work-e/1080-close-r04-codex/inputs/params/session.launch-0022.params",
+      "params_sha256": "398fe5dc545079ceffbdad5d9fc194293e96eede8fa80c145f7ed9983c38ef1d"
+    },
+    {
+      "launch": 23,
+      "block": "B21",
+      "C": 256,
+      "kind": "chained",
+      "W_H": [
+        120,
+        72
+      ],
+      "origin_x_y": [
+        -4,
+        0
+      ],
+      "inputlayout": 0,
+      "outputlayout": 0,
+      "inW": 60,
+      "inH": 36,
+      "pool_word": -1,
+      "skip_word": -1,
+      "release_word": 8,
+      "params_path": "E:/dlssnr-work-e/1080-close-r04-codex/inputs/params/session.launch-0023.params",
+      "params_sha256": "7866642c168107c62e5b4b8dee6989e2e0a3e0d8632fbebe18e3b8a903944a1a"
+    },
+    {
+      "launch": 24,
+      "block": "B22",
+      "C": 256,
+      "kind": "ds_wait",
+      "W_H": [
+        120,
+        72
+      ],
+      "origin_x_y": [
+        0,
+        -4
+      ],
+      "inputlayout": 0,
+      "outputlayout": 0,
+      "inW": 60,
+      "inH": 36,
+      "pool_word": 9,
+      "skip_word": -1,
+      "release_word": -1,
+      "params_path": "E:/dlssnr-work-e/1080-close-r04-codex/inputs/params/session.launch-0024.params",
+      "params_sha256": "396ae319804cd9a1ff832cb305b3806a00c0118ff57ef6198a21edbe7b9b8200"
+    },
+    {
+      "launch": 133,
+      "block": "B48",
+      "C": 256,
+      "kind": "upsample",
+      "W_H": [
+        120,
+        72
+      ],
+      "origin_x_y": [
+        0,
+        0
+      ],
+      "inputlayout": 1,
+      "outputlayout": 0,
+      "inW": 60,
+      "inH": 36,
+      "pool_word": -1,
+      "skip_word": 3,
+      "release_word": 8,
+      "params_path": "E:/dlssnr-work-e/1080-close-r04-codex/inputs/params/session.launch-0133.params",
+      "params_sha256": "df37ebce6d32dd60e39ea25037c62be7afc5b1c34d3b0031ab03a6e4de93c633"
+    },
+    {
+      "launch": 134,
+      "block": "B49",
+      "C": 256,
+      "kind": "chained",
+      "W_H": [
+        120,
+        72
+      ],
+      "origin_x_y": [
+        -4,
+        -4
+      ],
+      "inputlayout": 0,
+      "outputlayout": 0,
+      "inW": 60,
+      "inH": 36,
+      "pool_word": -1,
+      "skip_word": -1,
+      "release_word": 8,
+      "params_path": "E:/dlssnr-work-e/1080-close-r04-codex/inputs/params/session.launch-0134.params",
+      "params_sha256": "cf06a8ec941a2f563a69837d99ec0d44b19706a0f4182cb3ec0234af0ef0f20e"
+    },
+    {
+      "launch": 135,
+      "block": "B50",
+      "C": 256,
+      "kind": "chained",
+      "W_H": [
+        120,
+        72
+      ],
+      "origin_x_y": [
+        -4,
+        0
+      ],
+      "inputlayout": 0,
+      "outputlayout": 0,
+      "inW": 60,
+      "inH": 36,
+      "pool_word": -1,
+      "skip_word": -1,
+      "release_word": 8,
+      "params_path": "E:/dlssnr-work-e/1080-close-r04-codex/inputs/params/session.launch-0135.params",
+      "params_sha256": "c415ae72c8a601310a2ffe131b7ae54ebd673d77d4d9e954f6eaafc8acf5c888"
+    },
+    {
+      "launch": 136,
+      "block": "B51",
+      "C": 256,
+      "kind": "chained",
+      "W_H": [
+        120,
+        72
+      ],
+      "origin_x_y": [
+        0,
+        -4
+      ],
+      "inputlayout": 0,
+      "outputlayout": 0,
+      "inW": 60,
+      "inH": 36,
+      "pool_word": -1,
+      "skip_word": -1,
+      "release_word": 8,
+      "params_path": "E:/dlssnr-work-e/1080-close-r04-codex/inputs/params/session.launch-0136.params",
+      "params_sha256": "405e28a9ade361869422a9fa98ec485ed34518384937b44af3120dc289250f22"
+    },
+    {
+      "launch": 137,
+      "block": "B52",
+      "C": 256,
+      "kind": "chained",
+      "W_H": [
+        120,
+        72
+      ],
+      "origin_x_y": [
+        0,
+        0
+      ],
+      "inputlayout": 0,
+      "outputlayout": 0,
+      "inW": 60,
+      "inH": 36,
+      "pool_word": -1,
+      "skip_word": -1,
+      "release_word": 8,
+      "params_path": "E:/dlssnr-work-e/1080-close-r04-codex/inputs/params/session.launch-0137.params",
+      "params_sha256": "da12119c750856edcc179384ae1cb09d151b72e5fba88b0862ead13b2f843808"
+    },
+    {
+      "launch": 138,
+      "block": "B53",
+      "C": 256,
+      "kind": "chained",
+      "W_H": [
+        120,
+        72
+      ],
+      "origin_x_y": [
+        -4,
+        -4
+      ],
+      "inputlayout": 0,
+      "outputlayout": 0,
+      "inW": 60,
+      "inH": 36,
+      "pool_word": -1,
+      "skip_word": -1,
+      "release_word": 8,
+      "params_path": "E:/dlssnr-work-e/1080-close-r04-codex/inputs/params/session.launch-0138.params",
+      "params_sha256": "1d317a33638b2f05e9948f4077dece1dfef0513b73d453e53f0d413cd0f3772c"
+    },
+    {
+      "launch": 139,
+      "block": "B54",
+      "C": 256,
+      "kind": "chained",
+      "W_H": [
+        120,
+        72
+      ],
+      "origin_x_y": [
+        -4,
+        0
+      ],
+      "inputlayout": 0,
+      "outputlayout": 0,
+      "inW": 60,
+      "inH": 36,
+      "pool_word": -1,
+      "skip_word": -1,
+      "release_word": 8,
+      "params_path": "E:/dlssnr-work-e/1080-close-r04-codex/inputs/params/session.launch-0139.params",
+      "params_sha256": "7b6793b6e436b729a32b6c6a6156f8084a8545fb1ec2d2fc2bddd0981841b1da"
+    },
+    {
+      "launch": 140,
+      "block": "B55",
+      "C": 256,
+      "kind": "outview_wait",
+      "W_H": [
+        120,
+        72
+      ],
+      "origin_x_y": [
+        0,
+        -4
+      ],
+      "inputlayout": 0,
+      "outputlayout": 1,
+      "inW": 60,
+      "inH": 36,
+      "pool_word": -1,
+      "skip_word": -1,
+      "release_word": -1,
+      "params_path": "E:/dlssnr-work-e/1080-close-r04-codex/inputs/params/session.launch-0140.params",
+      "params_sha256": "d9b5de1380e4e208489b936f5dc4b56281312ee78e415a7b7c316fb78c8eeb4c"
+    },
+    {
+      "launch": 141,
+      "block": "B56",
+      "C": 128,
+      "kind": "upsample",
+      "W_H": [
+        240,
+        144
+      ],
+      "origin_x_y": [
+        -4,
+        0
+      ],
+      "inputlayout": 1,
+      "outputlayout": 0,
+      "inW": 120,
+      "inH": 72,
+      "pool_word": -1,
+      "skip_word": 3,
+      "release_word": 8,
+      "params_path": "E:/dlssnr-work-e/1080-close-r04-codex/inputs/params/session.launch-0141.params",
+      "params_sha256": "ad814fa01a9ada5cba84e828b609b14364a19b0b1a9681b3c3fc8d074bf7f116"
+    },
+    {
+      "launch": 142,
+      "block": "B57",
+      "C": 128,
+      "kind": "chained",
+      "W_H": [
+        240,
+        144
+      ],
+      "origin_x_y": [
+        0,
+        -4
+      ],
+      "inputlayout": 0,
+      "outputlayout": 0,
+      "inW": 120,
+      "inH": 72,
+      "pool_word": -1,
+      "skip_word": -1,
+      "release_word": 8,
+      "params_path": "E:/dlssnr-work-e/1080-close-r04-codex/inputs/params/session.launch-0142.params",
+      "params_sha256": "68c162a48dedcc3eba6cd6fd0fcc96b385bae2e3a21285c07574a7e62600b2ef"
+    },
+    {
+      "launch": 143,
+      "block": "B58",
+      "C": 128,
+      "kind": "chained",
+      "W_H": [
+        240,
+        144
+      ],
+      "origin_x_y": [
+        0,
+        0
+      ],
+      "inputlayout": 0,
+      "outputlayout": 0,
+      "inW": 120,
+      "inH": 72,
+      "pool_word": -1,
+      "skip_word": -1,
+      "release_word": 8,
+      "params_path": "E:/dlssnr-work-e/1080-close-r04-codex/inputs/params/session.launch-0143.params",
+      "params_sha256": "f43c0f85bc250eafedbcc59d88736849b0d8bc3739336129193aefb457a70fd8"
+    },
+    {
+      "launch": 144,
+      "block": "B59",
+      "C": 128,
+      "kind": "chained",
+      "W_H": [
+        240,
+        144
+      ],
+      "origin_x_y": [
+        -4,
+        -4
+      ],
+      "inputlayout": 0,
+      "outputlayout": 0,
+      "inW": 120,
+      "inH": 72,
+      "pool_word": -1,
+      "skip_word": -1,
+      "release_word": 8,
+      "params_path": "E:/dlssnr-work-e/1080-close-r04-codex/inputs/params/session.launch-0144.params",
+      "params_sha256": "02792d45caac686496c85ca80a7c92083ddf8640b4fe1887de24485ef6edf5b7"
+    },
+    {
+      "launch": 145,
+      "block": "B60",
+      "C": 128,
+      "kind": "chained",
+      "W_H": [
+        240,
+        144
+      ],
+      "origin_x_y": [
+        -4,
+        0
+      ],
+      "inputlayout": 0,
+      "outputlayout": 0,
+      "inW": 120,
+      "inH": 72,
+      "pool_word": -1,
+      "skip_word": -1,
+      "release_word": 8,
+      "params_path": "E:/dlssnr-work-e/1080-close-r04-codex/inputs/params/session.launch-0145.params",
+      "params_sha256": "65504348b6c28d9a2fd15d12864c430cd4539b09ad69f05110a75c027de04008"
+    },
+    {
+      "launch": 146,
+      "block": "B61",
+      "C": 128,
+      "kind": "outview_wait",
+      "W_H": [
+        240,
+        144
+      ],
+      "origin_x_y": [
+        0,
+        -4
+      ],
+      "inputlayout": 0,
+      "outputlayout": 1,
+      "inW": 120,
+      "inH": 72,
+      "pool_word": -1,
+      "skip_word": -1,
+      "release_word": -1,
+      "params_path": "E:/dlssnr-work-e/1080-close-r04-codex/inputs/params/session.launch-0146.params",
+      "params_sha256": "a1e153ce93e406c6f3c9e4d99a060ab91604db5a02545569458083554029ad24"
+    },
+    {
+      "launch": 147,
+      "block": "B62",
+      "C": 64,
+      "kind": "upsample",
+      "W_H": [
+        480,
+        288
+      ],
+      "origin_x_y": [
+        0,
+        0
+      ],
+      "inputlayout": 1,
+      "outputlayout": 0,
+      "inW": 240,
+      "inH": 144,
+      "pool_word": -1,
+      "skip_word": 3,
+      "release_word": 8,
+      "params_path": "E:/dlssnr-work-e/1080-close-r04-codex/inputs/params/session.launch-0147.params",
+      "params_sha256": "f431afdf3abac37634df6146f48cdaba04bb90dfc83c6e85921369de6b534678"
+    },
+    {
+      "launch": 148,
+      "block": "B63",
+      "C": 64,
+      "kind": "chained",
+      "W_H": [
+        480,
+        288
+      ],
+      "origin_x_y": [
+        -4,
+        -4
+      ],
+      "inputlayout": 0,
+      "outputlayout": 0,
+      "inW": 240,
+      "inH": 144,
+      "pool_word": -1,
+      "skip_word": -1,
+      "release_word": 8,
+      "params_path": "E:/dlssnr-work-e/1080-close-r04-codex/inputs/params/session.launch-0148.params",
+      "params_sha256": "9ad6e2c3cc463d5df66575b3052660ba88f24ddf666fddc6be2e983894724ce7"
+    },
+    {
+      "launch": 149,
+      "block": "B64",
+      "C": 64,
+      "kind": "chained",
+      "W_H": [
+        480,
+        288
+      ],
+      "origin_x_y": [
+        -4,
+        0
+      ],
+      "inputlayout": 0,
+      "outputlayout": 0,
+      "inW": 240,
+      "inH": 144,
+      "pool_word": -1,
+      "skip_word": -1,
+      "release_word": 8,
+      "params_path": "E:/dlssnr-work-e/1080-close-r04-codex/inputs/params/session.launch-0149.params",
+      "params_sha256": "1fc67658ab17079b6fb154afc02d64cd559d737cff7ccb16c2ed60568c094dcc"
+    },
+    {
+      "launch": 150,
+      "block": "B65",
+      "C": 64,
+      "kind": "outview_wait",
+      "W_H": [
+        480,
+        288
+      ],
+      "origin_x_y": [
+        0,
+        -4
+      ],
+      "inputlayout": 0,
+      "outputlayout": 1,
+      "inW": 240,
+      "inH": 144,
+      "pool_word": -1,
+      "skip_word": -1,
+      "release_word": -1,
+      "params_path": "E:/dlssnr-work-e/1080-close-r04-codex/inputs/params/session.launch-0150.params",
+      "params_sha256": "2dfaf9aba2e015cf3623641a2676ef0c59a912e2be0d94dd7bed9df23310411c"
+    },
+    {
+      "launch": 151,
+      "block": "B66",
+      "C": 32,
+      "kind": "upsample",
+      "W_H": [
+        960,
+        576
+      ],
+      "origin_x_y": [
+        0,
+        0
+      ],
+      "inputlayout": 1,
+      "outputlayout": 0,
+      "inW": 480,
+      "inH": 288,
+      "pool_word": -1,
+      "skip_word": 10,
+      "release_word": 7,
+      "params_path": "E:/dlssnr-work-e/1080-close-r04-codex/inputs/params/session.launch-0151.params",
+      "params_sha256": "cc6144d89b3a8b0896107c1f5e30448c697423d4d60c84943df197c3b4984ba6"
+    },
+    {
+      "launch": 152,
+      "block": "B67",
+      "C": 32,
+      "kind": "chained",
+      "W_H": [
+        960,
+        576
+      ],
+      "origin_x_y": [
+        -4,
+        -4
+      ],
+      "inputlayout": 0,
+      "outputlayout": 0,
+      "inW": 480,
+      "inH": 288,
+      "pool_word": -1,
+      "skip_word": -1,
+      "release_word": 7,
+      "params_path": "E:/dlssnr-work-e/1080-close-r04-codex/inputs/params/session.launch-0152.params",
+      "params_sha256": "ed92c9c7ae97e4bbd4e67c74564767bc95cdc5bc56bab6bf02679d3a35890020"
+    },
+    {
+      "launch": 153,
+      "block": "B68",
+      "C": 32,
+      "kind": "chained",
+      "W_H": [
+        960,
+        576
+      ],
+      "origin_x_y": [
+        -4,
+        0
+      ],
+      "inputlayout": 0,
+      "outputlayout": 0,
+      "inW": 480,
+      "inH": 288,
+      "pool_word": -1,
+      "skip_word": -1,
+      "release_word": 7,
+      "params_path": "E:/dlssnr-work-e/1080-close-r04-codex/inputs/params/session.launch-0153.params",
+      "params_sha256": "e36b70c3d8265060e5380299dcd6a8ecbc7fd1e7ddcd8210baf4494cf5d61681"
+    },
+    {
+      "launch": 154,
+      "block": "B69",
+      "C": 32,
+      "kind": "outview_wait",
+      "W_H": [
+        960,
+        576
+      ],
+      "origin_x_y": [
+        0,
+        -4
+      ],
+      "inputlayout": 0,
+      "outputlayout": 1,
+      "inW": 480,
+      "inH": 288,
+      "pool_word": -1,
+      "skip_word": -1,
+      "release_word": -1,
+      "params_path": "E:/dlssnr-work-e/1080-close-r04-codex/inputs/params/session.launch-0154.params",
+      "params_sha256": "feb011d74f3fdcea09012a7cc5db50170ccf224ed13f101577359c5722558d3f"
+    }
+  ],
+  "status": "ALL_44_PARAMS_SHA_AND_FIELDS_MATCH"
+}

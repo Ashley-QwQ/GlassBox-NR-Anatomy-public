@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="260" viewBox="0 0 720 260">
+<rect width="720" height="260" fill="#fffaf0"/>
+<g font-family="sans-serif" fill="#202830"><text x="20" y="27" font-size="18">人工颜色概念卡：不是网络前后画面</text>
+<text x="20" y="71">色相：不同色类</text>
+<rect x="245" y="48" width="115" height="42" fill="#ff0000" stroke="#333"/>
+<rect x="390" y="48" width="115" height="42" fill="#00ff00" stroke="#333"/>
+<rect x="535" y="48" width="115" height="42" fill="#0000ff" stroke="#333"/>
+<text x="20" y="133">饱和度：向灰靠近</text>
+<rect x="245" y="110" width="115" height="42" fill="#ff0000" stroke="#333"/>
+<rect x="390" y="110" width="115" height="42" fill="#bf4040" stroke="#333"/>
+<rect x="535" y="110" width="115" height="42" fill="#808080" stroke="#333"/>
+<text x="20" y="195">亮度式量：暗至亮</text>
+<rect x="245" y="172" width="115" height="42" fill="#800000" stroke="#333"/>
+<rect x="390" y="172" width="115" height="42" fill="#ff0000" stroke="#333"/>
+<rect x="535" y="172" width="115" height="42" fill="#ff8080" stroke="#333"/>
+<text x="20" y="245" font-size="12">只教颜色坐标直觉；这里的明暗不是物理照度，也没有展示控制效果。</text></g></svg>

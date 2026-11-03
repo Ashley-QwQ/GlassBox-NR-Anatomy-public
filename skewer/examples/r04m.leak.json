@@ -1,0 +1,2540 @@
+{
+ "findings": [
+  {
+   "bytes": 26192,
+   "hits": {
+    "allowed_bare_hardware_unit_name": {
+     "count": 3,
+     "lines": [
+      85,
+      85,
+      93
+     ],
+     "offsets": [
+      13882,
+      13889,
+      15679
+     ],
+     "severity": "ALLOWED"
+    },
+    "hex_address_4plus": {
+     "count": 1,
+     "lines": [
+      77
+     ],
+     "offsets": [
+      12324
+     ],
+     "severity": "REVIEW"
+    }
+   },
+   "name_violations": [],
+   "path": "docs/anatomy/skewer\\APPENDIX_beginner_glossary.md"
+  },
+  {
+   "bytes": 20510,
+   "hits": {
+    "allowed_bare_hardware_unit_name": {
+     "count": 1,
+     "lines": [
+      37
+     ],
+     "offsets": [
+      3743
+     ],
+     "severity": "ALLOWED"
+    },
+    "coord_round_name": {
+     "count": 15,
+     "lines": [
+      36,
+      41,
+      42,
+      43,
+      70
+     ],
+     "offsets": [
+      3647,
+      4001,
+      4186,
+      4370,
+      6853
+     ],
+     "severity": "COORD"
+    },
+    "coord_win_path": {
+     "count": 1,
+     "lines": [
+      180
+     ],
+     "offsets": [
+      14930
+     ],
+     "severity": "COORD"
+    },
+    "hex_address_4plus": {
+     "count": 31,
+     "lines": [
+      55,
+      70,
+      143,
+      144,
+      144
+     ],
+     "offsets": [
+      5406,
+      7120,
+      13389,
+      13431,
+      13443
+     ],
+     "severity": "REVIEW"
+    }
+   },
+   "name_violations": [],
+   "path": "docs/anatomy/skewer\\APPENDIX_cpu_storage.md"
+  },
+  {
+   "bytes": 134946,
+   "hits": {
+    "allowed_bare_hardware_unit_name": {
+     "count": 42,
+     "lines": [
+      18,
+      31,
+      41,
+      41,
+      47
+     ],
+     "offsets": [
+      2459,
+      4028,
+      4573,
+      4578,
+      6472
+     ],
+     "severity": "ALLOWED"
+    },
+    "coord_host": {
+     "count": 1,
+     "lines": [
+      1324
+     ],
+     "offsets": [
+      130787
+     ],
+     "severity": "COORD"
+    },
+    "coord_round_name": {
+     "count": 196,
+     "lines": [
+      41,
+      42,
+      43,
+      43,
+      44
+     ],
+     "offsets": [
+      4698,
+      5091,
+      5457,
+      5559,
+      5794
+     ],
+     "severity": "COORD"
+    },
+    "coord_win_path": {
+     "count": 29,
+     "lines": [
+      97,
+      113,
+      478,
+      479,
+      480
+     ],
+     "offsets": [
+      12706,
+      15789,
+      52470,
+      52680,
+      52890
+     ],
+     "severity": "COORD"
+    },
+    "hex_address_4plus": {
+     "count": 68,
+     "lines": [
+      44,
+      44,
+      44,
+      44,
+      45
+     ],
+     "offsets": [
+      5668,
+      5677,
+      5686,
+      5695,
+      5972
+     ],
+     "severity": "REVIEW"
+    }
+   },
+   "name_violations": [],
+   "path": "docs/anatomy/skewer\\APPENDIX_evidence_history.md"
+  },
+  {
+   "bytes": 25504,
+   "hits": {
+    "allowed_bare_hardware_unit_name": {
+     "count": 2,
+     "lines": [
+      90,
+      138
+     ],
+     "offsets": [
+      11638,
+      16482
+     ],
+     "severity": "ALLOWED"
+    },
+    "coord_host": {
+     "count": 2,
+     "lines": [
+      125,
+      125
+     ],
+     "offsets": [
+      15086,
+      15102
+     ],
+     "severity": "COORD"
+    },
+    "coord_win_path": {
+     "count": 4,
+     "lines": [
+      121,
+      123,
+      123,
+      125
+     ],
+     "offsets": [
+      14507,
+      14775,
+      14796,
+      15070
+     ],
+     "severity": "COORD"
+    }
+   },
+   "name_violations": [],
+   "path": "docs/anatomy/skewer\\INDEX.md"
+  },
+  {
+   "bytes": 9132,
+   "hits": {
+    "allowed_bare_hardware_unit_name": {
+     "count": 1,
+     "lines": [
+      29
+     ],
+     "offsets": [
+      4951
+     ],
+     "severity": "ALLOWED"
+    },
+    "coord_round_name": {
+     "count": 11,
+     "lines": [
+      10,
+      10,
+      19,
+      27,
+      28
+     ],
+     "offsets": [
+      500,
+      598,
+      2947,
+      4153,
+      4528
+     ],
+     "severity": "COORD"
+    }
+   },
+   "name_violations": [],
+   "path": "docs/anatomy/skewer\\L0a_object_method.md"
+  },
+  {
+   "bytes": 9645,
+   "hits": {
+    "coord_round_name": {
+     "count": 22,
+     "lines": [
+      14,
+      14,
+      19,
+      19,
+      21
+     ],
+     "offsets": [
+      2300,
+      2383,
+      3141,
+      3233,
+      3737
+     ],
+     "severity": "COORD"
+    }
+   },
+   "name_violations": [],
+   "path": "docs/anatomy/skewer\\L0b_determinism.md"
+  },
+  {
+   "bytes": 7906,
+   "hits": {
+    "hex_address_4plus": {
+     "count": 2,
+     "lines": [
+      38,
+      38
+     ],
+     "offsets": [
+      4264,
+      4294
+     ],
+     "severity": "REVIEW"
+    }
+   },
+   "name_violations": [],
+   "path": "docs/anatomy/skewer\\L1_00_one_block_primer.md"
+  },
+  {
+   "bytes": 3762,
+   "hits": {
+    "allowed_bare_hardware_unit_name": {
+     "count": 1,
+     "lines": [
+      36
+     ],
+     "offsets": [
+      3658
+     ],
+     "severity": "ALLOWED"
+    }
+   },
+   "name_violations": [],
+   "path": "docs/anatomy/skewer\\L2_02_b0.md"
+  },
+  {
+   "bytes": 9780,
+   "hits": {
+    "allowed_bare_hardware_unit_name": {
+     "count": 2,
+     "lines": [
+      18,
+      41
+     ],
+     "offsets": [
+      3411,
+      8340
+     ],
+     "severity": "ALLOWED"
+    }
+   },
+   "name_violations": [],
+   "path": "docs/anatomy/skewer\\L2_03_tin_encoder.md"
+  },
+  {
+   "bytes": 9943,
+   "hits": {
+    "allowed_bare_hardware_unit_name": {
+     "count": 2,
+     "lines": [
+      22,
+      41
+     ],
+     "offsets": [
+      4361,
+      8421
+     ],
+     "severity": "ALLOWED"
+    }
+   },
+   "name_violations": [],
+   "path": "docs/anatomy/skewer\\L2_04_split16_encoder.md"
+  },
+  {
+   "bytes": 8081,
+   "hits": {
+    "allowed_bare_hardware_unit_name": {
+     "count": 1,
+     "lines": [
+      57
+     ],
+     "offsets": [
+      7268
+     ],
+     "severity": "ALLOWED"
+    },
+    "coord_round_name": {
+     "count": 2,
+     "lines": [
+      53,
+      53
+     ],
+     "offsets": [
+      6044,
+      6073
+     ],
+     "severity": "COORD"
+    }
+   },
+   "name_violations": [],
+   "path": "docs/anatomy/skewer\\L2_05_vit.md"
+  },
+  {
+   "bytes": 8808,
+   "hits": {
+    "allowed_bare_hardware_unit_name": {
+     "count": 1,
+     "lines": [
+      26
+     ],
+     "offsets": [
+      3541
+     ],
+     "severity": "ALLOWED"
+    }
+   },
+   "name_violations": [],
+   "path": "docs/anatomy/skewer\\L2_08_tin_decoder.md"
+  },
+  {
+   "bytes": 11129,
+   "hits": {
+    "allowed_bare_hardware_unit_name": {
+     "count": 1,
+     "lines": [
+      67
+     ],
+     "offsets": [
+      10845
+     ],
+     "severity": "ALLOWED"
+    },
+    "coord_round_name": {
+     "count": 3,
+     "lines": [
+      10,
+      18,
+      58
+     ],
+     "offsets": [
+      798,
+      2917,
+      9131
+     ],
+     "severity": "COORD"
+    }
+   },
+   "name_violations": [],
+   "path": "docs/anatomy/skewer\\L2_weights_layout.md"
+  },
+  {
+   "bytes": 26967,
+   "hits": {
+    "allowed_bare_hardware_unit_name": {
+     "count": 5,
+     "lines": [
+      39,
+      97,
+      97,
+      228,
+      250
+     ],
+     "offsets": [
+      4080,
+      10119,
+      10173,
+      24430,
+      26023
+     ],
+     "severity": "ALLOWED"
+    },
+    "coord_round_name": {
+     "count": 11,
+     "lines": [
+      62,
+      99,
+      196,
+      196,
+      196
+     ],
+     "offsets": [
+      6257,
+      10595,
+      20859,
+      20909,
+      20918
+     ],
+     "severity": "COORD"
+    },
+    "hex_address_4plus": {
+     "count": 11,
+     "lines": [
+      90,
+      102,
+      104,
+      104,
+      104
+     ],
+     "offsets": [
+      9174,
+      11020,
+      11421,
+      11453,
+      11495
+     ],
+     "severity": "REVIEW"
+    }
+   },
+   "name_violations": [],
+   "path": "docs/anatomy/skewer\\L3_attention_softmax.md"
+  },
+  {
+   "bytes": 32430,
+   "hits": {
+    "allowed_bare_hardware_unit_name": {
+     "count": 4,
+     "lines": [
+      36,
+      86,
+      162,
+      261
+     ],
+     "offsets": [
+      4250,
+      8587,
+      16414,
+      25588
+     ],
+     "severity": "ALLOWED"
+    },
+    "coord_round_name": {
+     "count": 9,
+     "lines": [
+      32,
+      85,
+      95,
+      122,
+      159
+     ],
+     "offsets": [
+      3689,
+      8427,
+      8996,
+      12099,
+      15404
+     ],
+     "severity": "COORD"
+    },
+    "hex_address_4plus": {
+     "count": 33,
+     "lines": [
+      28,
+      29,
+      30,
+      30,
+      30
+     ],
+     "offsets": [
+      3126,
+      3199,
+      3321,
+      3342,
+      3363
+     ],
+     "severity": "REVIEW"
+    }
+   },
+   "name_violations": [],
+   "path": "docs/anatomy/skewer\\L3_b0_input.md"
+  },
+  {
+   "bytes": 38784,
+   "hits": {
+    "allowed_bare_hardware_unit_name": {
+     "count": 3,
+     "lines": [
+      128,
+      129,
+      281
+     ],
+     "offsets": [
+      12463,
+      12641,
+      26511
+     ],
+     "severity": "ALLOWED"
+    },
+    "coord_round_name": {
+     "count": 9,
+     "lines": [
+      33,
+      54,
+      71,
+      196,
+      234
+     ],
+     "offsets": [
+      3010,
+      6940,
+      8423,
+      19523,
+      22495
+     ],
+     "severity": "COORD"
+    },
+    "hex_address_4plus": {
+     "count": 23,
+     "lines": [
+      38,
+      38,
+      38,
+      38,
+      38
+     ],
+     "offsets": [
+      3406,
+      3426,
+      3485,
+      3610,
+      3617
+     ],
+     "severity": "REVIEW"
+    }
+   },
+   "name_violations": [],
+   "path": "docs/anatomy/skewer\\L3_b70_history_output.md"
+  },
+  {
+   "bytes": 18827,
+   "hits": {
+    "allowed_bare_hardware_unit_name": {
+     "count": 3,
+     "lines": [
+      32,
+      49,
+      65
+     ],
+     "offsets": [
+      6030,
+      6831,
+      9318
+     ],
+     "severity": "ALLOWED"
+    },
+    "coord_round_name": {
+     "count": 5,
+     "lines": [
+      61,
+      61,
+      61,
+      97,
+      97
+     ],
+     "offsets": [
+      8204,
+      8270,
+      8299,
+      13336,
+      13365
+     ],
+     "severity": "COORD"
+    },
+    "coord_win_path": {
+     "count": 1,
+     "lines": [
+      116
+     ],
+     "offsets": [
+      15138
+     ],
+     "severity": "COORD"
+    },
+    "hex_address_4plus": {
+     "count": 5,
+     "lines": [
+      125,
+      125,
+      125,
+      139,
+      139
+     ],
+     "offsets": [
+      16206,
+      16242,
+      16577,
+      17321,
+      17361
+     ],
+     "severity": "REVIEW"
+    }
+   },
+   "name_violations": [],
+   "path": "docs/anatomy/skewer\\L3_ffn.md"
+  },
+  {
+   "bytes": 16728,
+   "hits": {
+    "allowed_bare_hardware_unit_name": {
+     "count": 3,
+     "lines": [
+      103,
+      105,
+      125
+     ],
+     "offsets": [
+      10086,
+      10676,
+      13479
+     ],
+     "severity": "ALLOWED"
+    },
+    "coord_round_name": {
+     "count": 2,
+     "lines": [
+      105,
+      105
+     ],
+     "offsets": [
+      10717,
+      10835
+     ],
+     "severity": "COORD"
+    },
+    "hex_address_4plus": {
+     "count": 12,
+     "lines": [
+      32,
+      59,
+      97,
+      103,
+      117
+     ],
+     "offsets": [
+      2612,
+      4876,
+      9703,
+      10474,
+      12556
+     ],
+     "severity": "REVIEW"
+    }
+   },
+   "name_violations": [],
+   "path": "docs/anatomy/skewer\\L3_norm_nonfinite.md"
+  },
+  {
+   "bytes": 6438,
+   "hits": {
+    "allowed_bare_hardware_unit_name": {
+     "count": 1,
+     "lines": [
+      66
+     ],
+     "offsets": [
+      6422
+     ],
+     "severity": "ALLOWED"
+    },
+    "coord_round_name": {
+     "count": 1,
+     "lines": [
+      38
+     ],
+     "offsets": [
+      3489
+     ],
+     "severity": "COORD"
+    }
+   },
+   "name_violations": [],
+   "path": "docs/anatomy/skewer\\L3_qmma_e4m3.md"
+  },
+  {
+   "bytes": 19705,
+   "hits": {
+    "coord_round_name": {
+     "count": 5,
+     "lines": [
+      161,
+      161,
+      163,
+      164,
+      165
+     ],
+     "offsets": [
+      17726,
+      17832,
+      18357,
+      18566,
+      18841
+     ],
+     "severity": "COORD"
+    },
+    "hex_address_4plus": {
+     "count": 1,
+     "lines": [
+      152
+     ],
+     "offsets": [
+      16667
+     ],
+     "severity": "REVIEW"
+    }
+   },
+   "name_violations": [],
+   "path": "docs/anatomy/skewer\\L3_split16_window.md"
+  },
+  {
+   "bytes": 23469,
+   "hits": {
+    "allowed_bare_hardware_unit_name": {
+     "count": 1,
+     "lines": [
+      214
+     ],
+     "offsets": [
+      22900
+     ],
+     "severity": "ALLOWED"
+    },
+    "coord_round_name": {
+     "count": 2,
+     "lines": [
+      209,
+      210
+     ],
+     "offsets": [
+      21540,
+      21818
+     ],
+     "severity": "COORD"
+    },
+    "hex_address_4plus": {
+     "count": 2,
+     "lines": [
+      79,
+      79
+     ],
+     "offsets": [
+      8227,
+      8234
+     ],
+     "severity": "REVIEW"
+    }
+   },
+   "name_violations": [],
+   "path": "docs/anatomy/skewer\\L3_tin_window.md"
+  },
+  {
+   "bytes": 40056,
+   "hits": {
+    "allowed_bare_hardware_unit_name": {
+     "count": 1,
+     "lines": [
+      257
+     ],
+     "offsets": [
+      21708
+     ],
+     "severity": "ALLOWED"
+    },
+    "coord_host": {
+     "count": 2,
+     "lines": [
+      302,
+      302
+     ],
+     "offsets": [
+      26170,
+      26620
+     ],
+     "severity": "COORD"
+    },
+    "coord_round_name": {
+     "count": 33,
+     "lines": [
+      47,
+      47,
+      67,
+      93,
+      149
+     ],
+     "offsets": [
+      4186,
+      4340,
+      6068,
+      8437,
+      13292
+     ],
+     "severity": "COORD"
+    },
+    "coord_unix_path": {
+     "count": 2,
+     "lines": [
+      324,
+      354
+     ],
+     "offsets": [
+      29990,
+      34234
+     ],
+     "severity": "COORD"
+    },
+    "hex_address_4plus": {
+     "count": 1,
+     "lines": [
+      91
+     ],
+     "offsets": [
+      7941
+     ],
+     "severity": "REVIEW"
+    }
+   },
+   "name_violations": [],
+   "path": "docs/anatomy/skewer\\L3_workspace_map.md"
+  },
+  {
+   "bytes": 11216,
+   "hits": {
+    "allowed_bare_hardware_unit_name": {
+     "count": 10,
+     "lines": [
+      3,
+      3,
+      3,
+      12,
+      13
+     ],
+     "offsets": [
+      95,
+      150,
+      172,
+      1308,
+      2867
+     ],
+     "severity": "ALLOWED"
+    },
+    "coord_round_name": {
+     "count": 16,
+     "lines": [
+      12,
+      12,
+      12,
+      13,
+      13
+     ],
+     "offsets": [
+      1724,
+      1774,
+      2218,
+      3401,
+      3502
+     ],
+     "severity": "COORD"
+    }
+   },
+   "name_violations": [],
+   "path": "docs/anatomy/skewer\\L4_cross_arch.md"
+  },
+  {
+   "bytes": 18625,
+   "hits": {
+    "allowed_bare_hardware_unit_name": {
+     "count": 5,
+     "lines": [
+      31,
+      63,
+      128,
+      178,
+      179
+     ],
+     "offsets": [
+      2077,
+      4484,
+      12839,
+      17889,
+      18003
+     ],
+     "severity": "ALLOWED"
+    },
+    "coord_round_name": {
+     "count": 25,
+     "lines": [
+      38,
+      38,
+      62,
+      62,
+      63
+     ],
+     "offsets": [
+      2750,
+      2798,
+      4286,
+      4334,
+      4808
+     ],
+     "severity": "COORD"
+    },
+    "hex_address_4plus": {
+     "count": 10,
+     "lines": [
+      149,
+      155,
+      157,
+      157,
+      162
+     ],
+     "offsets": [
+      16167,
+      16571,
+      16712,
+      16773,
+      17080
+     ],
+     "severity": "REVIEW"
+    }
+   },
+   "name_violations": [],
+   "path": "docs/anatomy/skewer\\L4_e4m3_and_k32.md"
+  },
+  {
+   "bytes": 22537,
+   "hits": {
+    "allowed_bare_hardware_unit_name": {
+     "count": 10,
+     "lines": [
+      7,
+      61,
+      61,
+      65,
+      77
+     ],
+     "offsets": [
+      653,
+      11720,
+      12205,
+      12605,
+      15046
+     ],
+     "severity": "ALLOWED"
+    },
+    "coord_round_name": {
+     "count": 10,
+     "lines": [
+      47,
+      77,
+      78,
+      83,
+      85
+     ],
+     "offsets": [
+      6010,
+      15376,
+      15721,
+      16658,
+      17167
+     ],
+     "severity": "COORD"
+    },
+    "hex_address_4plus": {
+     "count": 3,
+     "lines": [
+      103,
+      103,
+      103
+     ],
+     "offsets": [
+      19954,
+      20083,
+      20162
+     ],
+     "severity": "REVIEW"
+    }
+   },
+   "name_violations": [],
+   "path": "docs/anatomy/skewer\\L4_fp32_ftz.md"
+  },
+  {
+   "bytes": 15776,
+   "hits": {
+    "allowed_bare_hardware_unit_name": {
+     "count": 1,
+     "lines": [
+      102
+     ],
+     "offsets": [
+      9097
+     ],
+     "severity": "ALLOWED"
+    },
+    "coord_round_name": {
+     "count": 17,
+     "lines": [
+      81,
+      81,
+      81,
+      81,
+      83
+     ],
+     "offsets": [
+      6304,
+      6345,
+      6444,
+      6492,
+      7174
+     ],
+     "severity": "COORD"
+    },
+    "hex_address_4plus": {
+     "count": 16,
+     "lines": [
+      150,
+      150,
+      150,
+      150,
+      150
+     ],
+     "offsets": [
+      14867,
+      14878,
+      14889,
+      14997,
+      15096
+     ],
+     "severity": "REVIEW"
+    }
+   },
+   "name_violations": [],
+   "path": "docs/anatomy/skewer\\L4_half_arith.md"
+  },
+  {
+   "bytes": 10355,
+   "hits": {
+    "allowed_bare_hardware_unit_name": {
+     "count": 7,
+     "lines": [
+      7,
+      63,
+      65,
+      65,
+      71
+     ],
+     "offsets": [
+      512,
+      5890,
+      5923,
+      5989,
+      6462
+     ],
+     "severity": "ALLOWED"
+    },
+    "coord_round_name": {
+     "count": 6,
+     "lines": [
+      82,
+      83,
+      84,
+      85,
+      87
+     ],
+     "offsets": [
+      7094,
+      7355,
+      7554,
+      7844,
+      8397
+     ],
+     "severity": "COORD"
+    },
+    "hex_address_4plus": {
+     "count": 6,
+     "lines": [
+      96,
+      96,
+      96,
+      96,
+      97
+     ],
+     "offsets": [
+      9532,
+      9539,
+      9552,
+      9559,
+      9674
+     ],
+     "severity": "REVIEW"
+    }
+   },
+   "name_violations": [],
+   "path": "docs/anatomy/skewer\\L4_hmma.md"
+  },
+  {
+   "bytes": 24077,
+   "hits": {
+    "coord_round_name": {
+     "count": 7,
+     "lines": [
+      54,
+      67,
+      118,
+      137,
+      137
+     ],
+     "offsets": [
+      7158,
+      9690,
+      14601,
+      18053,
+      18139
+     ],
+     "severity": "COORD"
+    },
+    "coord_unix_path": {
+     "count": 1,
+     "lines": [
+      137
+     ],
+     "offsets": [
+      18114
+     ],
+     "severity": "COORD"
+    },
+    "hex_address_4plus": {
+     "count": 28,
+     "lines": [
+      111,
+      111,
+      111,
+      111,
+      111
+     ],
+     "offsets": [
+      12852,
+      12859,
+      12891,
+      12898,
+      12976
+     ],
+     "severity": "REVIEW"
+    }
+   },
+   "name_violations": [],
+   "path": "docs/anatomy/skewer\\L4_mufu.md"
+  },
+  {
+   "bytes": 4484,
+   "hits": {
+    "coord_round_name": {
+     "count": 1,
+     "lines": [
+      38
+     ],
+     "offsets": [
+      4094
+     ],
+     "severity": "COORD"
+    },
+    "hex_address_4plus": {
+     "count": 3,
+     "lines": [
+      34,
+      36,
+      36
+     ],
+     "offsets": [
+      3667,
+      3831,
+      3861
+     ],
+     "severity": "REVIEW"
+    }
+   },
+   "name_violations": [],
+   "path": "docs/anatomy/skewer\\L4_tex_filter.md"
+  },
+  {
+   "bytes": 7241,
+   "hits": {
+    "coord_host": {
+     "count": 2,
+     "lines": [
+      32,
+      32
+     ],
+     "offsets": [
+      3650,
+      3697
+     ],
+     "severity": "COORD"
+    },
+    "coord_round_name": {
+     "count": 1,
+     "lines": [
+      41
+     ],
+     "offsets": [
+      5527
+     ],
+     "severity": "COORD"
+    }
+   },
+   "name_violations": [],
+   "path": "docs/anatomy/skewer\\REPRODUCE.md"
+  },
+  {
+   "bytes": 5124,
+   "hits": {
+    "coord_win_path": {
+     "count": 11,
+     "lines": [
+      5,
+      6,
+      7,
+      8,
+      9
+     ],
+     "offsets": [
+      136,
+      261,
+      389,
+      519,
+      635
+     ],
+     "severity": "COORD"
+    }
+   },
+   "name_violations": [],
+   "path": "docs/anatomy/skewer\\examples\\anatomy_r04i.result.json"
+  },
+  {
+   "bytes": 6417,
+   "hits": {
+    "coord_round_name": {
+     "count": 2,
+     "lines": [
+      18,
+      18
+     ],
+     "offsets": [
+      474,
+      503
+     ],
+     "severity": "COORD"
+    },
+    "hex_address_4plus": {
+     "count": 7,
+     "lines": [
+      30,
+      30,
+      59,
+      65,
+      124
+     ],
+     "offsets": [
+      1093,
+      1101,
+      2231,
+      2452,
+      5189
+     ],
+     "severity": "REVIEW"
+    }
+   },
+   "name_violations": [],
+   "path": "docs/anatomy/skewer\\examples\\attention_av_r04f.py"
+  },
+  {
+   "bytes": 1458,
+   "hits": {
+    "coord_round_name": {
+     "count": 2,
+     "lines": [
+      32,
+      32
+     ],
+     "offsets": [
+      654,
+      683
+     ],
+     "severity": "COORD"
+    },
+    "coord_win_path": {
+     "count": 3,
+     "lines": [
+      32,
+      33,
+      34
+     ],
+     "offsets": [
+      620,
+      771,
+      896
+     ],
+     "severity": "COORD"
+    }
+   },
+   "name_violations": [],
+   "path": "docs/anatomy/skewer\\examples\\attention_av_r04f.result.json"
+  },
+  {
+   "bytes": 1436,
+   "hits": {
+    "coord_round_name": {
+     "count": 1,
+     "lines": [
+      3
+     ],
+     "offsets": [
+      80
+     ],
+     "severity": "COORD"
+    },
+    "hex_address_4plus": {
+     "count": 4,
+     "lines": [
+      20,
+      20,
+      20,
+      20
+     ],
+     "offsets": [
+      911,
+      918,
+      925,
+      932
+     ],
+     "severity": "REVIEW"
+    }
+   },
+   "name_violations": [],
+   "path": "docs/anatomy/skewer\\examples\\b70_rz_copy_r04i.py"
+  },
+  {
+   "bytes": 4987,
+   "hits": {
+    "hex_address_4plus": {
+     "count": 3,
+     "lines": [
+      20,
+      64,
+      64
+     ],
+     "offsets": [
+      722,
+      3466,
+      3501
+     ],
+     "severity": "REVIEW"
+    }
+   },
+   "name_violations": [],
+   "path": "docs/anatomy/skewer\\examples\\beginner_r04m.py"
+  },
+  {
+   "bytes": 1739,
+   "hits": {
+    "coord_win_path": {
+     "count": 1,
+     "lines": [
+      15
+     ],
+     "offsets": [
+      365
+     ],
+     "severity": "COORD"
+    }
+   },
+   "name_violations": [],
+   "path": "docs/anatomy/skewer\\examples\\dag_contract_r04l.py"
+  },
+  {
+   "bytes": 5835,
+   "hits": {
+    "coord_round_name": {
+     "count": 2,
+     "lines": [
+      20,
+      20
+     ],
+     "offsets": [
+      636,
+      665
+     ],
+     "severity": "COORD"
+    },
+    "hex_address_4plus": {
+     "count": 16,
+     "lines": [
+      68,
+      68,
+      74,
+      74,
+      74
+     ],
+     "offsets": [
+      2637,
+      2646,
+      2929,
+      2936,
+      2943
+     ],
+     "severity": "REVIEW"
+    }
+   },
+   "name_violations": [],
+   "path": "docs/anatomy/skewer\\examples\\ffn_r04b.py"
+  },
+  {
+   "bytes": 2409,
+   "hits": {
+    "coord_round_name": {
+     "count": 2,
+     "lines": [
+      15,
+      15
+     ],
+     "offsets": [
+      787,
+      817
+     ],
+     "severity": "COORD"
+    }
+   },
+   "name_violations": [],
+   "path": "docs/anatomy/skewer\\examples\\ffn_r04b.result.json"
+  },
+  {
+   "bytes": 3456,
+   "hits": {
+    "coord_round_name": {
+     "count": 4,
+     "lines": [
+      13,
+      14,
+      17,
+      17
+     ],
+     "offsets": [
+      1492,
+      1651,
+      2070,
+      2100
+     ],
+     "severity": "COORD"
+    }
+   },
+   "name_violations": [],
+   "path": "docs/anatomy/skewer\\examples\\ffn_r04b.wiring.json"
+  },
+  {
+   "bytes": 8322,
+   "hits": {
+    "hex_address_4plus": {
+     "count": 6,
+     "lines": [
+      132,
+      133,
+      145,
+      146,
+      148
+     ],
+     "offsets": [
+      5784,
+      5867,
+      6757,
+      6818,
+      6962
+     ],
+     "severity": "REVIEW"
+    }
+   },
+   "name_violations": [],
+   "path": "docs/anatomy/skewer\\examples\\formulas_r04l.py"
+  },
+  {
+   "bytes": 3271,
+   "hits": {
+    "coord_win_path": {
+     "count": 14,
+     "lines": [
+      31,
+      32,
+      33,
+      34,
+      35
+     ],
+     "offsets": [
+      896,
+      1022,
+      1151,
+      1282,
+      1414
+     ],
+     "severity": "COORD"
+    }
+   },
+   "name_violations": [],
+   "path": "docs/anatomy/skewer\\examples\\fp32_ftz_r04e.result.json"
+  },
+  {
+   "bytes": 7822,
+   "hits": {
+    "coord_win_path": {
+     "count": 2,
+     "lines": [
+      537,
+      538
+     ],
+     "offsets": [
+      7517,
+      7679
+     ],
+     "severity": "COORD"
+    }
+   },
+   "name_violations": [],
+   "path": "docs/anatomy/skewer\\examples\\geometry_r04g.result.json"
+  },
+  {
+   "bytes": 4995,
+   "hits": {
+    "allowed_bare_hardware_unit_name": {
+     "count": 1,
+     "lines": [
+      1
+     ],
+     "offsets": [
+      24
+     ],
+     "severity": "ALLOWED"
+    },
+    "hex_address_4plus": {
+     "count": 5,
+     "lines": [
+      59,
+      59,
+      59,
+      59,
+      79
+     ],
+     "offsets": [
+      2157,
+      2164,
+      2180,
+      2187,
+      3024
+     ],
+     "severity": "REVIEW"
+    }
+   },
+   "name_violations": [],
+   "path": "docs/anatomy/skewer\\examples\\hmma_r04f.py"
+  },
+  {
+   "bytes": 1913,
+   "hits": {
+    "coord_win_path": {
+     "count": 4,
+     "lines": [
+      32,
+      33,
+      34,
+      35
+     ],
+     "offsets": [
+      822,
+      951,
+      1080,
+      1209
+     ],
+     "severity": "COORD"
+    }
+   },
+   "name_violations": [],
+   "path": "docs/anatomy/skewer\\examples\\hmma_r04f.result.json"
+  },
+  {
+   "bytes": 5857,
+   "hits": {
+    "allowed_bare_hardware_unit_name": {
+     "count": 3,
+     "lines": [
+      20,
+      20,
+      23
+     ],
+     "offsets": [
+      936,
+      943,
+      1171
+     ],
+     "severity": "ALLOWED"
+    }
+   },
+   "name_violations": [],
+   "path": "docs/anatomy/skewer\\examples\\link_glossary_r04m.py"
+  },
+  {
+   "bytes": 2207,
+   "hits": {
+    "coord_win_path": {
+     "count": 2,
+     "lines": [
+      5,
+      6
+     ],
+     "offsets": [
+      184,
+      346
+     ],
+     "severity": "COORD"
+    }
+   },
+   "name_violations": [],
+   "path": "docs/anatomy/skewer\\examples\\map_trace_r04f.result.json"
+  },
+  {
+   "bytes": 9293,
+   "hits": {
+    "coord_round_name": {
+     "count": 15,
+     "lines": [
+      4,
+      5,
+      6,
+      7,
+      8
+     ],
+     "offsets": [
+      148,
+      323,
+      499,
+      675,
+      864
+     ],
+     "severity": "COORD"
+    },
+    "coord_win_path": {
+     "count": 15,
+     "lines": [
+      4,
+      5,
+      6,
+      7,
+      8
+     ],
+     "offsets": [
+      105,
+      280,
+      456,
+      632,
+      821
+     ],
+     "severity": "COORD"
+    }
+   },
+   "name_violations": [],
+   "path": "docs/anatomy/skewer\\examples\\param_change_r04h.evidence.json"
+  },
+  {
+   "bytes": 6531,
+   "hits": {
+    "coord_round_name": {
+     "count": 1,
+     "lines": [
+      11
+     ],
+     "offsets": [
+      404
+     ],
+     "severity": "COORD"
+    },
+    "hex_address_4plus": {
+     "count": 5,
+     "lines": [
+      60,
+      60,
+      90,
+      90,
+      97
+     ],
+     "offsets": [
+      2285,
+      2305,
+      3551,
+      3569,
+      3886
+     ],
+     "severity": "REVIEW"
+    }
+   },
+   "name_violations": [],
+   "path": "docs/anatomy/skewer\\examples\\param_change_r04h.py"
+  },
+  {
+   "bytes": 2421,
+   "hits": {
+    "coord_round_name": {
+     "count": 4,
+     "lines": [
+      53,
+      54,
+      55,
+      56
+     ],
+     "offsets": [
+      1033,
+      1246,
+      1477,
+      1717
+     ],
+     "severity": "COORD"
+    },
+    "coord_win_path": {
+     "count": 4,
+     "lines": [
+      53,
+      54,
+      55,
+      56
+     ],
+     "offsets": [
+      990,
+      1203,
+      1434,
+      1674
+     ],
+     "severity": "COORD"
+    }
+   },
+   "name_violations": [],
+   "path": "docs/anatomy/skewer\\examples\\param_change_r04h.result.json"
+  },
+  {
+   "bytes": 27073,
+   "hits": {
+    "allowed_bare_hardware_unit_name": {
+     "count": 2,
+     "lines": [
+      345,
+      351
+     ],
+     "offsets": [
+      8344,
+      8469
+     ],
+     "severity": "ALLOWED"
+    },
+    "hex_address_4plus": {
+     "count": 27,
+     "lines": [
+      59,
+      60,
+      61,
+      84,
+      85
+     ],
+     "offsets": [
+      1603,
+      1627,
+      1651,
+      2148,
+      2172
+     ],
+     "severity": "REVIEW"
+    }
+   },
+   "name_violations": [],
+   "path": "docs/anatomy/skewer\\examples\\r04g.validation.json"
+  },
+  {
+   "bytes": 147736,
+   "hits": {
+    "coord_host": {
+     "count": 2,
+     "lines": [
+      4551,
+      4563
+     ],
+     "offsets": [
+      119662,
+      120174
+     ],
+     "severity": "COORD"
+    },
+    "coord_round_name": {
+     "count": 296,
+     "lines": [
+      143,
+      155,
+      159,
+      163,
+      187
+     ],
+     "offsets": [
+      11681,
+      12011,
+      12151,
+      12290,
+      12948
+     ],
+     "severity": "COORD"
+    },
+    "coord_win_path": {
+     "count": 29,
+     "lines": [
+      371,
+      407,
+      771,
+      775,
+      779
+     ],
+     "offsets": [
+      18985,
+      20265,
+      32405,
+      32533,
+      32669
+     ],
+     "severity": "COORD"
+    }
+   },
+   "name_violations": [],
+   "path": "docs/anatomy/skewer\\examples\\r04h.baseline.json"
+  },
+  {
+   "bytes": 148032,
+   "hits": {
+    "coord_host": {
+     "count": 2,
+     "lines": [
+      4730,
+      4742
+     ],
+     "offsets": [
+      120540,
+      121040
+     ],
+     "severity": "COORD"
+    },
+    "coord_round_name": {
+     "count": 322,
+     "lines": [
+      150,
+      162,
+      166,
+      170,
+      194
+     ],
+     "offsets": [
+      12271,
+      12589,
+      12725,
+      12860,
+      13494
+     ],
+     "severity": "COORD"
+    },
+    "coord_win_path": {
+     "count": 29,
+     "lines": [
+      378,
+      414,
+      778,
+      782,
+      786
+     ],
+     "offsets": [
+      19347,
+      20591,
+      32367,
+      32491,
+      32623
+     ],
+     "severity": "COORD"
+    }
+   },
+   "name_violations": [],
+   "path": "docs/anatomy/skewer\\examples\\r04i.baseline.json"
+  },
+  {
+   "bytes": 8301,
+   "hits": {
+    "coord_round_name": {
+     "count": 9,
+     "lines": [
+      43,
+      45,
+      46,
+      47,
+      51
+     ],
+     "offsets": [
+      1188,
+      1515,
+      1694,
+      1876,
+      2450
+     ],
+     "severity": "COORD"
+    }
+   },
+   "name_violations": [],
+   "path": "docs/anatomy/skewer\\examples\\r04j.validation.json"
+  },
+  {
+   "bytes": 10461,
+   "hits": {
+    "coord_round_name": {
+     "count": 13,
+     "lines": [
+      52,
+      57,
+      61,
+      61,
+      63
+     ],
+     "offsets": [
+      1368,
+      2072,
+      2644,
+      2695,
+      2975
+     ],
+     "severity": "COORD"
+    }
+   },
+   "name_violations": [],
+   "path": "docs/anatomy/skewer\\examples\\r04k.validation.json"
+  },
+  {
+   "bytes": 67076,
+   "hits": {
+    "coord_round_name": {
+     "count": 1,
+     "lines": [
+      4
+     ],
+     "offsets": [
+      144
+     ],
+     "severity": "COORD"
+    }
+   },
+   "name_violations": [],
+   "path": "docs/anatomy/skewer\\examples\\r04k.weights_layout.json"
+  },
+  {
+   "bytes": 164936,
+   "hits": {
+    "coord_win_path": {
+     "count": 1,
+     "lines": [
+      1
+     ],
+     "offsets": [
+      23
+     ],
+     "severity": "COORD"
+    }
+   },
+   "name_violations": [],
+   "path": "docs/anatomy/skewer\\examples\\r04l.L56.dag.json"
+  },
+  {
+   "bytes": 68249,
+   "hits": {
+    "coord_win_path": {
+     "count": 1,
+     "lines": [
+      1
+     ],
+     "offsets": [
+      23
+     ],
+     "severity": "COORD"
+    }
+   },
+   "name_violations": [],
+   "path": "docs/anatomy/skewer\\examples\\r04l.L57.dag.json"
+  },
+  {
+   "bytes": 11780,
+   "hits": {
+    "coord_round_name": {
+     "count": 2,
+     "lines": [
+      2,
+      2
+     ],
+     "offsets": [
+      28,
+      114
+     ],
+     "severity": "COORD"
+    },
+    "coord_unix_path": {
+     "count": 1,
+     "lines": [
+      2
+     ],
+     "offsets": [
+      89
+     ],
+     "severity": "COORD"
+    }
+   },
+   "name_violations": [],
+   "path": "docs/anatomy/skewer\\examples\\r04l.release_bindings.json"
+  },
+  {
+   "bytes": 19740,
+   "hits": {
+    "coord_host": {
+     "count": 1,
+     "lines": [
+      130
+     ],
+     "offsets": [
+      12647
+     ],
+     "severity": "COORD"
+    },
+    "coord_round_name": {
+     "count": 47,
+     "lines": [
+      65,
+      65,
+      67,
+      70,
+      71
+     ],
+     "offsets": [
+      1640,
+      1682,
+      2011,
+      2498,
+      2680
+     ],
+     "severity": "COORD"
+    }
+   },
+   "name_violations": [],
+   "path": "docs/anatomy/skewer\\examples\\r04l.validation.json"
+  },
+  {
+   "bytes": 228262,
+   "hits": {
+    "allowed_bare_hardware_unit_name": {
+     "count": 20,
+     "lines": [
+      650,
+      650,
+      652,
+      652,
+      653
+     ],
+     "offsets": [
+      13514,
+      13521,
+      13576,
+      13583,
+      13600
+     ],
+     "severity": "ALLOWED"
+    }
+   },
+   "name_violations": [],
+   "path": "docs/anatomy/skewer\\examples\\r04m.jargon.json"
+  },
+  {
+   "bytes": 1000,
+   "hits": {
+    "coord_win_path": {
+     "count": 1,
+     "lines": [
+      7
+     ],
+     "offsets": [
+      193
+     ],
+     "severity": "COORD"
+    }
+   },
+   "name_violations": [],
+   "path": "docs/anatomy/skewer\\examples\\render_beginner_r04m.py"
+  },
+  {
+   "bytes": 71308,
+   "hits": {
+    "coord_round_name": {
+     "count": 2,
+     "lines": [
+      4,
+      5
+     ],
+     "offsets": [
+      196,
+      384
+     ],
+     "severity": "COORD"
+    },
+    "coord_win_path": {
+     "count": 101,
+     "lines": [
+      4,
+      5,
+      6,
+      7,
+      8
+     ],
+     "offsets": [
+      153,
+      341,
+      527,
+      653,
+      782
+     ],
+     "severity": "COORD"
+    }
+   },
+   "name_violations": [],
+   "path": "docs/anatomy/skewer\\examples\\split16_window_r04d.bindings.json"
+  },
+  {
+   "bytes": 12568,
+   "hits": {
+    "coord_round_name": {
+     "count": 2,
+     "lines": [
+      40,
+      76
+     ],
+     "offsets": [
+      1581,
+      3484
+     ],
+     "severity": "COORD"
+    },
+    "coord_win_path": {
+     "count": 1,
+     "lines": [
+      67
+     ],
+     "offsets": [
+      2968
+     ],
+     "severity": "COORD"
+    }
+   },
+   "name_violations": [],
+   "path": "docs/anatomy/skewer\\examples\\substitutions_r04g.py"
+  },
+  {
+   "bytes": 4310,
+   "hits": {
+    "coord_round_name": {
+     "count": 5,
+     "lines": [
+      23,
+      29,
+      30,
+      31,
+      32
+     ],
+     "offsets": [
+      1880,
+      2786,
+      2964,
+      3142,
+      3319
+     ],
+     "severity": "COORD"
+    },
+    "coord_win_path": {
+     "count": 18,
+     "lines": [
+      17,
+      18,
+      19,
+      20,
+      21
+     ],
+     "offsets": [
+      1070,
+      1196,
+      1325,
+      1457,
+      1577
+     ],
+     "severity": "COORD"
+    }
+   },
+   "name_violations": [],
+   "path": "docs/anatomy/skewer\\examples\\substitutions_r04g.result.json"
+  },
+  {
+   "bytes": 25521,
+   "hits": {
+    "coord_round_name": {
+     "count": 1,
+     "lines": [
+      5
+     ],
+     "offsets": [
+      272
+     ],
+     "severity": "COORD"
+    },
+    "coord_win_path": {
+     "count": 45,
+     "lines": [
+      4,
+      28,
+      51,
+      74,
+      97
+     ],
+     "offsets": [
+      142,
+      805,
+      1374,
+      1942,
+      2510
+     ],
+     "severity": "COORD"
+    }
+   },
+   "name_violations": [],
+   "path": "docs/anatomy/skewer\\examples\\tin_window_r04c.bindings.json"
+  },
+  {
+   "bytes": 13098,
+   "hits": {
+    "hex_address_4plus": {
+     "count": 2,
+     "lines": [
+      16,
+      16
+     ],
+     "offsets": [
+      603,
+      617
+     ],
+     "severity": "REVIEW"
+    }
+   },
+   "name_violations": [],
+   "path": "docs/anatomy/skewer\\examples\\verify_r04g.py"
+  },
+  {
+   "bytes": 10528,
+   "hits": {
+    "coord_round_name": {
+     "count": 2,
+     "lines": [
+      56,
+      138
+     ],
+     "offsets": [
+      2437,
+      7328
+     ],
+     "severity": "COORD"
+    },
+    "hex_address_4plus": {
+     "count": 2,
+     "lines": [
+      17,
+      17
+     ],
+     "offsets": [
+      648,
+      660
+     ],
+     "severity": "REVIEW"
+    }
+   },
+   "name_violations": [],
+   "path": "docs/anatomy/skewer\\examples\\verify_r04h.py"
+  },
+  {
+   "bytes": 9609,
+   "hits": {
+    "hex_address_4plus": {
+     "count": 2,
+     "lines": [
+      12,
+      12
+     ],
+     "offsets": [
+      412,
+      424
+     ],
+     "severity": "REVIEW"
+    }
+   },
+   "name_violations": [],
+   "path": "docs/anatomy/skewer\\examples\\verify_r04i.py"
+  },
+  {
+   "bytes": 9963,
+   "hits": {
+    "coord_win_path": {
+     "count": 2,
+     "lines": [
+      178,
+      179
+     ],
+     "offsets": [
+      7846,
+      7919
+     ],
+     "severity": "COORD"
+    },
+    "hex_address_4plus": {
+     "count": 2,
+     "lines": [
+      15,
+      15
+     ],
+     "offsets": [
+      401,
+      415
+     ],
+     "severity": "REVIEW"
+    }
+   },
+   "name_violations": [],
+   "path": "docs/anatomy/skewer\\examples\\verify_r04j.py"
+  },
+  {
+   "bytes": 12208,
+   "hits": {
+    "coord_win_path": {
+     "count": 1,
+     "lines": [
+      205
+     ],
+     "offsets": [
+      9806
+     ],
+     "severity": "COORD"
+    },
+    "hex_address_4plus": {
+     "count": 2,
+     "lines": [
+      15,
+      15
+     ],
+     "offsets": [
+      402,
+      416
+     ],
+     "severity": "REVIEW"
+    }
+   },
+   "name_violations": [],
+   "path": "docs/anatomy/skewer\\examples\\verify_r04k.py"
+  },
+  {
+   "bytes": 7914,
+   "hits": {
+    "coord_round_name": {
+     "count": 5,
+     "lines": [
+      89,
+      89,
+      90,
+      91,
+      92
+     ],
+     "offsets": [
+      5113,
+      5175,
+      5237,
+      5365,
+      5495
+     ],
+     "severity": "COORD"
+    },
+    "coord_win_path": {
+     "count": 2,
+     "lines": [
+      87,
+      88
+     ],
+     "offsets": [
+      4976,
+      5016
+     ],
+     "severity": "COORD"
+    }
+   },
+   "name_violations": [],
+   "path": "docs/anatomy/skewer\\examples\\verify_r04l.py"
+  },
+  {
+   "bytes": 4715,
+   "hits": {
+    "coord_round_name": {
+     "count": 1,
+     "lines": [
+      32
+     ],
+     "offsets": [
+      817
+     ],
+     "severity": "COORD"
+    },
+    "coord_win_path": {
+     "count": 2,
+     "lines": [
+      78,
+      79
+     ],
+     "offsets": [
+      3376,
+      3431
+     ],
+     "severity": "COORD"
+    }
+   },
+   "name_violations": [],
+   "path": "docs/anatomy/skewer\\examples\\weights_layout_r04k.py"
+  }
+ ],
+ "schema": "LEAK_SCAN_V2/1",
+ "summary": {
+  "PASS": true,
+  "files": 121,
+  "files_per_pattern": {
+   "allowed_bare_hardware_unit_name": 28,
+   "coord_host": 7,
+   "coord_round_name": 46,
+   "coord_unix_path": 3,
+   "coord_win_path": 26,
+   "hex_address_4plus": 31
+  },
+  "files_with_block": 0,
+  "files_with_coord": 58,
+  "files_with_name_violation": 0,
+  "files_with_review": 31,
+  "missing": 0
+ }
+}

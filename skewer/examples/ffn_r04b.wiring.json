@@ -1,0 +1,61 @@
+{
+  "scope": "read-only source / graph / map-index audit; no model values or target reads",
+  "pins": {
+    "E:\\dlssnr-work-e\\1080-close-r04-codex\\maps\\s1080-v1\\L25-lane.npz": "fc4cc52f301b72a67ba7667372bff51127607512d87846091f1187b61342f7a0",
+    "E:\\dlssnr-work-e\\1080-close-r04-codex\\maps\\s1080-v1\\L25-lane.wiring.json": "4a19d31ece96b382228c0a3c20fbebbe1dd55b144ac9addd58a73db8544d4910",
+    "E:\\dlssnr-work-e\\1080-close-r04-codex\\maps\\s1080-v1\\L26-lane.npz": "d7a30db1b0a6de967aec37873544965eeedaa828a6ac7dd090dbc9f2a957be74",
+    "E:\\dlssnr-work-e\\1080-close-r04-codex\\maps\\s1080-v1\\L26-lane.wiring.json": "998f5e5729490cf269385a3f1fdcbf2b8bdf6b5b0d370cb8b05a1cd315755e66",
+    "E:\\dlssnr-work-e\\1080-close-r04-codex\\maps\\s1080-v1\\L29-lane.npz": "209764facb72c75f27760465eb9075fc7829765b2cb30ae8b2b12405748ad6f5",
+    "E:\\dlssnr-work-e\\1080-close-r04-codex\\maps\\s1080-v1\\L29-lane.wiring.json": "3b03345e3c9b1969e4992fc2cfd7ef4c140ffee389e4a62f867cb6f040223639",
+    "E:\\dlssnr-work-e\\1080-close-r04-codex\\maps\\s1080-v1\\L30-lane.npz": "c8979c9ab482d4f166b8af8c735aba5a662075f4e0219d063e5049880de470d7",
+    "E:\\dlssnr-work-e\\1080-close-r04-codex\\maps\\s1080-v1\\L30-lane.wiring.json": "3364fc7bfa55fef2d1b482e20076294c4c2c766182d7ec034ddf890eebd2f530",
+    "F:\\dlssnr-work\\l60-generalize-t640-r01-claude\\pred\\maps\\l60-templates-and-checks.json": "c7ebf67032c860ece07fe64ac0a8d5f849913f441cb42fea16c4ac5ad9e0b62a",
+    "experiments\\parity-cpp-bindings-front-r01-20260928-codex\\s00-bindings-front.json": "65c4120d1bf9b136508ef0a3154b67c0c0d1906bd13e8f0a391e83248140c541",
+    "experiments\\parity-cpp-step2b-vit-r02-20260928-codex\\s00-bindings.json": "f81dc2374c601d0432d8e7488fa7a6086b1551caa592adbcf4d9eb68e25c16dc",
+    "E:\\GlassBox-NR\\cpp\\chain_entry_optm\\b00.hpp": "932e0c805f020420f0e6fad9543d3e1710d0561b6afa14a30263d6f9bd939392",
+    "E:\\GlassBox-NR\\cpp\\chain_tin_optm\\tin.cpp": "371d33d205655f75c809f0f9990a8054edf8e930a31733f72dbf916f87b4f1f8",
+    "E:\\GlassBox-NR\\cpp\\fam_ffn_expand_resume2_chain_r02\\ffn_expand-resume2.cpp": "fe67bb0dc7c878e69291798425c77a3c3f013863e11f36a48e533323ede40287",
+    "E:\\GlassBox-NR\\cpp\\chain_tin_optm\\qmma_sm120.hpp": "2b85ddfaeb37eb5d16560224def629ff29a043c4421b5b571749103b398e5452",
+    "E:\\GlassBox-NR\\cpp\\chain_entry_optm\\mapexec_base.hpp": "0ac19678e7b4a31857434ffda3b250f508c98e76970485b3c70f7948b65eeb60",
+    "E:\\GlassBox-NR\\cpp\\chain_tin_optm\\primitives.inc": "5e5519dbbe41145146487512337401631ac8342c74f7357ba7ab781219a4c48e"
+  },
+  "split16_ffwd": {
+    "launches_examined": [
+      25,
+      29
+    ],
+    "per_group_unique_weight_bytes": {
+      "pre": 32768,
+      "expand": 16384,
+      "contract": 16384
+    },
+    "all_groups_unique_weight_bytes": {
+      "pre": 262144,
+      "expand": 131072,
+      "contract": 131072
+    },
+    "K_from_ordered_K32_chains": {
+      "pre": 512,
+      "expand": 64,
+      "contract": 256
+    },
+    "logical_group_count": 8,
+    "note": "group/width interpretation is tied to these DAGs and maps; it does not identify attention heads or prove all geometries"
+  },
+  "vit_contract": {
+    "template": "T640 concrete prototype",
+    "part_K32_chain_lengths": [
+      32,
+      32,
+      32,
+      32
+    ],
+    "half_reduction_order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "buffer_bytes_per_physical_token": 2048
+  }
+}

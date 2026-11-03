@@ -1,0 +1,2905 @@
+{
+  "scope": "read-only source, params and map metadata; no model coefficients or target reads; zero GPU/model/chain runs",
+  "source_sha256": {
+    "E:/dlssnr-pytorch-cpu-20260909/experiments/parity-cpp-bindings-front-r01-20260928-codex/s00-bindings-front.json": "65c4120d1bf9b136508ef0a3154b67c0c0d1906bd13e8f0a391e83248140c541",
+    "E:/dlssnr-pytorch-cpu-20260909/experiments/parity-cpp-bindings-tail-r01-20260928-codex/s00-bindings-tail.json": "5939bc86c36559800d06d9496b992b13f1d3c5f98fa46e387480f9abe2a3fa2e",
+    "E:/GlassBox-NR/cpp/chain_split16_optm/split16.cpp": "284d2629e3282d7f759453f8c99bd158552da36f19913a869001b7899bc3417f",
+    "E:/GlassBox-NR/cpp/chain_split16_optm/scalar_map.hpp": "20610eaa92c3bada615647abd5d2ce5989f7186374b83d1aaeb7c4d4dff3a50a",
+    "E:/GlassBox-NR/cpp/chain_entry_optm/entry.cpp": "c9f1977d816c5e65757625a59859f6673578920ab7b69127efdc92e5870d313e",
+    "E:/GlassBox-NR/cpp/fam_repack/repack.cpp": "8d721e2dc8d4a2530a92548c0e19a4f4854dc9ef6652e75472a269bf2480663b"
+  },
+  "rows": [
+    {
+      "launch": 25,
+      "params_path": "E:/dlssnr-work-e/1080-close-r04-codex/inputs/params/session.launch-0025.params",
+      "params_sha256": "14e7bcd5c6044525572396a2f07fe9646be1a2714974bc8230a1aa76cb636776",
+      "kind": "split16_mapexec",
+      "roles": [
+        {
+          "role": "input",
+          "params_word": 0,
+          "bytes": 1105920,
+          "producer": 24
+        },
+        {
+          "role": "output",
+          "params_word": 1,
+          "bytes": 1105920,
+          "producer": 25
+        }
+      ]
+    },
+    {
+      "launch": 26,
+      "params_path": "E:/dlssnr-work-e/1080-close-r04-codex/inputs/params/session.launch-0026.params",
+      "params_sha256": "a88b6f22d411320899250094bb545ec6bfebe2257645afb96965fdc8051eb2e4",
+      "kind": "split16_mapexec",
+      "roles": [
+        {
+          "role": "input",
+          "params_word": 0,
+          "bytes": 1105920,
+          "producer": 25
+        },
+        {
+          "role": "residual",
+          "params_word": 1,
+          "bytes": 1105920,
+          "producer": 24
+        },
+        {
+          "role": "output",
+          "params_word": 2,
+          "bytes": 1105920,
+          "producer": 26
+        }
+      ]
+    },
+    {
+      "launch": 27,
+      "params_path": "E:/dlssnr-work-e/1080-close-r04-codex/inputs/params/session.launch-0027.params",
+      "params_sha256": "0b1c9c9a35fa83e2bba2205bcea28cbd4e12cd8f9232ee2f10a08bea9d87906b",
+      "kind": "split16_mapexec",
+      "roles": [
+        {
+          "role": "input",
+          "params_word": 0,
+          "bytes": 1105920,
+          "producer": 26
+        },
+        {
+          "role": "output",
+          "params_word": 1,
+          "bytes": 1105920,
+          "producer": 27
+        }
+      ],
+      "W_H": [
+        60,
+        36
+      ],
+      "origin_x_y": [
+        0,
+        0
+      ]
+    },
+    {
+      "launch": 28,
+      "params_path": "E:/dlssnr-work-e/1080-close-r04-codex/inputs/params/session.launch-0028.params",
+      "params_sha256": "133177a7f6477441d869b8ccd6647f8a55f9fc16fba774e0b4c595c36cbfecee",
+      "kind": "split16_mapexec",
+      "roles": [
+        {
+          "role": "input",
+          "params_word": 0,
+          "bytes": 1105920,
+          "producer": 27
+        },
+        {
+          "role": "residual",
+          "params_word": 1,
+          "bytes": 1105920,
+          "producer": 26
+        },
+        {
+          "role": "output",
+          "params_word": 2,
+          "bytes": 1105920,
+          "producer": 28
+        }
+      ]
+    },
+    {
+      "launch": 29,
+      "params_path": "E:/dlssnr-work-e/1080-close-r04-codex/inputs/params/session.launch-0029.params",
+      "params_sha256": "f991e7882465f2fb0d1a481daa00646cb7040229989b42c533f0703b5cbedc04",
+      "kind": "split16_mapexec",
+      "roles": [
+        {
+          "role": "input",
+          "params_word": 0,
+          "bytes": 1105920,
+          "producer": 28
+        },
+        {
+          "role": "output",
+          "params_word": 1,
+          "bytes": 1105920,
+          "producer": 29
+        }
+      ]
+    },
+    {
+      "launch": 30,
+      "params_path": "E:/dlssnr-work-e/1080-close-r04-codex/inputs/params/session.launch-0030.params",
+      "params_sha256": "ea00f12924b70dd801c15fe735ec0c1c447f81d98042bf615396ab65dc733a2e",
+      "kind": "split16_mapexec",
+      "roles": [
+        {
+          "role": "input",
+          "params_word": 0,
+          "bytes": 1105920,
+          "producer": 29
+        },
+        {
+          "role": "residual",
+          "params_word": 1,
+          "bytes": 1105920,
+          "producer": 28
+        },
+        {
+          "role": "output",
+          "params_word": 2,
+          "bytes": 1105920,
+          "producer": 30
+        }
+      ]
+    },
+    {
+      "launch": 31,
+      "params_path": "E:/dlssnr-work-e/1080-close-r04-codex/inputs/params/session.launch-0031.params",
+      "params_sha256": "7e51033cedc32210229e5c8f2aafdc2c9db6605f471a5141cb71e2f70cc7f2c5",
+      "kind": "split16_mapexec",
+      "roles": [
+        {
+          "role": "input",
+          "params_word": 0,
+          "bytes": 1105920,
+          "producer": 30
+        },
+        {
+          "role": "output",
+          "params_word": 1,
+          "bytes": 1105920,
+          "producer": 31
+        }
+      ],
+      "W_H": [
+        60,
+        36
+      ],
+      "origin_x_y": [
+        -4,
+        -4
+      ]
+    },
+    {
+      "launch": 32,
+      "params_path": "E:/dlssnr-work-e/1080-close-r04-codex/inputs/params/session.launch-0032.params",
+      "params_sha256": "1d9efaccf3f32f625203519b61954a70c0f3cd5d0f7fe90a6279d450d4889e3b",
+      "kind": "split16_mapexec",
+      "roles": [
+        {
+          "role": "input",
+          "params_word": 0,
+          "bytes": 1105920,
+          "producer": 31
+        },
+        {
+          "role": "residual",
+          "params_word": 1,
+          "bytes": 1105920,
+          "producer": 30
+        },
+        {
+          "role": "output",
+          "params_word": 2,
+          "bytes": 1105920,
+          "producer": 32
+        }
+      ]
+    },
+    {
+      "launch": 33,
+      "params_path": "E:/dlssnr-work-e/1080-close-r04-codex/inputs/params/session.launch-0033.params",
+      "params_sha256": "0710cc65bcf7897a7d182c5a616d2cf1da12a8591b71fd045b94a2f6b135ee7d",
+      "kind": "split16_mapexec",
+      "roles": [
+        {
+          "role": "input",
+          "params_word": 0,
+          "bytes": 1105920,
+          "producer": 32
+        },
+        {
+          "role": "output",
+          "params_word": 1,
+          "bytes": 1105920,
+          "producer": 33
+        }
+      ]
+    },
+    {
+      "launch": 34,
+      "params_path": "E:/dlssnr-work-e/1080-close-r04-codex/inputs/params/session.launch-0034.params",
+      "params_sha256": "b7483e3161593b286c4ba4111c5e252cec440302411624695543e56b878fb034",
+      "kind": "split16_mapexec",
+      "roles": [
+        {
+          "role": "input",
+          "params_word": 0,
+          "bytes": 1105920,
+          "producer": 33
+        },
+        {
+          "role": "residual",
+          "params_word": 1,
+          "bytes": 1105920,
+          "producer": 32
+        },
+        {
+          "role": "output",
+          "params_word": 2,
+          "bytes": 1105920,
+          "producer": 34
+        }
+      ]
+    },
+    {
+      "launch": 35,
+      "params_path": "E:/dlssnr-work-e/1080-close-r04-codex/inputs/params/session.launch-0035.params",
+      "params_sha256": "4e84c8f75deeb8aa5dee4f4d5e500bf0f4ac7abc4cab1873739d09fff8181562",
+      "kind": "split16_mapexec",
+      "roles": [
+        {
+          "role": "input",
+          "params_word": 0,
+          "bytes": 1105920,
+          "producer": 34
+        },
+        {
+          "role": "output",
+          "params_word": 1,
+          "bytes": 1105920,
+          "producer": 35
+        }
+      ],
+      "W_H": [
+        60,
+        36
+      ],
+      "origin_x_y": [
+        -4,
+        0
+      ]
+    },
+    {
+      "launch": 36,
+      "params_path": "E:/dlssnr-work-e/1080-close-r04-codex/inputs/params/session.launch-0036.params",
+      "params_sha256": "3c5cd045fdd5249d1d32bc178d6000558b2d8a87221837c3d9eb7100a0a30085",
+      "kind": "split16_mapexec",
+      "roles": [
+        {
+          "role": "input",
+          "params_word": 0,
+          "bytes": 1105920,
+          "producer": 35
+        },
+        {
+          "role": "residual",
+          "params_word": 1,
+          "bytes": 1105920,
+          "producer": 34
+        },
+        {
+          "role": "output",
+          "params_word": 2,
+          "bytes": 1105920,
+          "producer": 36
+        }
+      ]
+    },
+    {
+      "launch": 37,
+      "params_path": "E:/dlssnr-work-e/1080-close-r04-codex/inputs/params/session.launch-0037.params",
+      "params_sha256": "8ce1408f6c6e4d2cf5564a0a13e04895965594ba683d68189f260d32ff2dda97",
+      "kind": "split16_mapexec",
+      "roles": [
+        {
+          "role": "input",
+          "params_word": 0,
+          "bytes": 1105920,
+          "producer": 36
+        },
+        {
+          "role": "output",
+          "params_word": 1,
+          "bytes": 1105920,
+          "producer": 37
+        }
+      ]
+    },
+    {
+      "launch": 38,
+      "params_path": "E:/dlssnr-work-e/1080-close-r04-codex/inputs/params/session.launch-0038.params",
+      "params_sha256": "593a07f07e8bf63e53386e174e84fc0b654beeb5391975b3aec179fca3ba74fb",
+      "kind": "split16_mapexec",
+      "roles": [
+        {
+          "role": "input",
+          "params_word": 0,
+          "bytes": 1105920,
+          "producer": 37
+        },
+        {
+          "role": "residual",
+          "params_word": 1,
+          "bytes": 1105920,
+          "producer": 36
+        },
+        {
+          "role": "output",
+          "params_word": 2,
+          "bytes": 1105920,
+          "producer": 38
+        }
+      ]
+    },
+    {
+      "launch": 39,
+      "params_path": "E:/dlssnr-work-e/1080-close-r04-codex/inputs/params/session.launch-0039.params",
+      "params_sha256": "0eb79c1be95bcd2944554059f2a9047ff846d9cf2766d1487feb399cf36da12e",
+      "kind": "split16_mapexec",
+      "roles": [
+        {
+          "role": "input",
+          "params_word": 0,
+          "bytes": 1105920,
+          "producer": 38
+        },
+        {
+          "role": "output",
+          "params_word": 1,
+          "bytes": 1105920,
+          "producer": 39
+        }
+      ],
+      "W_H": [
+        60,
+        36
+      ],
+      "origin_x_y": [
+        0,
+        -4
+      ]
+    },
+    {
+      "launch": 40,
+      "params_path": "E:/dlssnr-work-e/1080-close-r04-codex/inputs/params/session.launch-0040.params",
+      "params_sha256": "10698b05893ff7b80f0ec20edbf4abd5bb92f699be36d36a802d21b19deb5bca",
+      "kind": "split16_mapexec",
+      "roles": [
+        {
+          "role": "input",
+          "params_word": 0,
+          "bytes": 1105920,
+          "producer": 39
+        },
+        {
+          "role": "residual",
+          "params_word": 1,
+          "bytes": 1105920,
+          "producer": 38
+        },
+        {
+          "role": "output",
+          "params_word": 2,
+          "bytes": 1105920,
+          "producer": 40
+        }
+      ]
+    },
+    {
+      "launch": 41,
+      "params_path": "E:/dlssnr-work-e/1080-close-r04-codex/inputs/params/session.launch-0041.params",
+      "params_sha256": "a2793a6886f56965182c5fd4bcf737130b050c3f4dcc443a5c1d8ebb0cfef700",
+      "kind": "split16_mapexec",
+      "roles": [
+        {
+          "role": "input",
+          "params_word": 0,
+          "bytes": 1105920,
+          "producer": 40
+        },
+        {
+          "role": "output",
+          "params_word": 1,
+          "bytes": 1105920,
+          "producer": 41
+        }
+      ]
+    },
+    {
+      "launch": 42,
+      "params_path": "E:/dlssnr-work-e/1080-close-r04-codex/inputs/params/session.launch-0042.params",
+      "params_sha256": "2e862254f66c280c52669563eac231e2e25724458354209f91cf3d9fbed53f65",
+      "kind": "split16_mapexec",
+      "roles": [
+        {
+          "role": "input",
+          "params_word": 0,
+          "bytes": 1105920,
+          "producer": 41
+        },
+        {
+          "role": "residual",
+          "params_word": 1,
+          "bytes": 1105920,
+          "producer": 40
+        },
+        {
+          "role": "output",
+          "params_word": 2,
+          "bytes": 1105920,
+          "producer": 42
+        }
+      ]
+    },
+    {
+      "launch": 43,
+      "params_path": "E:/dlssnr-work-e/1080-close-r04-codex/inputs/params/session.launch-0043.params",
+      "params_sha256": "497f6015481070377231b9647c650d9ba8a788effdd8d6414c852f0c0d9d008f",
+      "kind": "split16_mapexec",
+      "roles": [
+        {
+          "role": "input",
+          "params_word": 0,
+          "bytes": 1105920,
+          "producer": 42
+        },
+        {
+          "role": "output",
+          "params_word": 1,
+          "bytes": 1105920,
+          "producer": 43
+        }
+      ],
+      "W_H": [
+        60,
+        36
+      ],
+      "origin_x_y": [
+        0,
+        0
+      ]
+    },
+    {
+      "launch": 44,
+      "params_path": "E:/dlssnr-work-e/1080-close-r04-codex/inputs/params/session.launch-0044.params",
+      "params_sha256": "606ee36332d687443561a089a530c07c9859ba6c50f07b88d1924a3ec44d6a8f",
+      "kind": "split16_mapexec",
+      "roles": [
+        {
+          "role": "input",
+          "params_word": 0,
+          "bytes": 1105920,
+          "producer": 43
+        },
+        {
+          "role": "residual",
+          "params_word": 1,
+          "bytes": 1105920,
+          "producer": 42
+        },
+        {
+          "role": "output",
+          "params_word": 2,
+          "bytes": 1105920,
+          "producer": 44
+        }
+      ]
+    },
+    {
+      "launch": 45,
+      "params_path": "E:/dlssnr-work-e/1080-close-r04-codex/inputs/params/session.launch-0045.params",
+      "params_sha256": "25615b6c2145c4a9942272c454277b20f8285dd72a6405e424459a747ddfd745",
+      "kind": "split16_mapexec",
+      "roles": [
+        {
+          "role": "input",
+          "params_word": 0,
+          "bytes": 1105920,
+          "producer": 44
+        },
+        {
+          "role": "output",
+          "params_word": 1,
+          "bytes": 1105920,
+          "producer": 45
+        }
+      ]
+    },
+    {
+      "launch": 46,
+      "params_path": "E:/dlssnr-work-e/1080-close-r04-codex/inputs/params/session.launch-0046.params",
+      "params_sha256": "800ce374083d0400641d4d5b99967945e01556e5bd992f2bcf4eac76e9d4946d",
+      "kind": "split16_mapexec",
+      "roles": [
+        {
+          "role": "input",
+          "params_word": 0,
+          "bytes": 1105920,
+          "producer": 45
+        },
+        {
+          "role": "residual",
+          "params_word": 1,
+          "bytes": 1105920,
+          "producer": 44
+        },
+        {
+          "role": "output",
+          "params_word": 2,
+          "bytes": 1105920,
+          "producer": 46
+        }
+      ]
+    },
+    {
+      "launch": 47,
+      "params_path": "E:/dlssnr-work-e/1080-close-r04-codex/inputs/params/session.launch-0047.params",
+      "params_sha256": "a9c6e67604bd5444d46290440b567902dd6499915b5ff1e659c09a73e2c8bafa",
+      "kind": "split16_mapexec",
+      "roles": [
+        {
+          "role": "input",
+          "params_word": 0,
+          "bytes": 1105920,
+          "producer": 46
+        },
+        {
+          "role": "output",
+          "params_word": 1,
+          "bytes": 1105920,
+          "producer": 47
+        }
+      ],
+      "W_H": [
+        60,
+        36
+      ],
+      "origin_x_y": [
+        -4,
+        -4
+      ]
+    },
+    {
+      "launch": 48,
+      "params_path": "E:/dlssnr-work-e/1080-close-r04-codex/inputs/params/session.launch-0048.params",
+      "params_sha256": "383a75f1a2a98bd95544e83f3306f247d3b8b2087d83d5dddb819e55418201ed",
+      "kind": "split16_mapexec",
+      "roles": [
+        {
+          "role": "input",
+          "params_word": 0,
+          "bytes": 1105920,
+          "producer": 47
+        },
+        {
+          "role": "residual",
+          "params_word": 1,
+          "bytes": 1105920,
+          "producer": 46
+        },
+        {
+          "role": "output",
+          "params_word": 2,
+          "bytes": 1105920,
+          "producer": 48
+        }
+      ]
+    },
+    {
+      "launch": 49,
+      "params_path": "E:/dlssnr-work-e/1080-close-r04-codex/inputs/params/session.launch-0049.params",
+      "params_sha256": "513e4bab8a61a2339ad72fcf911210df3b77ad80d1f56739c3a7f542d7f1eb73",
+      "kind": "split16_mapexec",
+      "roles": [
+        {
+          "role": "input",
+          "params_word": 0,
+          "bytes": 1105920,
+          "producer": 48
+        },
+        {
+          "role": "output",
+          "params_word": 1,
+          "bytes": 1105920,
+          "producer": 49
+        }
+      ]
+    },
+    {
+      "launch": 50,
+      "params_path": "E:/dlssnr-work-e/1080-close-r04-codex/inputs/params/session.launch-0050.params",
+      "params_sha256": "131c05e450ea3232961727d20495c00fcd7e56618b6a11c96a3e5698bdf4a47f",
+      "kind": "split16_mapexec",
+      "roles": [
+        {
+          "role": "input",
+          "params_word": 0,
+          "bytes": 1105920,
+          "producer": 49
+        },
+        {
+          "role": "residual",
+          "params_word": 1,
+          "bytes": 1105920,
+          "producer": 48
+        },
+        {
+          "role": "output",
+          "params_word": 2,
+          "bytes": 1105920,
+          "producer": 50
+        }
+      ]
+    },
+    {
+      "launch": 51,
+      "params_path": "E:/dlssnr-work-e/1080-close-r04-codex/inputs/params/session.launch-0051.params",
+      "params_sha256": "b42392bcfbd2f2839a4e6352cf616cde6b054c3b3451e8b00fa0799be9bc1a6d",
+      "kind": "split16_mapexec",
+      "roles": [
+        {
+          "role": "input",
+          "params_word": 0,
+          "bytes": 1105920,
+          "producer": 50
+        },
+        {
+          "role": "output",
+          "params_word": 1,
+          "bytes": 1105920,
+          "producer": 51
+        }
+      ],
+      "W_H": [
+        60,
+        36
+      ],
+      "origin_x_y": [
+        -4,
+        0
+      ]
+    },
+    {
+      "launch": 52,
+      "params_path": "E:/dlssnr-work-e/1080-close-r04-codex/inputs/params/session.launch-0052.params",
+      "params_sha256": "12c57fb37d39a4b50c4b42177999f1107cbb78e640a9d28d17ed67d7e9db38ca",
+      "kind": "split16_mapexec",
+      "roles": [
+        {
+          "role": "input",
+          "params_word": 0,
+          "bytes": 1105920,
+          "producer": 51
+        },
+        {
+          "role": "residual",
+          "params_word": 1,
+          "bytes": 1105920,
+          "producer": 50
+        },
+        {
+          "role": "output",
+          "params_word": 2,
+          "bytes": 1105920,
+          "producer": 52
+        }
+      ]
+    },
+    {
+      "launch": 53,
+      "params_path": "E:/dlssnr-work-e/1080-close-r04-codex/inputs/params/session.launch-0053.params",
+      "params_sha256": "8d8c7a2b8face41725da8833256f265221a6549d44ab5ac8852176d83105d2d6",
+      "kind": "split16_mapexec",
+      "roles": [
+        {
+          "role": "input",
+          "params_word": 0,
+          "bytes": 1105920,
+          "producer": 52
+        },
+        {
+          "role": "output",
+          "params_word": 1,
+          "bytes": 1105920,
+          "producer": 53
+        }
+      ]
+    },
+    {
+      "launch": 54,
+      "params_path": "E:/dlssnr-work-e/1080-close-r04-codex/inputs/params/session.launch-0054.params",
+      "params_sha256": "a9e709bdbeaac66b47bbdde2d24c36709f1f9e50e61d5322b637ba3373cc7a77",
+      "kind": "split16_mapexec",
+      "roles": [
+        {
+          "role": "input",
+          "params_word": 0,
+          "bytes": 1105920,
+          "producer": 53
+        },
+        {
+          "role": "residual",
+          "params_word": 1,
+          "bytes": 1105920,
+          "producer": 52
+        },
+        {
+          "role": "output",
+          "params_word": 2,
+          "bytes": 1105920,
+          "producer": 54
+        }
+      ]
+    },
+    {
+      "launch": 55,
+      "params_path": "E:/dlssnr-work-e/1080-close-r04-codex/inputs/params/session.launch-0055.params",
+      "params_sha256": "19915888105e8c0be5811d243b8a245db9d3e1543b2f48d6f9a53756f9ef9db3",
+      "kind": "split16_mapexec",
+      "roles": [
+        {
+          "role": "input",
+          "params_word": 0,
+          "bytes": 1105920,
+          "producer": 54
+        },
+        {
+          "role": "output",
+          "params_word": 1,
+          "bytes": 1105920,
+          "producer": 55
+        }
+      ],
+      "W_H": [
+        60,
+        36
+      ],
+      "origin_x_y": [
+        0,
+        -4
+      ]
+    },
+    {
+      "launch": 56,
+      "params_path": "E:/dlssnr-work-e/1080-close-r04-codex/inputs/params/session.launch-0056.params",
+      "params_sha256": "8bd4e17446064a1b76b34da149a53c9f86566a892d006d511a82b552f62c2939",
+      "kind": "split16_mapexec",
+      "roles": [
+        {
+          "role": "input",
+          "params_word": 0,
+          "bytes": 1105920,
+          "producer": 55
+        },
+        {
+          "role": "residual",
+          "params_word": 1,
+          "bytes": 1105920,
+          "producer": 54
+        },
+        {
+          "role": "word2_output",
+          "params_word": 2,
+          "bytes": 1105920,
+          "producer": 56
+        },
+        {
+          "role": "word3_output",
+          "params_word": 3,
+          "bytes": 327680,
+          "producer": 56
+        }
+      ]
+    },
+    {
+      "launch": 57,
+      "params_path": "E:/dlssnr-work-e/1080-close-r04-codex/inputs/params/session.launch-0057.params",
+      "params_sha256": "a7bc49eaaa8550b340e65fd64e530a5e7f9fc8bae0e3b7cd65db2e4342d76685",
+      "kind": "split16_mapexec",
+      "roles": [
+        {
+          "role": "input",
+          "params_word": 0,
+          "bytes": 327680,
+          "producer": 56
+        },
+        {
+          "role": "output",
+          "params_word": 1,
+          "bytes": 655360,
+          "producer": 57
+        }
+      ]
+    },
+    {
+      "launch": 101,
+      "params_path": "E:/dlssnr-work-e/1080-close-r04-codex/inputs/params/session.launch-0101.params",
+      "params_sha256": "6cd83aacbe22493fdad03064108b1fdb96355f7010b213b6c22f4cf56def0ada",
+      "kind": "split16:swin_16h_ffwd",
+      "roles": [
+        {
+          "role": "main_input",
+          "params_word": 0,
+          "bytes": 1105920,
+          "producer": 100
+        },
+        {
+          "role": "output",
+          "params_word": 1,
+          "bytes": 1105920
+        }
+      ]
+    },
+    {
+      "launch": 102,
+      "params_path": "E:/dlssnr-work-e/1080-close-r04-codex/inputs/params/session.launch-0102.params",
+      "params_sha256": "874431b17b5b0b0607f4b272fb7c3d6514d7f4efc8c7b58dc55575f6dabf5fb0",
+      "kind": "split16:ffwd_proj",
+      "roles": [
+        {
+          "role": "main_input",
+          "params_word": 0,
+          "bytes": 1105920,
+          "producer": 101
+        },
+        {
+          "role": "residual_input",
+          "params_word": 1,
+          "bytes": 1105920,
+          "producer": 100
+        },
+        {
+          "role": "output",
+          "params_word": 2,
+          "bytes": 1105920
+        }
+      ]
+    },
+    {
+      "launch": 103,
+      "params_path": "E:/dlssnr-work-e/1080-close-r04-codex/inputs/params/session.launch-0103.params",
+      "params_sha256": "939b8d964aa4b92c6d0475af2490f5a0399c29b23c78e78b567c191514b180db",
+      "kind": "split16:qkv",
+      "roles": [
+        {
+          "role": "main_input",
+          "params_word": 0,
+          "bytes": 1105920,
+          "producer": 102
+        },
+        {
+          "role": "output",
+          "params_word": 1,
+          "bytes": 1105920
+        }
+      ],
+      "W_H": [
+        60,
+        36
+      ],
+      "origin_x_y": [
+        0,
+        0
+      ]
+    },
+    {
+      "launch": 104,
+      "params_path": "E:/dlssnr-work-e/1080-close-r04-codex/inputs/params/session.launch-0104.params",
+      "params_sha256": "3a3db7cd2a8836070066fe75f32797d41c5879ab768f9ca4b9c663b138d8844f",
+      "kind": "split16:proj",
+      "roles": [
+        {
+          "role": "main_input",
+          "params_word": 0,
+          "bytes": 1105920,
+          "producer": 103
+        },
+        {
+          "role": "residual_input",
+          "params_word": 1,
+          "bytes": 1105920,
+          "producer": 102
+        },
+        {
+          "role": "output",
+          "params_word": 2,
+          "bytes": 1105920
+        }
+      ]
+    },
+    {
+      "launch": 105,
+      "params_path": "E:/dlssnr-work-e/1080-close-r04-codex/inputs/params/session.launch-0105.params",
+      "params_sha256": "d8817b868432d720961c725af798622267a9dc44a3759d8f979403774baaa178",
+      "kind": "split16:swin_16h_ffwd",
+      "roles": [
+        {
+          "role": "main_input",
+          "params_word": 0,
+          "bytes": 1105920,
+          "producer": 104
+        },
+        {
+          "role": "output",
+          "params_word": 1,
+          "bytes": 1105920
+        }
+      ]
+    },
+    {
+      "launch": 106,
+      "params_path": "E:/dlssnr-work-e/1080-close-r04-codex/inputs/params/session.launch-0106.params",
+      "params_sha256": "4eee4e7d05fd3fca230602bf79f4cf265609369123a43cd744ad4efc78217ff7",
+      "kind": "split16:ffwd_proj",
+      "roles": [
+        {
+          "role": "main_input",
+          "params_word": 0,
+          "bytes": 1105920,
+          "producer": 105
+        },
+        {
+          "role": "residual_input",
+          "params_word": 1,
+          "bytes": 1105920,
+          "producer": 104
+        },
+        {
+          "role": "output",
+          "params_word": 2,
+          "bytes": 1105920
+        }
+      ]
+    },
+    {
+      "launch": 107,
+      "params_path": "E:/dlssnr-work-e/1080-close-r04-codex/inputs/params/session.launch-0107.params",
+      "params_sha256": "e254f082864794efa9c6eff61fbad5cb7eeb3846efd3cf45f2fb727063e705cd",
+      "kind": "split16:qkv",
+      "roles": [
+        {
+          "role": "main_input",
+          "params_word": 0,
+          "bytes": 1105920,
+          "producer": 106
+        },
+        {
+          "role": "output",
+          "params_word": 1,
+          "bytes": 1105920
+        }
+      ],
+      "W_H": [
+        60,
+        36
+      ],
+      "origin_x_y": [
+        -4,
+        -4
+      ]
+    },
+    {
+      "launch": 108,
+      "params_path": "E:/dlssnr-work-e/1080-close-r04-codex/inputs/params/session.launch-0108.params",
+      "params_sha256": "ebaff50be036b44e082b4776ca49067baf356bb3abbd74afeafbb17433c3fbfd",
+      "kind": "split16:proj",
+      "roles": [
+        {
+          "role": "main_input",
+          "params_word": 0,
+          "bytes": 1105920,
+          "producer": 107
+        },
+        {
+          "role": "residual_input",
+          "params_word": 1,
+          "bytes": 1105920,
+          "producer": 106
+        },
+        {
+          "role": "output",
+          "params_word": 2,
+          "bytes": 1105920
+        }
+      ]
+    },
+    {
+      "launch": 109,
+      "params_path": "E:/dlssnr-work-e/1080-close-r04-codex/inputs/params/session.launch-0109.params",
+      "params_sha256": "4de6f06089b0ce86fd77250f27afb51d9e05df765a61c6e78ef50619bea78feb",
+      "kind": "split16:swin_16h_ffwd",
+      "roles": [
+        {
+          "role": "main_input",
+          "params_word": 0,
+          "bytes": 1105920,
+          "producer": 108
+        },
+        {
+          "role": "output",
+          "params_word": 1,
+          "bytes": 1105920
+        }
+      ]
+    },
+    {
+      "launch": 110,
+      "params_path": "E:/dlssnr-work-e/1080-close-r04-codex/inputs/params/session.launch-0110.params",
+      "params_sha256": "5e6555e6e17314deb44c2086636ad5cd99d002691e972a69b042b4558014f362",
+      "kind": "split16:ffwd_proj",
+      "roles": [
+        {
+          "role": "main_input",
+          "params_word": 0,
+          "bytes": 1105920,
+          "producer": 109
+        },
+        {
+          "role": "residual_input",
+          "params_word": 1,
+          "bytes": 1105920,
+          "producer": 108
+        },
+        {
+          "role": "output",
+          "params_word": 2,
+          "bytes": 1105920
+        }
+      ]
+    },
+    {
+      "launch": 111,
+      "params_path": "E:/dlssnr-work-e/1080-close-r04-codex/inputs/params/session.launch-0111.params",
+      "params_sha256": "af88339c9633b075e96f380f092f49681a17690c7da6cf0aa41b7a238cf24c24",
+      "kind": "split16:qkv",
+      "roles": [
+        {
+          "role": "main_input",
+          "params_word": 0,
+          "bytes": 1105920,
+          "producer": 110
+        },
+        {
+          "role": "output",
+          "params_word": 1,
+          "bytes": 1105920
+        }
+      ],
+      "W_H": [
+        60,
+        36
+      ],
+      "origin_x_y": [
+        -4,
+        0
+      ]
+    },
+    {
+      "launch": 112,
+      "params_path": "E:/dlssnr-work-e/1080-close-r04-codex/inputs/params/session.launch-0112.params",
+      "params_sha256": "81eca12cd93a4e0d191cb72cabdc4f5a8cdb5c7412480181a40d3bb73507947e",
+      "kind": "split16:proj",
+      "roles": [
+        {
+          "role": "main_input",
+          "params_word": 0,
+          "bytes": 1105920,
+          "producer": 111
+        },
+        {
+          "role": "residual_input",
+          "params_word": 1,
+          "bytes": 1105920,
+          "producer": 110
+        },
+        {
+          "role": "output",
+          "params_word": 2,
+          "bytes": 1105920
+        }
+      ]
+    },
+    {
+      "launch": 113,
+      "params_path": "E:/dlssnr-work-e/1080-close-r04-codex/inputs/params/session.launch-0113.params",
+      "params_sha256": "a5e1630321c26005272978dbbcd46fb2723dabb0dcb918dea9c1d8c7ab173679",
+      "kind": "split16:swin_16h_ffwd",
+      "roles": [
+        {
+          "role": "main_input",
+          "params_word": 0,
+          "bytes": 1105920,
+          "producer": 112
+        },
+        {
+          "role": "output",
+          "params_word": 1,
+          "bytes": 1105920
+        }
+      ]
+    },
+    {
+      "launch": 114,
+      "params_path": "E:/dlssnr-work-e/1080-close-r04-codex/inputs/params/session.launch-0114.params",
+      "params_sha256": "0e44b0a09d35e13e450652358efca8b4f26f29724e72f420109b285d4267a989",
+      "kind": "split16:ffwd_proj",
+      "roles": [
+        {
+          "role": "main_input",
+          "params_word": 0,
+          "bytes": 1105920,
+          "producer": 113
+        },
+        {
+          "role": "residual_input",
+          "params_word": 1,
+          "bytes": 1105920,
+          "producer": 112
+        },
+        {
+          "role": "output",
+          "params_word": 2,
+          "bytes": 1105920
+        }
+      ]
+    },
+    {
+      "launch": 115,
+      "params_path": "E:/dlssnr-work-e/1080-close-r04-codex/inputs/params/session.launch-0115.params",
+      "params_sha256": "b8faec8c5d6954521f9c41e4a8719380cc4fb1c44a8eaab36dc4fd6b7bc91d94",
+      "kind": "split16:qkv",
+      "roles": [
+        {
+          "role": "main_input",
+          "params_word": 0,
+          "bytes": 1105920,
+          "producer": 114
+        },
+        {
+          "role": "output",
+          "params_word": 1,
+          "bytes": 1105920
+        }
+      ],
+      "W_H": [
+        60,
+        36
+      ],
+      "origin_x_y": [
+        0,
+        -4
+      ]
+    },
+    {
+      "launch": 116,
+      "params_path": "E:/dlssnr-work-e/1080-close-r04-codex/inputs/params/session.launch-0116.params",
+      "params_sha256": "93c0c75b97f7605a7d07e6530b599262b641e197382f3ebce8b4f59cdcb96587",
+      "kind": "split16:proj",
+      "roles": [
+        {
+          "role": "main_input",
+          "params_word": 0,
+          "bytes": 1105920,
+          "producer": 115
+        },
+        {
+          "role": "residual_input",
+          "params_word": 1,
+          "bytes": 1105920,
+          "producer": 114
+        },
+        {
+          "role": "output",
+          "params_word": 2,
+          "bytes": 1105920
+        }
+      ]
+    },
+    {
+      "launch": 117,
+      "params_path": "E:/dlssnr-work-e/1080-close-r04-codex/inputs/params/session.launch-0117.params",
+      "params_sha256": "7be50e64348b9702a8fabc6983bdfc76ee8beba87fbf467ab43260b74a35be77",
+      "kind": "split16:swin_16h_ffwd",
+      "roles": [
+        {
+          "role": "main_input",
+          "params_word": 0,
+          "bytes": 1105920,
+          "producer": 116
+        },
+        {
+          "role": "output",
+          "params_word": 1,
+          "bytes": 1105920
+        }
+      ]
+    },
+    {
+      "launch": 118,
+      "params_path": "E:/dlssnr-work-e/1080-close-r04-codex/inputs/params/session.launch-0118.params",
+      "params_sha256": "53835db2916f45d94cd6b032f1db8cd32f9ec612492a4cabad1de68b9026829d",
+      "kind": "split16:ffwd_proj",
+      "roles": [
+        {
+          "role": "main_input",
+          "params_word": 0,
+          "bytes": 1105920,
+          "producer": 117
+        },
+        {
+          "role": "residual_input",
+          "params_word": 1,
+          "bytes": 1105920,
+          "producer": 116
+        },
+        {
+          "role": "output",
+          "params_word": 2,
+          "bytes": 1105920
+        }
+      ]
+    },
+    {
+      "launch": 119,
+      "params_path": "E:/dlssnr-work-e/1080-close-r04-codex/inputs/params/session.launch-0119.params",
+      "params_sha256": "e8927631ba169bffc1538be8ffc0970e8553bb2141208360d0407a026a679b18",
+      "kind": "split16:qkv",
+      "roles": [
+        {
+          "role": "main_input",
+          "params_word": 0,
+          "bytes": 1105920,
+          "producer": 118
+        },
+        {
+          "role": "output",
+          "params_word": 1,
+          "bytes": 1105920
+        }
+      ],
+      "W_H": [
+        60,
+        36
+      ],
+      "origin_x_y": [
+        0,
+        0
+      ]
+    },
+    {
+      "launch": 120,
+      "params_path": "E:/dlssnr-work-e/1080-close-r04-codex/inputs/params/session.launch-0120.params",
+      "params_sha256": "dafa8f6a5dbb01cf20ea660e66cddd008f26d510fd96f7f516cc93bbd2dd4268",
+      "kind": "split16:proj",
+      "roles": [
+        {
+          "role": "main_input",
+          "params_word": 0,
+          "bytes": 1105920,
+          "producer": 119
+        },
+        {
+          "role": "residual_input",
+          "params_word": 1,
+          "bytes": 1105920,
+          "producer": 118
+        },
+        {
+          "role": "output",
+          "params_word": 2,
+          "bytes": 1105920
+        }
+      ]
+    },
+    {
+      "launch": 121,
+      "params_path": "E:/dlssnr-work-e/1080-close-r04-codex/inputs/params/session.launch-0121.params",
+      "params_sha256": "c991c0e31d4a56f1f86f5acdf35d866b3485821794f7e57823c038a4c4233ddb",
+      "kind": "split16:swin_16h_ffwd",
+      "roles": [
+        {
+          "role": "main_input",
+          "params_word": 0,
+          "bytes": 1105920,
+          "producer": 120
+        },
+        {
+          "role": "output",
+          "params_word": 1,
+          "bytes": 1105920
+        }
+      ]
+    },
+    {
+      "launch": 122,
+      "params_path": "E:/dlssnr-work-e/1080-close-r04-codex/inputs/params/session.launch-0122.params",
+      "params_sha256": "48bc236d773116545ee904fdcb80db00b0f56c5bb65f75223fb04899d9cde394",
+      "kind": "split16:ffwd_proj",
+      "roles": [
+        {
+          "role": "main_input",
+          "params_word": 0,
+          "bytes": 1105920,
+          "producer": 121
+        },
+        {
+          "role": "residual_input",
+          "params_word": 1,
+          "bytes": 1105920,
+          "producer": 120
+        },
+        {
+          "role": "output",
+          "params_word": 2,
+          "bytes": 1105920
+        }
+      ]
+    },
+    {
+      "launch": 123,
+      "params_path": "E:/dlssnr-work-e/1080-close-r04-codex/inputs/params/session.launch-0123.params",
+      "params_sha256": "f7133a18584290cead13ecc6940bb32b5ccb23b0d332fe417d3f6dbb8217f784",
+      "kind": "split16:qkv",
+      "roles": [
+        {
+          "role": "main_input",
+          "params_word": 0,
+          "bytes": 1105920,
+          "producer": 122
+        },
+        {
+          "role": "output",
+          "params_word": 1,
+          "bytes": 1105920
+        }
+      ],
+      "W_H": [
+        60,
+        36
+      ],
+      "origin_x_y": [
+        -4,
+        -4
+      ]
+    },
+    {
+      "launch": 124,
+      "params_path": "E:/dlssnr-work-e/1080-close-r04-codex/inputs/params/session.launch-0124.params",
+      "params_sha256": "e02e3dcbba0fc5533e82239537625712e6746dfcb44fcaa1325f8509f2c65d19",
+      "kind": "split16:proj",
+      "roles": [
+        {
+          "role": "main_input",
+          "params_word": 0,
+          "bytes": 1105920,
+          "producer": 123
+        },
+        {
+          "role": "residual_input",
+          "params_word": 1,
+          "bytes": 1105920,
+          "producer": 122
+        },
+        {
+          "role": "output",
+          "params_word": 2,
+          "bytes": 1105920
+        }
+      ]
+    },
+    {
+      "launch": 125,
+      "params_path": "E:/dlssnr-work-e/1080-close-r04-codex/inputs/params/session.launch-0125.params",
+      "params_sha256": "e1ff1fba3413bfc2a766f6b349b2c032b6160502ce92c452f88c9137a6901431",
+      "kind": "split16:swin_16h_ffwd",
+      "roles": [
+        {
+          "role": "main_input",
+          "params_word": 0,
+          "bytes": 1105920,
+          "producer": 124
+        },
+        {
+          "role": "output",
+          "params_word": 1,
+          "bytes": 1105920
+        }
+      ]
+    },
+    {
+      "launch": 126,
+      "params_path": "E:/dlssnr-work-e/1080-close-r04-codex/inputs/params/session.launch-0126.params",
+      "params_sha256": "c6606fd00be17c75dc795cffdc0409946ab86e774f128fb4005905938a1a28db",
+      "kind": "split16:ffwd_proj",
+      "roles": [
+        {
+          "role": "main_input",
+          "params_word": 0,
+          "bytes": 1105920,
+          "producer": 125
+        },
+        {
+          "role": "residual_input",
+          "params_word": 1,
+          "bytes": 1105920,
+          "producer": 124
+        },
+        {
+          "role": "output",
+          "params_word": 2,
+          "bytes": 1105920
+        }
+      ]
+    },
+    {
+      "launch": 127,
+      "params_path": "E:/dlssnr-work-e/1080-close-r04-codex/inputs/params/session.launch-0127.params",
+      "params_sha256": "466b549d0d5fd0fdfc0589ac22ad2e924940e4109ab2e1a2dc86b8059ff275c9",
+      "kind": "split16:qkv",
+      "roles": [
+        {
+          "role": "main_input",
+          "params_word": 0,
+          "bytes": 1105920,
+          "producer": 126
+        },
+        {
+          "role": "output",
+          "params_word": 1,
+          "bytes": 1105920
+        }
+      ],
+      "W_H": [
+        60,
+        36
+      ],
+      "origin_x_y": [
+        -4,
+        0
+      ]
+    },
+    {
+      "launch": 128,
+      "params_path": "E:/dlssnr-work-e/1080-close-r04-codex/inputs/params/session.launch-0128.params",
+      "params_sha256": "e72d91dab9fde5ce84bf04e3a35e361329171d7909ffb4c47feaaa5388cb94c7",
+      "kind": "split16:proj",
+      "roles": [
+        {
+          "role": "main_input",
+          "params_word": 0,
+          "bytes": 1105920,
+          "producer": 127
+        },
+        {
+          "role": "residual_input",
+          "params_word": 1,
+          "bytes": 1105920,
+          "producer": 126
+        },
+        {
+          "role": "output",
+          "params_word": 2,
+          "bytes": 1105920
+        }
+      ]
+    },
+    {
+      "launch": 129,
+      "params_path": "E:/dlssnr-work-e/1080-close-r04-codex/inputs/params/session.launch-0129.params",
+      "params_sha256": "b133f587662810687e4dac4b150c90c25e89818d9e157c7cd06795b9d16588c6",
+      "kind": "split16:swin_16h_ffwd",
+      "roles": [
+        {
+          "role": "main_input",
+          "params_word": 0,
+          "bytes": 1105920,
+          "producer": 128
+        },
+        {
+          "role": "output",
+          "params_word": 1,
+          "bytes": 1105920
+        }
+      ]
+    },
+    {
+      "launch": 130,
+      "params_path": "E:/dlssnr-work-e/1080-close-r04-codex/inputs/params/session.launch-0130.params",
+      "params_sha256": "5ec25742108f5b290f77c81732a74e034048094994c11998d1182a411a2691eb",
+      "kind": "split16:ffwd_proj",
+      "roles": [
+        {
+          "role": "main_input",
+          "params_word": 0,
+          "bytes": 1105920,
+          "producer": 129
+        },
+        {
+          "role": "residual_input",
+          "params_word": 1,
+          "bytes": 1105920,
+          "producer": 128
+        },
+        {
+          "role": "output",
+          "params_word": 2,
+          "bytes": 1105920
+        }
+      ]
+    },
+    {
+      "launch": 131,
+      "params_path": "E:/dlssnr-work-e/1080-close-r04-codex/inputs/params/session.launch-0131.params",
+      "params_sha256": "34be2a6a3b4438be5f66c27890266c18dd2593e43d8046e92f1c146d068b01c2",
+      "kind": "split16:qkv",
+      "roles": [
+        {
+          "role": "main_input",
+          "params_word": 0,
+          "bytes": 1105920,
+          "producer": 130
+        },
+        {
+          "role": "output",
+          "params_word": 1,
+          "bytes": 1105920
+        }
+      ],
+      "W_H": [
+        60,
+        36
+      ],
+      "origin_x_y": [
+        0,
+        -4
+      ]
+    },
+    {
+      "launch": 132,
+      "params_path": "E:/dlssnr-work-e/1080-close-r04-codex/inputs/params/session.launch-0132.params",
+      "params_sha256": "d7aec625a5e2ff8d36b113fc16f6e2ecd35ea0aee147925a58dbb657ed924a4b",
+      "kind": "L132_B47",
+      "roles": [
+        {
+          "role": "main_input",
+          "params_word": 0,
+          "bytes": 1105920,
+          "producer": 131
+        },
+        {
+          "role": "skip_input",
+          "params_word": 1,
+          "bytes": 1105920,
+          "producer": 130
+        },
+        {
+          "role": "output",
+          "params_word": 2,
+          "bytes": 1105920
+        }
+      ]
+    }
+  ],
+  "context_params": [
+    {
+      "launch": 100,
+      "params_path": "E:/dlssnr-work-e/1080-close-r04-codex/inputs/params/session.launch-0100.params",
+      "params_sha256": "cc0f0274c1aeca0cd6af5df37c678e865cfa7452db22595301b02f5e66be4fbd",
+      "kind": "L100_decoder_bridge",
+      "roles": [
+        {
+          "role": "main_input",
+          "params_word": 0,
+          "bytes": 655360,
+          "producer": 99
+        },
+        {
+          "role": "skip_input",
+          "params_word": 1,
+          "bytes": 1105920,
+          "producer": 56
+        },
+        {
+          "role": "output",
+          "params_word": 2,
+          "bytes": 1105920
+        }
+      ],
+      "expected_binding_checked": true
+    },
+    {
+      "launch": 58,
+      "params_path": "E:/dlssnr-work-e/1080-close-r04-codex/inputs/params/session.launch-0058.params",
+      "params_sha256": "971e19e34db8e5304fd954fe1f74540cf1f43259b47cca2561e727ad64f72fcd",
+      "expected_binding_checked": false
+    },
+    {
+      "launch": 99,
+      "params_path": "E:/dlssnr-work-e/1080-close-r04-codex/inputs/params/session.launch-0099.params",
+      "params_sha256": "09a89a2ce70157732df8e265ae5f68dd6133d1901951e447b1ab5018305e9313",
+      "expected_binding_checked": false
+    },
+    {
+      "launch": 133,
+      "params_path": "E:/dlssnr-work-e/1080-close-r04-codex/inputs/params/session.launch-0133.params",
+      "params_sha256": "df37ebce6d32dd60e39ea25037c62be7afc5b1c34d3b0031ab03a6e4de93c633",
+      "kind": "tail:upsample_tilesync",
+      "roles": [
+        {
+          "role": "main_input",
+          "params_word": 0,
+          "bytes": 1105920,
+          "producer": 132
+        },
+        {
+          "role": "scale_skip",
+          "params_word": 3,
+          "bytes": 2211840,
+          "producer": 24
+        },
+        {
+          "role": "output",
+          "params_word": 1,
+          "bytes": 2211840
+        }
+      ],
+      "expected_binding_checked": true
+    }
+  ],
+  "assets_read": [
+    {
+      "launch": 25,
+      "path": "E:/dlssnr-work-e/1080-close-r04-codex/maps/s1080-v1/L25-lane.npz",
+      "sha256": "fc4cc52f301b72a67ba7667372bff51127607512d87846091f1187b61342f7a0",
+      "arrays": {
+        "wload_off": {
+          "shape": [
+            80,
+            4,
+            32,
+            128
+          ],
+          "dtype": "<i8"
+        },
+        "sread_shared_off": {
+          "shape": [
+            80,
+            4,
+            32,
+            64
+          ],
+          "dtype": "<i8"
+        },
+        "sread_src": {
+          "shape": [
+            80,
+            4,
+            32,
+            64,
+            16
+          ],
+          "dtype": "<i8"
+        },
+        "gstore_off": {
+          "shape": [
+            80,
+            4,
+            32,
+            8
+          ],
+          "dtype": "<i8"
+        }
+      }
+    },
+    {
+      "launch": 25,
+      "path": "E:/dlssnr-work-e/1080-close-r04-codex/maps/s1080-v1/L25-lane.wiring.json",
+      "sha256": "4a19d31ece96b382228c0a3c20fbebbe1dd55b144ac9addd58a73db8544d4910"
+    },
+    {
+      "launch": 26,
+      "path": "E:/dlssnr-work-e/1080-close-r04-codex/maps/s1080-v1/L26-lane.npz",
+      "sha256": "d7a30db1b0a6de967aec37873544965eeedaa828a6ac7dd090dbc9f2a957be74",
+      "arrays": {
+        "wload_off": {
+          "shape": [
+            80,
+            4,
+            32,
+            64
+          ],
+          "dtype": "<i8"
+        },
+        "sread_shared_off": {
+          "shape": [
+            80,
+            4,
+            32,
+            64
+          ],
+          "dtype": "<i8"
+        },
+        "sread_src": {
+          "shape": [
+            80,
+            4,
+            32,
+            64,
+            16
+          ],
+          "dtype": "<i8"
+        },
+        "gstore_off": {
+          "shape": [
+            80,
+            4,
+            32,
+            8
+          ],
+          "dtype": "<i8"
+        },
+        "xsite_src": {
+          "shape": [
+            80,
+            4,
+            32,
+            96,
+            4
+          ],
+          "dtype": "<i8"
+        },
+        "xsite_wsrc": {
+          "shape": [
+            80,
+            4,
+            32,
+            96,
+            4
+          ],
+          "dtype": "<i8"
+        }
+      }
+    },
+    {
+      "launch": 26,
+      "path": "E:/dlssnr-work-e/1080-close-r04-codex/maps/s1080-v1/L26-lane.wiring.json",
+      "sha256": "998f5e5729490cf269385a3f1fdcbf2b8bdf6b5b0d370cb8b05a1cd315755e66"
+    },
+    {
+      "launch": 27,
+      "path": "E:/dlssnr-work-e/1080-close-r04-codex/maps/s1080-v1/L27-lane.npz",
+      "sha256": "6eade1fab0bdc0bcffa1a967736e4ab84c57e3d8937a538f22dca5e2205a8ed3",
+      "arrays": {
+        "wload_off": {
+          "shape": [
+            160,
+            4,
+            32,
+            112
+          ],
+          "dtype": "<i8"
+        },
+        "sread_shared_off": {
+          "shape": [
+            160,
+            4,
+            32,
+            64
+          ],
+          "dtype": "<i8"
+        },
+        "sread_src": {
+          "shape": [
+            160,
+            4,
+            32,
+            64,
+            16
+          ],
+          "dtype": "<i8"
+        },
+        "gstore_off": {
+          "shape": [
+            160,
+            4,
+            32,
+            4
+          ],
+          "dtype": "<i8"
+        },
+        "xsite_src": {
+          "shape": [
+            160,
+            4,
+            32,
+            2,
+            4
+          ],
+          "dtype": "<i8"
+        },
+        "xsite_wsrc": {
+          "shape": [
+            160,
+            4,
+            32,
+            2,
+            4
+          ],
+          "dtype": "<i8"
+        },
+        "shfl_idx": {
+          "shape": [
+            160,
+            4,
+            32,
+            72
+          ],
+          "dtype": "<i8"
+        },
+        "psel": {
+          "shape": [
+            160,
+            4,
+            32,
+            32
+          ],
+          "dtype": "|i1"
+        }
+      }
+    },
+    {
+      "launch": 27,
+      "path": "E:/dlssnr-work-e/1080-close-r04-codex/maps/s1080-v1/L27-lane.wiring.json",
+      "sha256": "e9f851e2df2ecbaf01cabf635ddf0d72b8713b5ac4fa3e4eeda140ad2ac07dea"
+    },
+    {
+      "launch": 28,
+      "path": "E:/dlssnr-work-e/1080-close-r04-codex/maps/s1080-v1/L28-lane.npz",
+      "sha256": "aa24f982ddb06ab30b0c59b9914bb9223ebc9fe4c7b2d28849ac4230a453a08a",
+      "arrays": {
+        "wload_off": {
+          "shape": [
+            80,
+            8,
+            32,
+            64
+          ],
+          "dtype": "<i8"
+        },
+        "sread_shared_off": {
+          "shape": [
+            80,
+            8,
+            32,
+            32
+          ],
+          "dtype": "<i8"
+        },
+        "sread_src": {
+          "shape": [
+            80,
+            8,
+            32,
+            32,
+            16
+          ],
+          "dtype": "<i8"
+        },
+        "gstore_off": {
+          "shape": [
+            80,
+            8,
+            32,
+            4
+          ],
+          "dtype": "<i8"
+        },
+        "xsite_src": {
+          "shape": [
+            80,
+            8,
+            32,
+            48,
+            4
+          ],
+          "dtype": "<i8"
+        },
+        "xsite_wsrc": {
+          "shape": [
+            80,
+            8,
+            32,
+            48,
+            4
+          ],
+          "dtype": "<i8"
+        }
+      }
+    },
+    {
+      "launch": 28,
+      "path": "E:/dlssnr-work-e/1080-close-r04-codex/maps/s1080-v1/L28-lane.wiring.json",
+      "sha256": "e9c276cfeb85801e701539aece1b008ef6d06f3ff8b4f4e45d1fd59a2d3940bd"
+    },
+    {
+      "launch": 29,
+      "path": "E:/dlssnr-work-e/1080-close-r04-codex/maps/s1080-v1/L29-lane.npz",
+      "sha256": "209764facb72c75f27760465eb9075fc7829765b2cb30ae8b2b12405748ad6f5",
+      "arrays": {
+        "wload_off": {
+          "shape": [
+            80,
+            8,
+            32,
+            128
+          ],
+          "dtype": "<i8"
+        },
+        "sread_shared_off": {
+          "shape": [
+            80,
+            8,
+            32,
+            32
+          ],
+          "dtype": "<i8"
+        },
+        "sread_src": {
+          "shape": [
+            80,
+            8,
+            32,
+            32,
+            16
+          ],
+          "dtype": "<i8"
+        },
+        "gstore_off": {
+          "shape": [
+            80,
+            8,
+            32,
+            4
+          ],
+          "dtype": "<i8"
+        },
+        "xsite_src": {
+          "shape": [
+            80,
+            8,
+            32,
+            0,
+            4
+          ],
+          "dtype": "<i8"
+        },
+        "xsite_wsrc": {
+          "shape": [
+            80,
+            8,
+            32,
+            0,
+            4
+          ],
+          "dtype": "<i8"
+        }
+      }
+    },
+    {
+      "launch": 29,
+      "path": "E:/dlssnr-work-e/1080-close-r04-codex/maps/s1080-v1/L29-lane.wiring.json",
+      "sha256": "3b03345e3c9b1969e4992fc2cfd7ef4c140ffee389e4a62f867cb6f040223639"
+    },
+    {
+      "launch": 30,
+      "path": "E:/dlssnr-work-e/1080-close-r04-codex/maps/s1080-v1/L30-lane.npz",
+      "sha256": "c8979c9ab482d4f166b8af8c735aba5a662075f4e0219d063e5049880de470d7",
+      "arrays": {
+        "wload_off": {
+          "shape": [
+            80,
+            4,
+            32,
+            64
+          ],
+          "dtype": "<i8"
+        },
+        "sread_shared_off": {
+          "shape": [
+            80,
+            4,
+            32,
+            64
+          ],
+          "dtype": "<i8"
+        },
+        "sread_src": {
+          "shape": [
+            80,
+            4,
+            32,
+            64,
+            16
+          ],
+          "dtype": "<i8"
+        },
+        "gstore_off": {
+          "shape": [
+            80,
+            4,
+            32,
+            8
+          ],
+          "dtype": "<i8"
+        },
+        "xsite_src": {
+          "shape": [
+            80,
+            4,
+            32,
+            96,
+            4
+          ],
+          "dtype": "<i8"
+        },
+        "xsite_wsrc": {
+          "shape": [
+            80,
+            4,
+            32,
+            96,
+            4
+          ],
+          "dtype": "<i8"
+        }
+      }
+    },
+    {
+      "launch": 30,
+      "path": "E:/dlssnr-work-e/1080-close-r04-codex/maps/s1080-v1/L30-lane.wiring.json",
+      "sha256": "3364fc7bfa55fef2d1b482e20076294c4c2c766182d7ec034ddf890eebd2f530"
+    },
+    {
+      "launch": 31,
+      "path": "E:/dlssnr-work-e/1080-close-r04-codex/maps/s1080-v1/L31-lane.npz",
+      "sha256": "0e4d83a022dea600a9bc4584e7c8b5250b888a9b87a9ef89288bd8a3e8132c9b",
+      "arrays": {
+        "wload_off": {
+          "shape": [
+            160,
+            4,
+            32,
+            112
+          ],
+          "dtype": "<i8"
+        },
+        "sread_shared_off": {
+          "shape": [
+            160,
+            4,
+            32,
+            64
+          ],
+          "dtype": "<i8"
+        },
+        "sread_src": {
+          "shape": [
+            160,
+            4,
+            32,
+            64,
+            16
+          ],
+          "dtype": "<i8"
+        },
+        "gstore_off": {
+          "shape": [
+            160,
+            4,
+            32,
+            4
+          ],
+          "dtype": "<i8"
+        },
+        "xsite_src": {
+          "shape": [
+            160,
+            4,
+            32,
+            2,
+            4
+          ],
+          "dtype": "<i8"
+        },
+        "xsite_wsrc": {
+          "shape": [
+            160,
+            4,
+            32,
+            2,
+            4
+          ],
+          "dtype": "<i8"
+        },
+        "shfl_idx": {
+          "shape": [
+            160,
+            4,
+            32,
+            72
+          ],
+          "dtype": "<i8"
+        },
+        "psel": {
+          "shape": [
+            160,
+            4,
+            32,
+            32
+          ],
+          "dtype": "|i1"
+        }
+      }
+    },
+    {
+      "launch": 31,
+      "path": "E:/dlssnr-work-e/1080-close-r04-codex/maps/s1080-v1/L31-lane.wiring.json",
+      "sha256": "9c57bf1d18478764eb1d3084a6ac639081ab1fa18e2a5736dba48c7ad43df239"
+    },
+    {
+      "launch": 35,
+      "path": "E:/dlssnr-work-e/1080-close-r04-codex/maps/s1080-v1/L35-lane.npz",
+      "sha256": "ac597bf49b81dfcf09f16fa01ca090aec14264180b4ae1519009d127b25a224f",
+      "arrays": {
+        "wload_off": {
+          "shape": [
+            160,
+            4,
+            32,
+            112
+          ],
+          "dtype": "<i8"
+        },
+        "sread_shared_off": {
+          "shape": [
+            160,
+            4,
+            32,
+            64
+          ],
+          "dtype": "<i8"
+        },
+        "sread_src": {
+          "shape": [
+            160,
+            4,
+            32,
+            64,
+            16
+          ],
+          "dtype": "<i8"
+        },
+        "gstore_off": {
+          "shape": [
+            160,
+            4,
+            32,
+            4
+          ],
+          "dtype": "<i8"
+        },
+        "xsite_src": {
+          "shape": [
+            160,
+            4,
+            32,
+            2,
+            4
+          ],
+          "dtype": "<i8"
+        },
+        "xsite_wsrc": {
+          "shape": [
+            160,
+            4,
+            32,
+            2,
+            4
+          ],
+          "dtype": "<i8"
+        },
+        "shfl_idx": {
+          "shape": [
+            160,
+            4,
+            32,
+            72
+          ],
+          "dtype": "<i8"
+        },
+        "psel": {
+          "shape": [
+            160,
+            4,
+            32,
+            32
+          ],
+          "dtype": "|i1"
+        }
+      }
+    },
+    {
+      "launch": 35,
+      "path": "E:/dlssnr-work-e/1080-close-r04-codex/maps/s1080-v1/L35-lane.wiring.json",
+      "sha256": "9c57bf1d18478764eb1d3084a6ac639081ab1fa18e2a5736dba48c7ad43df239"
+    },
+    {
+      "launch": 39,
+      "path": "E:/dlssnr-work-e/1080-close-r04-codex/maps/s1080-v1/L39-lane.npz",
+      "sha256": "36add6b069a916ac96fbc0554067ea217eccd4c351715e23af9be208e6cd6a01",
+      "arrays": {
+        "wload_off": {
+          "shape": [
+            160,
+            4,
+            32,
+            112
+          ],
+          "dtype": "<i8"
+        },
+        "sread_shared_off": {
+          "shape": [
+            160,
+            4,
+            32,
+            64
+          ],
+          "dtype": "<i8"
+        },
+        "sread_src": {
+          "shape": [
+            160,
+            4,
+            32,
+            64,
+            16
+          ],
+          "dtype": "<i8"
+        },
+        "gstore_off": {
+          "shape": [
+            160,
+            4,
+            32,
+            4
+          ],
+          "dtype": "<i8"
+        },
+        "xsite_src": {
+          "shape": [
+            160,
+            4,
+            32,
+            2,
+            4
+          ],
+          "dtype": "<i8"
+        },
+        "xsite_wsrc": {
+          "shape": [
+            160,
+            4,
+            32,
+            2,
+            4
+          ],
+          "dtype": "<i8"
+        },
+        "shfl_idx": {
+          "shape": [
+            160,
+            4,
+            32,
+            72
+          ],
+          "dtype": "<i8"
+        },
+        "psel": {
+          "shape": [
+            160,
+            4,
+            32,
+            32
+          ],
+          "dtype": "|i1"
+        }
+      }
+    },
+    {
+      "launch": 39,
+      "path": "E:/dlssnr-work-e/1080-close-r04-codex/maps/s1080-v1/L39-lane.wiring.json",
+      "sha256": "9c57bf1d18478764eb1d3084a6ac639081ab1fa18e2a5736dba48c7ad43df239"
+    },
+    {
+      "launch": 56,
+      "path": "E:/dlssnr-work-e/1080-close-r04-codex/maps/s1080-v1/L56-lane.npz",
+      "sha256": "f9280f62d910b66cdb728860fe27d36153da6a71367182b6cb4951667b42bb01",
+      "arrays": {
+        "wload_off": {
+          "shape": [
+            80,
+            4,
+            32,
+            64
+          ],
+          "dtype": "<i8"
+        },
+        "sread_shared_off": {
+          "shape": [
+            80,
+            4,
+            32,
+            64
+          ],
+          "dtype": "<i8"
+        },
+        "sread_src": {
+          "shape": [
+            80,
+            4,
+            32,
+            64,
+            16
+          ],
+          "dtype": "<i8"
+        },
+        "gstore_off": {
+          "shape": [
+            80,
+            4,
+            32,
+            10
+          ],
+          "dtype": "<i8"
+        },
+        "xsite_src": {
+          "shape": [
+            80,
+            4,
+            32,
+            96,
+            4
+          ],
+          "dtype": "<i8"
+        },
+        "xsite_wsrc": {
+          "shape": [
+            80,
+            4,
+            32,
+            96,
+            4
+          ],
+          "dtype": "<i8"
+        },
+        "thread_class": {
+          "shape": [
+            80,
+            4,
+            32
+          ],
+          "dtype": "<i2"
+        },
+        "shfl_idx": {
+          "shape": [
+            80,
+            4,
+            32,
+            256
+          ],
+          "dtype": "<i8"
+        },
+        "psel": {
+          "shape": [
+            80,
+            4,
+            32,
+            64
+          ],
+          "dtype": "|i1"
+        }
+      }
+    },
+    {
+      "launch": 56,
+      "path": "E:/dlssnr-work-e/1080-close-r04-codex/maps/s1080-v1/L56-lane.wiring.json",
+      "sha256": "384adcbb6260db42348605a7b84532d10a02491a3fc4fb1260624227282d3686"
+    },
+    {
+      "launch": 57,
+      "path": "E:/dlssnr-work-e/1080-close-r04-codex/maps/s1080-v1/L57-lane.npz",
+      "sha256": "c00412c09aa86e2035183f73c1358277dc604b2f03f72cc3e6dc31eea767a9c6",
+      "arrays": {
+        "wload_off": {
+          "shape": [
+            48,
+            8,
+            32,
+            64
+          ],
+          "dtype": "<i8"
+        },
+        "sread_shared_off": {
+          "shape": [
+            48,
+            8,
+            32,
+            32
+          ],
+          "dtype": "<i8"
+        },
+        "sread_src": {
+          "shape": [
+            48,
+            8,
+            32,
+            32,
+            16
+          ],
+          "dtype": "<i8"
+        },
+        "gstore_off": {
+          "shape": [
+            48,
+            8,
+            32,
+            4
+          ],
+          "dtype": "<i8"
+        },
+        "xsite_src": {
+          "shape": [
+            48,
+            8,
+            32,
+            0,
+            4
+          ],
+          "dtype": "<i8"
+        },
+        "xsite_wsrc": {
+          "shape": [
+            48,
+            8,
+            32,
+            0,
+            4
+          ],
+          "dtype": "<i8"
+        }
+      }
+    },
+    {
+      "launch": 57,
+      "path": "E:/dlssnr-work-e/1080-close-r04-codex/maps/s1080-v1/L57-lane.wiring.json",
+      "sha256": "aca3c19410e09c60086e2076bfd5b6f614382a9cceeaade6487193d3defee052"
+    },
+    {
+      "launch": 132,
+      "path": "E:/dlssnr-work-e/1080-close-r04-codex/assets/tail-l132-b47-r01-codex/maps/L132-1080-lane.npz",
+      "sha256": "9fd3d321d4c6beb3cd5eb5b4901b526241d5064c6bdadadda1e6eb891a14b668",
+      "arrays": {
+        "wload_off": {
+          "shape": [
+            80,
+            4,
+            32,
+            64
+          ],
+          "dtype": "<i8"
+        },
+        "sread_shared_off": {
+          "shape": [
+            80,
+            4,
+            32,
+            64
+          ],
+          "dtype": "<i8"
+        },
+        "sread_src": {
+          "shape": [
+            80,
+            4,
+            32,
+            64,
+            16
+          ],
+          "dtype": "<i8"
+        },
+        "gstore_off": {
+          "shape": [
+            80,
+            4,
+            32,
+            32
+          ],
+          "dtype": "<i8"
+        },
+        "xsite_src": {
+          "shape": [
+            80,
+            4,
+            32,
+            96,
+            4
+          ],
+          "dtype": "<i8"
+        },
+        "xsite_wsrc": {
+          "shape": [
+            80,
+            4,
+            32,
+            96,
+            4
+          ],
+          "dtype": "<i8"
+        }
+      }
+    },
+    {
+      "launch": 132,
+      "path": "E:/dlssnr-work-e/1080-close-r04-codex/assets/tail-l132-b47-r01-codex/maps/L132-1080-lane.wiring.json",
+      "sha256": "bf30565a4e15efcdc759aa776baa3fa4effd1056c48b5a7293b11b8e6e8dce12"
+    },
+    {
+      "launch": 100,
+      "path": "E:/dlssnr-work-e/1080-close-r04-codex/assets/tail-l100-b39-r02-codex/maps/b39-map.npz",
+      "sha256": "12701da070a98f9242fa0e60e5fe767917902bdc6c1b9266109d91c161d42dd5",
+      "arrays": {
+        "A_src": {
+          "shape": [
+            4,
+            5,
+            16,
+            2,
+            16,
+            8,
+            32
+          ],
+          "dtype": "<i4"
+        },
+        "B_off": {
+          "shape": [
+            4,
+            5,
+            16,
+            2,
+            16,
+            8,
+            32
+          ],
+          "dtype": "<i4"
+        },
+        "OUTMAP": {
+          "shape": [
+            1105920,
+            12
+          ],
+          "dtype": "<i4"
+        },
+        "RED_OFF": {
+          "shape": [
+            327680
+          ],
+          "dtype": "<i4"
+        },
+        "REDMAP": {
+          "shape": [
+            327680,
+            3,
+            4
+          ],
+          "dtype": "<i4"
+        }
+      }
+    },
+    {
+      "launch": 100,
+      "path": "E:/dlssnr-work-e/1080-close-r04-codex/assets/tail-l100-b39-r02-codex/maps/b39-map.json",
+      "sha256": "f13f6762121f5a59bbf1e9faf172166b49e0117291cd36a066f0c7df804d0963"
+    }
+  ],
+  "graph_summaries": [
+    {
+      "launch": 25,
+      "matrix_chain_length_counts": {
+        "8": 32,
+        "2": 128,
+        "16": 32
+      }
+    },
+    {
+      "launch": 26,
+      "matrix_chain_length_counts": {
+        "16": 32
+      }
+    },
+    {
+      "launch": 27,
+      "matrix_chain_length_counts": {
+        "16": 48,
+        "1": 32,
+        "2": 16
+      }
+    },
+    {
+      "launch": 28,
+      "matrix_chain_length_counts": {
+        "16": 16
+      },
+      "all_chain_starts_scaled_decoded_input_seed": true,
+      "seed_live_byte_references": 1105920,
+      "seed_live_sources_all_second_input_role": true
+    },
+    {
+      "launch": 29,
+      "matrix_chain_length_counts": {
+        "16": 16,
+        "2": 64,
+        "8": 16
+      }
+    },
+    {
+      "launch": 30,
+      "matrix_chain_length_counts": {
+        "16": 32
+      }
+    },
+    {
+      "launch": 31,
+      "matrix_chain_length_counts": {
+        "16": 48,
+        "1": 32,
+        "2": 16
+      }
+    },
+    {
+      "launch": 35,
+      "matrix_chain_length_counts": {
+        "16": 48,
+        "1": 32,
+        "2": 16
+      }
+    },
+    {
+      "launch": 39,
+      "matrix_chain_length_counts": {
+        "16": 48,
+        "1": 32,
+        "2": 16
+      }
+    },
+    {
+      "launch": 56,
+      "matrix_chain_length_counts": {
+        "16": 32
+      },
+      "all_chain_starts_scaled_decoded_input_seed": true,
+      "seed_live_byte_references": 1105920,
+      "seed_live_sources_all_second_input_role": true
+    },
+    {
+      "launch": 57,
+      "matrix_chain_length_counts": {
+        "16": 16
+      }
+    },
+    {
+      "launch": 132,
+      "matrix_chain_length_counts": {
+        "16": 32
+      },
+      "all_chain_starts_scaled_decoded_input_seed": true,
+      "seed_live_byte_references": 1105920,
+      "seed_live_sources_all_second_input_role": true
+    }
+  ],
+  "pointer_checks": "ALL_16_BLOCK_EDGES_AND_5_BRIDGE_EDGES_MATCH",
+  "repack_integer_illustration": {
+    "rows": 20,
+    "cols": 32,
+    "T": 640,
+    "P": 640,
+    "tile0_c0": [
+      {
+        "local_xy": [
+          0,
+          0
+        ],
+        "slot": 0,
+        "token": 0,
+        "c0_tiled_byte": 0,
+        "c0_raster_byte": 0
+      },
+      {
+        "local_xy": [
+          1,
+          0
+        ],
+        "slot": 1,
+        "token": 1,
+        "c0_tiled_byte": 64,
+        "c0_raster_byte": 64
+      },
+      {
+        "local_xy": [
+          2,
+          0
+        ],
+        "slot": 2,
+        "token": 2,
+        "c0_tiled_byte": 128,
+        "c0_raster_byte": 128
+      },
+      {
+        "local_xy": [
+          3,
+          0
+        ],
+        "slot": 3,
+        "token": 3,
+        "c0_tiled_byte": 192,
+        "c0_raster_byte": 192
+      },
+      {
+        "local_xy": [
+          0,
+          1
+        ],
+        "slot": 4,
+        "token": 32,
+        "c0_tiled_byte": 256,
+        "c0_raster_byte": 32768
+      },
+      {
+        "local_xy": [
+          1,
+          1
+        ],
+        "slot": 5,
+        "token": 33,
+        "c0_tiled_byte": 320,
+        "c0_raster_byte": 32832
+      },
+      {
+        "local_xy": [
+          2,
+          1
+        ],
+        "slot": 6,
+        "token": 34,
+        "c0_tiled_byte": 384,
+        "c0_raster_byte": 32896
+      },
+      {
+        "local_xy": [
+          3,
+          1
+        ],
+        "slot": 7,
+        "token": 35,
+        "c0_tiled_byte": 448,
+        "c0_raster_byte": 32960
+      },
+      {
+        "local_xy": [
+          0,
+          2
+        ],
+        "slot": 8,
+        "token": 64,
+        "c0_tiled_byte": 4,
+        "c0_raster_byte": 65536
+      },
+      {
+        "local_xy": [
+          1,
+          2
+        ],
+        "slot": 9,
+        "token": 65,
+        "c0_tiled_byte": 68,
+        "c0_raster_byte": 65600
+      },
+      {
+        "local_xy": [
+          2,
+          2
+        ],
+        "slot": 10,
+        "token": 66,
+        "c0_tiled_byte": 132,
+        "c0_raster_byte": 65664
+      },
+      {
+        "local_xy": [
+          3,
+          2
+        ],
+        "slot": 11,
+        "token": 67,
+        "c0_tiled_byte": 196,
+        "c0_raster_byte": 65728
+      },
+      {
+        "local_xy": [
+          0,
+          3
+        ],
+        "slot": 12,
+        "token": 96,
+        "c0_tiled_byte": 260,
+        "c0_raster_byte": 98304
+      },
+      {
+        "local_xy": [
+          1,
+          3
+        ],
+        "slot": 13,
+        "token": 97,
+        "c0_tiled_byte": 324,
+        "c0_raster_byte": 98368
+      },
+      {
+        "local_xy": [
+          2,
+          3
+        ],
+        "slot": 14,
+        "token": 98,
+        "c0_tiled_byte": 388,
+        "c0_raster_byte": 98432
+      },
+      {
+        "local_xy": [
+          3,
+          3
+        ],
+        "slot": 15,
+        "token": 99,
+        "c0_tiled_byte": 452,
+        "c0_raster_byte": 98496
+      }
+    ],
+    "pi_4096_bijection": true,
+    "scope": "integer illustration only; no payload execution"
+  },
+  "status": "ALL_65_PARAMS_AND_26_MAP_ASSETS_SHA_MATCH"
+}

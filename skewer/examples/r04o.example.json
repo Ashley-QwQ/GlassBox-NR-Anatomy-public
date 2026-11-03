@@ -1,0 +1,184 @@
+{
+  "status": "PASS",
+  "scope": "13 selected held-out F22 address/index cells; no full map/model/chain run",
+  "family": "F22",
+  "geometry": {
+    "H": 12,
+    "W": 20
+  },
+  "window": [
+    2,
+    1
+  ],
+  "source_path": "E:\\dlssnr-pytorch-cpu-20260909\\experiments\\parity-split16-vit-size-r01-20260918\\seg\\B30\\maps\\s640-v1\\L56-lane.npz",
+  "source_sha256": "52c91f98ee6dd4d631f8e3ad3a7d2d625068d022aaa9413862f810f6df1fc2f3",
+  "formula_sha256": "e3bba5819b7e34bf4439a74f37127324f5b802579489618925822a069bbf1990",
+  "inventory_sha256": "056556fcd644763888b63626b2cc4c7c338d6c38f51015c76e8b4a69ba61111a",
+  "rows": [
+    {
+      "field": "wload_off",
+      "coordinate": [
+        8,
+        0,
+        5,
+        0
+      ],
+      "formula": 80,
+      "document_formula": 80,
+      "stored": 80
+    },
+    {
+      "field": "wload_off",
+      "coordinate": [
+        8,
+        0,
+        5,
+        63
+      ],
+      "formula": 247376,
+      "document_formula": 247376,
+      "stored": 247376
+    },
+    {
+      "field": "sread_shared_off",
+      "coordinate": [
+        8,
+        0,
+        5,
+        0
+      ],
+      "formula": 80,
+      "document_formula": 80,
+      "stored": 80
+    },
+    {
+      "field": "sread_shared_off",
+      "coordinate": [
+        8,
+        0,
+        5,
+        63
+      ],
+      "formula": 7760,
+      "document_formula": 7760,
+      "stored": 7760
+    },
+    {
+      "field": "sread_src",
+      "coordinate": [
+        8,
+        0,
+        5,
+        0,
+        0
+      ],
+      "formula": 114768,
+      "document_formula": 114768,
+      "stored": 114768
+    },
+    {
+      "field": "sread_src",
+      "coordinate": [
+        8,
+        0,
+        5,
+        2,
+        15
+      ],
+      "formula": -1,
+      "document_formula": -1,
+      "stored": -1
+    },
+    {
+      "field": "gstore_off",
+      "coordinate": [
+        8,
+        0,
+        5,
+        0
+      ],
+      "formula": 114768,
+      "document_formula": 114768,
+      "stored": 114768
+    },
+    {
+      "field": "gstore_off",
+      "coordinate": [
+        8,
+        0,
+        5,
+        2
+      ],
+      "formula": -1,
+      "document_formula": -1,
+      "stored": -1
+    },
+    {
+      "field": "gstore_off",
+      "coordinate": [
+        8,
+        0,
+        5,
+        8
+      ],
+      "formula": 163920,
+      "document_formula": 163920,
+      "stored": 163920
+    },
+    {
+      "field": "gstore_off",
+      "coordinate": [
+        8,
+        0,
+        5,
+        9
+      ],
+      "formula": 164432,
+      "document_formula": 164432,
+      "stored": 164432
+    },
+    {
+      "field": "psel",
+      "coordinate": [
+        8,
+        0,
+        5,
+        0
+      ],
+      "formula": -2,
+      "document_formula": -2,
+      "stored": -2
+    },
+    {
+      "field": "psel",
+      "coordinate": [
+        8,
+        0,
+        9,
+        0
+      ],
+      "formula": 1,
+      "document_formula": 1,
+      "stored": 1
+    },
+    {
+      "field": "psel",
+      "coordinate": [
+        8,
+        0,
+        25,
+        0
+      ],
+      "formula": 0,
+      "document_formula": 0,
+      "stored": 0
+    }
+  ],
+  "samples": 13,
+  "mismatches": 0,
+  "new_GPU_runs": 0,
+  "new_model_runs": 0,
+  "new_chain_runs": 0,
+  "new_compile_runs": 0,
+  "external_writes": 0
+}

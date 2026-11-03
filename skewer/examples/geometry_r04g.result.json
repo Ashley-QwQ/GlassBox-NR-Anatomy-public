@@ -1,0 +1,540 @@
+{
+  "status": "PASS",
+  "scope": "fixed 1080 integer maps only, not native independent spatial-layout proof",
+  "L100_output_bytes": 1105920,
+  "L100_all_four_channel_group_ids_once": true,
+  "L100_shared_non_channel_selector": true,
+  "L100_A_source_groups_same_position_channels_shift_256": true,
+  "L100_single_trace_channel_ranges": [
+    [
+      0,
+      255
+    ],
+    [
+      256,
+      511
+    ],
+    [
+      512,
+      767
+    ],
+    [
+      768,
+      1023
+    ]
+  ],
+  "L100_each_partial_K": 256,
+  "L100_all_matrix_rows_each_partial_256_distinct_channels": true,
+  "L56_extent_relation": {
+    "input_wh": [
+      60,
+      36
+    ],
+    "window_counts": [
+      8,
+      5
+    ],
+    "window_canvas_wh": [
+      64,
+      40
+    ],
+    "per_window_output_wh": [
+      4,
+      4
+    ],
+    "output_wh": [
+      32,
+      20
+    ]
+  },
+  "L56_pooled_unique_16B_events": 20480,
+  "L56_4x4x512_tiles": 40,
+  "L56_bytes_per_tile": 8192,
+  "L56_task_output_summary": [
+    {
+      "bytes": 4096,
+      "tile_ids": [
+        0
+      ]
+    },
+    {
+      "bytes": 4096,
+      "tile_ids": [
+        1
+      ]
+    },
+    {
+      "bytes": 4096,
+      "tile_ids": [
+        2
+      ]
+    },
+    {
+      "bytes": 4096,
+      "tile_ids": [
+        3
+      ]
+    },
+    {
+      "bytes": 4096,
+      "tile_ids": [
+        4
+      ]
+    },
+    {
+      "bytes": 4096,
+      "tile_ids": [
+        5
+      ]
+    },
+    {
+      "bytes": 4096,
+      "tile_ids": [
+        6
+      ]
+    },
+    {
+      "bytes": 4096,
+      "tile_ids": [
+        7
+      ]
+    },
+    {
+      "bytes": 4096,
+      "tile_ids": [
+        0
+      ]
+    },
+    {
+      "bytes": 4096,
+      "tile_ids": [
+        1
+      ]
+    },
+    {
+      "bytes": 4096,
+      "tile_ids": [
+        2
+      ]
+    },
+    {
+      "bytes": 4096,
+      "tile_ids": [
+        3
+      ]
+    },
+    {
+      "bytes": 4096,
+      "tile_ids": [
+        4
+      ]
+    },
+    {
+      "bytes": 4096,
+      "tile_ids": [
+        5
+      ]
+    },
+    {
+      "bytes": 4096,
+      "tile_ids": [
+        6
+      ]
+    },
+    {
+      "bytes": 4096,
+      "tile_ids": [
+        7
+      ]
+    },
+    {
+      "bytes": 4096,
+      "tile_ids": [
+        8
+      ]
+    },
+    {
+      "bytes": 4096,
+      "tile_ids": [
+        9
+      ]
+    },
+    {
+      "bytes": 4096,
+      "tile_ids": [
+        10
+      ]
+    },
+    {
+      "bytes": 4096,
+      "tile_ids": [
+        11
+      ]
+    },
+    {
+      "bytes": 4096,
+      "tile_ids": [
+        12
+      ]
+    },
+    {
+      "bytes": 4096,
+      "tile_ids": [
+        13
+      ]
+    },
+    {
+      "bytes": 4096,
+      "tile_ids": [
+        14
+      ]
+    },
+    {
+      "bytes": 4096,
+      "tile_ids": [
+        15
+      ]
+    },
+    {
+      "bytes": 4096,
+      "tile_ids": [
+        8
+      ]
+    },
+    {
+      "bytes": 4096,
+      "tile_ids": [
+        9
+      ]
+    },
+    {
+      "bytes": 4096,
+      "tile_ids": [
+        10
+      ]
+    },
+    {
+      "bytes": 4096,
+      "tile_ids": [
+        11
+      ]
+    },
+    {
+      "bytes": 4096,
+      "tile_ids": [
+        12
+      ]
+    },
+    {
+      "bytes": 4096,
+      "tile_ids": [
+        13
+      ]
+    },
+    {
+      "bytes": 4096,
+      "tile_ids": [
+        14
+      ]
+    },
+    {
+      "bytes": 4096,
+      "tile_ids": [
+        15
+      ]
+    },
+    {
+      "bytes": 4096,
+      "tile_ids": [
+        16
+      ]
+    },
+    {
+      "bytes": 4096,
+      "tile_ids": [
+        17
+      ]
+    },
+    {
+      "bytes": 4096,
+      "tile_ids": [
+        18
+      ]
+    },
+    {
+      "bytes": 4096,
+      "tile_ids": [
+        19
+      ]
+    },
+    {
+      "bytes": 4096,
+      "tile_ids": [
+        20
+      ]
+    },
+    {
+      "bytes": 4096,
+      "tile_ids": [
+        21
+      ]
+    },
+    {
+      "bytes": 4096,
+      "tile_ids": [
+        22
+      ]
+    },
+    {
+      "bytes": 4096,
+      "tile_ids": [
+        23
+      ]
+    },
+    {
+      "bytes": 4096,
+      "tile_ids": [
+        16
+      ]
+    },
+    {
+      "bytes": 4096,
+      "tile_ids": [
+        17
+      ]
+    },
+    {
+      "bytes": 4096,
+      "tile_ids": [
+        18
+      ]
+    },
+    {
+      "bytes": 4096,
+      "tile_ids": [
+        19
+      ]
+    },
+    {
+      "bytes": 4096,
+      "tile_ids": [
+        20
+      ]
+    },
+    {
+      "bytes": 4096,
+      "tile_ids": [
+        21
+      ]
+    },
+    {
+      "bytes": 4096,
+      "tile_ids": [
+        22
+      ]
+    },
+    {
+      "bytes": 4096,
+      "tile_ids": [
+        23
+      ]
+    },
+    {
+      "bytes": 4096,
+      "tile_ids": [
+        24
+      ]
+    },
+    {
+      "bytes": 4096,
+      "tile_ids": [
+        25
+      ]
+    },
+    {
+      "bytes": 4096,
+      "tile_ids": [
+        26
+      ]
+    },
+    {
+      "bytes": 4096,
+      "tile_ids": [
+        27
+      ]
+    },
+    {
+      "bytes": 4096,
+      "tile_ids": [
+        28
+      ]
+    },
+    {
+      "bytes": 4096,
+      "tile_ids": [
+        29
+      ]
+    },
+    {
+      "bytes": 4096,
+      "tile_ids": [
+        30
+      ]
+    },
+    {
+      "bytes": 4096,
+      "tile_ids": [
+        31
+      ]
+    },
+    {
+      "bytes": 4096,
+      "tile_ids": [
+        24
+      ]
+    },
+    {
+      "bytes": 4096,
+      "tile_ids": [
+        25
+      ]
+    },
+    {
+      "bytes": 4096,
+      "tile_ids": [
+        26
+      ]
+    },
+    {
+      "bytes": 4096,
+      "tile_ids": [
+        27
+      ]
+    },
+    {
+      "bytes": 4096,
+      "tile_ids": [
+        28
+      ]
+    },
+    {
+      "bytes": 4096,
+      "tile_ids": [
+        29
+      ]
+    },
+    {
+      "bytes": 4096,
+      "tile_ids": [
+        30
+      ]
+    },
+    {
+      "bytes": 4096,
+      "tile_ids": [
+        31
+      ]
+    },
+    {
+      "bytes": 4096,
+      "tile_ids": [
+        32
+      ]
+    },
+    {
+      "bytes": 4096,
+      "tile_ids": [
+        33
+      ]
+    },
+    {
+      "bytes": 4096,
+      "tile_ids": [
+        34
+      ]
+    },
+    {
+      "bytes": 4096,
+      "tile_ids": [
+        35
+      ]
+    },
+    {
+      "bytes": 4096,
+      "tile_ids": [
+        36
+      ]
+    },
+    {
+      "bytes": 4096,
+      "tile_ids": [
+        37
+      ]
+    },
+    {
+      "bytes": 4096,
+      "tile_ids": [
+        38
+      ]
+    },
+    {
+      "bytes": 4096,
+      "tile_ids": [
+        39
+      ]
+    },
+    {
+      "bytes": 4096,
+      "tile_ids": [
+        32
+      ]
+    },
+    {
+      "bytes": 4096,
+      "tile_ids": [
+        33
+      ]
+    },
+    {
+      "bytes": 4096,
+      "tile_ids": [
+        34
+      ]
+    },
+    {
+      "bytes": 4096,
+      "tile_ids": [
+        35
+      ]
+    },
+    {
+      "bytes": 4096,
+      "tile_ids": [
+        36
+      ]
+    },
+    {
+      "bytes": 4096,
+      "tile_ids": [
+        37
+      ]
+    },
+    {
+      "bytes": 4096,
+      "tile_ids": [
+        38
+      ]
+    },
+    {
+      "bytes": 4096,
+      "tile_ids": [
+        39
+      ]
+    }
+  ],
+  "limits": "window counts and output tile capacity support the geometry; not proof of standard average pooling or a unique native interpolation kernel",
+  "source_sha256": {
+    "E:/dlssnr-work-e/1080-close-r04-codex/assets/tail-l100-b39-r02-codex/maps/b39-map.npz": "12701da070a98f9242fa0e60e5fe767917902bdc6c1b9266109d91c161d42dd5",
+    "E:/dlssnr-work-e/1080-close-r04-codex/maps/s1080-v1/L56-lane.npz": "f9280f62d910b66cdb728860fe27d36153da6a71367182b6cb4951667b42bb01"
+  }
+}

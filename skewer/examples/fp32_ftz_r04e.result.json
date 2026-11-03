@@ -1,0 +1,59 @@
+{
+  "status": "PASS",
+  "scope": "artificial scalar CPU boundaries only; zero GPU/model/chain runs",
+  "compiler": "C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WinGet\\Packages\\BrechtSanders.WinLibs.POSIX.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\\mingw64\\bin\\g++.EXE",
+  "compiler_version": "g++.EXE (MinGW-W64 x86_64-ucrt-posix-seh, built by Brecht Sanders, r4) 16.1.0",
+  "flags": [
+    "-std=c++20",
+    "-O2",
+    "-fno-fast-math",
+    "-ffp-contract=off",
+    "-frounding-math",
+    "-static"
+  ],
+  "floating_environment": "IEEE binary32/binary64 and FE_TONEAREST checked; no mode or FTZ/DAZ changes",
+  "extracted_functions": {
+    "half": [
+      "half_value",
+      "half_round"
+    ],
+    "tail": [
+      "fb",
+      "ftz",
+      "rz",
+      "require",
+      "ftz_tiny_before_fma",
+      "fm",
+      "ff"
+    ]
+  },
+  "source_sha256": {
+    "E:/GlassBox-NR/cpp/chain_outtail_optm/outtail.cpp": "b2d807fd1d4fe015eefa234918028709dbb0e98ade3b97145ae8653bd29a2aef",
+    "E:/GlassBox-NR/cpp/chain_outtail_optm/primitives.hpp": "aad1fe9554d8e25394b49d58cfcc655e5599cbc9529e2c34887bb70a4ce23420",
+    "E:/GlassBox-NR/cpp/chain_outtail_optm/b70_temporal.hpp": "93af4fc635fde05c4930d11a33bcd4e5257d238c04184d1a1a68d41ada111179",
+    "E:/GlassBox-NR/cpp/chain_entry_optm/native_temporal.hpp": "017710cd6c0a10ce45b606130fa6ebc05e98df760fac1055abda6dc3399b8bd9",
+    "E:/GlassBox-NR/cpp/chain_entry_optm/noise_online_optd.hpp": "eb3bf2ae81d2f38a14b5cede37f0008b867bd97c63bd594dce1df2c20572898b",
+    "E:/GlassBox-NR/cpp/chain_entry_optm/b00.hpp": "932e0c805f020420f0e6fad9543d3e1710d0561b6afa14a30263d6f9bd939392",
+    "E:/GlassBox-NR/cpp/chain_tin_optm/tin.cpp": "371d33d205655f75c809f0f9990a8054edf8e930a31733f72dbf916f87b4f1f8",
+    "E:/GlassBox-NR/cpp/chain_tin_optm/unary_tables_optb2.inc": "8ae6b6dd423aac2f583ad330b131ce745d29a064a18caf50f85b37fd624711f3",
+    "E:/GlassBox-NR/cpp/chain_split16_optm/scalar_map.hpp": "20610eaa92c3bada615647abd5d2ce5989f7186374b83d1aaeb7c4d4dff3a50a",
+    "E:/GlassBox-NR/cpp/chain_entry_optm/mapexec_base.hpp": "0ac19678e7b4a31857434ffda3b250f508c98e76970485b3c70f7948b65eeb60",
+    "E:/GlassBox-NR/cpp/fam_attention_chain_r02/attention_impl.hpp": "713f0a6b5522e63ebdcb3652bae13c6903d5baaf16ba56fd0738a297d5157206",
+    "E:/GlassBox-NR/cpp/fam_qkv_projection_chain_r02/qkv_projection_impl.hpp": "8c25e447458f442eb5d96cd11d3ed1380557658ebf0211845459dfc8ce6cf89b",
+    "E:/GlassBox-NR/cpp/chain_outtail_optm/lg2_decoder.hpp": "6b1cf904e1bf7a9943c79b28f1675838e29ea51091d70c367932a1165ff520f8",
+    "E:/GlassBox-NR/devkit/plan_format.py": "0a05d252f46aeab08923b2ba62dc230e5c9535000be15a013d43100f27e43a17"
+  },
+  "generated_cpp_sha256": "a6f2bcff2fd7d679abf41b8e368e1d294e6cf0973b3b76345ab5f6005856b5b9",
+  "temporary_build": "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\anatomy-fp32-r04e-n9ltubs9",
+  "compile_stderr": "",
+  "stdout": [
+    "boundary 33800000 0001 0001 01 00",
+    "boundary 33c00000 0002 0001 01 00",
+    "boundary b3c00000 8002 8001 01 80",
+    "ftz_bits 00000001 00000000",
+    "ftz_bits 80000001 80000000",
+    "fm_refused fp32 underflow boundary",
+    "ff_refused fp32 FMA underflow boundary",
+    "FP_ENV_RN_IEEE_NO_CONTROL_CHANGES"
+  ]
+}

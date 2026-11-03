@@ -1,0 +1,130 @@
+{
+  "status": "PASS",
+  "scope": "synthetic formulas and existing metadata only",
+  "checks": {
+    "layout_roundtrips": [
+      [
+        32,
+        false,
+        8192
+      ],
+      [
+        32,
+        true,
+        8192
+      ],
+      [
+        64,
+        false,
+        16384
+      ],
+      [
+        64,
+        true,
+        16384
+      ],
+      [
+        128,
+        false,
+        32768
+      ],
+      [
+        128,
+        true,
+        32768
+      ],
+      [
+        256,
+        false,
+        65536
+      ],
+      [
+        256,
+        true,
+        65536
+      ]
+    ],
+    "matrix_roundtrips": [
+      [
+        32,
+        128,
+        false,
+        4096
+      ],
+      [
+        128,
+        32,
+        false,
+        4096
+      ],
+      [
+        64,
+        384,
+        true,
+        24576
+      ],
+      [
+        256,
+        1152,
+        true,
+        294912
+      ],
+      [
+        512,
+        256,
+        false,
+        131072
+      ]
+    ],
+    "adapter_half_slots": 512,
+    "bias_slots": 4096,
+    "TIN_bias_half_slots": 4096,
+    "B70_head_half_slots": 64,
+    "transpose_half_slots": 64,
+    "half_order_control": [
+      0.0,
+      1.0
+    ],
+    "expand_release_permutations": [
+      1,
+      5,
+      8,
+      16
+    ],
+    "split_release_calls": {
+      "320": 47,
+      "640": 16,
+      "empty": 1
+    },
+    "pool_zero_span_shapes": 3,
+    "packed_controls_signed_zero_and_RZ": true,
+    "function_source_identity_checks": 2,
+    "function_table_endpoints": {
+      "rsq": {
+        "entries": 30705,
+        "first_input": 1040,
+        "last_input": 31744
+      },
+      "rcp": {
+        "entries": 30704,
+        "first_input": 1040,
+        "last_input": 31743
+      }
+    },
+    "L56_DAG_contract": {
+      "nodes": 5857,
+      "matrix_events": 512,
+      "chains": 32,
+      "steps_per_chain": 16
+    },
+    "L57_DAG_contract": {
+      "nodes": 2625,
+      "matrix_events": 256,
+      "chains": 16,
+      "steps_per_chain": 16
+    }
+  },
+  "new_GPU_runs": 0,
+  "new_model_runs": 0,
+  "new_chain_runs": 0
+}

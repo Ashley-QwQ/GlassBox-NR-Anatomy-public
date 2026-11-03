@@ -1,0 +1,46 @@
+{
+  "status": "PASS",
+  "scope": "artificial 64-key one-channel scalar illustration, no GPU/model/chain",
+  "scores_period": [
+    -8,
+    -4,
+    -2,
+    -1,
+    0,
+    1,
+    2,
+    8
+  ],
+  "values_period": [
+    1,
+    -1,
+    2,
+    -2,
+    4,
+    -4,
+    8,
+    -8
+  ],
+  "repeats": 8,
+  "columns": "family denominator_F16 reciprocal_F16 AV_F16 output_E4 first_8_weight_E4",
+  "stdout": "ViT 4d32 2a29 d448 c5 weights 02 02 06 0f 1b 26 32 3d\nTIN 5506 225f c7e0 d0 weights 00 00 00 00 00 00 01 20\n",
+  "denominator_values": [
+    20.78125,
+    80.375
+  ],
+  "source_sha256": {
+    "E:/GlassBox-NR/cpp/fam_ffn_expand_resume2_chain_r02/ffn_expand-resume2.cpp": "fe67bb0dc7c878e69291798425c77a3c3f013863e11f36a48e533323ede40287",
+    "E:/GlassBox-NR/cpp/chain_tin_optm/qmma_sm120.hpp": "2b85ddfaeb37eb5d16560224def629ff29a043c4421b5b571749103b398e5452",
+    "E:/dlssnr-pytorch-cpu-20260909/mlxdlss/resources/rcp-domain.npz": "055e26f1b2324491e47b7faf02f3b82c4da71fd6d7cb4843b1275f61f95b2b59"
+  },
+  "generated_scalar_sha256": "e64b2ccace286f45d5a179481e512bf842cbf95b5f692a723c52659bcd64e943",
+  "compiler": "C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WinGet\\Packages\\BrechtSanders.WinLibs.POSIX.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\\mingw64\\bin\\g++.EXE",
+  "flags": [
+    "-std=c++20",
+    "-O2",
+    "-fno-fast-math",
+    "-ffp-contract=off",
+    "-frounding-math",
+    "-static"
+  ]
+}

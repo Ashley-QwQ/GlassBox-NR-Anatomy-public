@@ -1,0 +1,56 @@
+{
+  "scope": "artificial scalar CPU example; zero GPU/model/chain runs",
+  "compiler": "C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WinGet\\Packages\\BrechtSanders.WinLibs.POSIX.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\\mingw64\\bin\\g++.EXE",
+  "compiler_version": "g++.EXE (MinGW-W64 x86_64-ucrt-posix-seh, built by Brecht Sanders, r4) 16.1.0",
+  "flags": [
+    "-std=c++20",
+    "-O2",
+    "-fno-fast-math",
+    "-ffp-contract=off",
+    "-static"
+  ],
+  "source_sha256": {
+    "E:\\GlassBox-NR\\cpp\\chain_entry_optm\\b00.hpp": "932e0c805f020420f0e6fad9543d3e1710d0561b6afa14a30263d6f9bd939392",
+    "E:\\GlassBox-NR\\cpp\\chain_tin_optm\\tin.cpp": "371d33d205655f75c809f0f9990a8054edf8e930a31733f72dbf916f87b4f1f8",
+    "E:\\GlassBox-NR\\cpp\\fam_ffn_expand_resume2_chain_r02\\ffn_expand-resume2.cpp": "fe67bb0dc7c878e69291798425c77a3c3f013863e11f36a48e533323ede40287",
+    "E:\\GlassBox-NR\\cpp\\chain_tin_optm\\qmma_sm120.hpp": "2b85ddfaeb37eb5d16560224def629ff29a043c4421b5b571749103b398e5452",
+    "E:\\GlassBox-NR\\cpp\\chain_entry_optm\\mapexec_base.hpp": "0ac19678e7b4a31857434ffda3b250f508c98e76970485b3c70f7948b65eeb60",
+    "E:\\GlassBox-NR\\cpp\\chain_tin_optm\\primitives.inc": "5e5519dbbe41145146487512337401631ac8342c74f7357ba7ab781219a4c48e"
+  },
+  "extracted_functions": [
+    "half_value",
+    "half_round",
+    "e4_units",
+    "e4_half",
+    "sat_e4",
+    "h_add",
+    "h_mul",
+    "h_fma",
+    "h_min",
+    "h_max",
+    "b0 gate",
+    "tin gate_reference",
+    "vit gate"
+  ],
+  "helper_source_check": "all helper bodies equal after bit-copy wrapper name normalization; cached E4 publication compared through its unchanged reference",
+  "temporary_build": "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\anatomy-ffn-r04b-jc7m7hcw",
+  "generated_cpp_sha256": "07a0c8474e5881a215759fe38fe8034eb5c2963ecb07ccaf93b0fbd7f2f1dd3b",
+  "stdout": [
+    "finite_gate_equal 63488",
+    "c500 80 3800 3800 30",
+    "c400 80 3800 3800 30",
+    "bc00 b0 3800 0000 00",
+    "8000 80 3800 3800 30",
+    "0000 00 3800 3800 30",
+    "3800 31 3800 3c40 38",
+    "3c00 3a 3800 3f00 3e",
+    "4000 45 3800 4380 47",
+    "4400 4e 3800 4780 4f",
+    "4500 51 3800 48c0 52",
+    "ordered_half 3c00 reordered_half 4000",
+    "vit_nonfinite_refused 7c00",
+    "vit_nonfinite_refused fc00",
+    "vit_nonfinite_refused 7e00"
+  ],
+  "status": "PASS"
+}

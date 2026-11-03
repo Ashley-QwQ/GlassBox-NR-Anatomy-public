@@ -1,0 +1,206 @@
+{
+  "beginner_pages": [
+    "INDEX.md",
+    "L0_frame.md",
+    "L3_b0_input.md",
+    "L3_ffn.md",
+    "L3_tin_window.md",
+    "L3_split16_window.md",
+    "L3_attention_softmax.md",
+    "L3_norm_nonfinite.md",
+    "L3_qmma_e4m3.md",
+    "L3_b70_history_output.md",
+    "L3_workspace_map.md",
+    "L1_01_prepare.md",
+    "L1_02_input_b0.md",
+    "L1_03_tin_encoder.md",
+    "L1_04_split16_encoder.md",
+    "L1_05_vit.md",
+    "L1_06_decoder_bridge.md",
+    "L1_07_split16_decoder.md",
+    "L1_08_tin_decoder.md",
+    "L1_09_b70.md",
+    "L1_10_output.md"
+  ],
+  "banner_pages": [
+    "L2_01_prepare.md",
+    "L2_02_b0.md",
+    "L2_03_tin_encoder.md",
+    "L2_04_split16_encoder.md",
+    "L2_05_vit.md",
+    "L2_06_decoder_bridge.md",
+    "L2_07_split16_decoder.md",
+    "L2_08_tin_decoder.md",
+    "L2_09_b70.md",
+    "L2_10_output.md",
+    "L4_e4m3_and_k32.md",
+    "L4_half_arith.md",
+    "L4_hmma.md",
+    "L4_fp32_ftz.md",
+    "L4_mufu.md",
+    "L4_tex_filter.md",
+    "APPENDIX_evidence_history.md",
+    "APPENDIX_cpu_storage.md"
+  ],
+  "edits": [
+    {
+      "page": "L3_b0_input.md",
+      "kind": "beginner_paragraph"
+    },
+    {
+      "page": "L3_ffn.md",
+      "kind": "beginner_paragraph"
+    },
+    {
+      "page": "L3_tin_window.md",
+      "kind": "beginner_paragraph"
+    },
+    {
+      "page": "L3_split16_window.md",
+      "kind": "beginner_paragraph"
+    },
+    {
+      "page": "L3_attention_softmax.md",
+      "kind": "beginner_paragraph"
+    },
+    {
+      "page": "L3_norm_nonfinite.md",
+      "kind": "beginner_paragraph"
+    },
+    {
+      "page": "L3_qmma_e4m3.md",
+      "kind": "beginner_paragraph"
+    },
+    {
+      "page": "L3_b70_history_output.md",
+      "kind": "beginner_paragraph"
+    },
+    {
+      "page": "L3_workspace_map.md",
+      "kind": "beginner_paragraph"
+    },
+    {
+      "page": "L1_01_prepare.md",
+      "kind": "beginner_stage"
+    },
+    {
+      "page": "L1_02_input_b0.md",
+      "kind": "beginner_stage"
+    },
+    {
+      "page": "L1_03_tin_encoder.md",
+      "kind": "beginner_stage"
+    },
+    {
+      "page": "L1_04_split16_encoder.md",
+      "kind": "beginner_stage"
+    },
+    {
+      "page": "L1_05_vit.md",
+      "kind": "beginner_stage"
+    },
+    {
+      "page": "L1_06_decoder_bridge.md",
+      "kind": "beginner_stage"
+    },
+    {
+      "page": "L1_07_split16_decoder.md",
+      "kind": "beginner_stage"
+    },
+    {
+      "page": "L1_08_tin_decoder.md",
+      "kind": "beginner_stage"
+    },
+    {
+      "page": "L1_09_b70.md",
+      "kind": "beginner_stage"
+    },
+    {
+      "page": "L1_10_output.md",
+      "kind": "beginner_stage"
+    },
+    {
+      "page": "L2_01_prepare.md",
+      "kind": "expert_banner"
+    },
+    {
+      "page": "L2_02_b0.md",
+      "kind": "expert_banner"
+    },
+    {
+      "page": "L2_03_tin_encoder.md",
+      "kind": "expert_banner"
+    },
+    {
+      "page": "L2_04_split16_encoder.md",
+      "kind": "expert_banner"
+    },
+    {
+      "page": "L2_05_vit.md",
+      "kind": "expert_banner"
+    },
+    {
+      "page": "L2_06_decoder_bridge.md",
+      "kind": "expert_banner"
+    },
+    {
+      "page": "L2_07_split16_decoder.md",
+      "kind": "expert_banner"
+    },
+    {
+      "page": "L2_08_tin_decoder.md",
+      "kind": "expert_banner"
+    },
+    {
+      "page": "L2_09_b70.md",
+      "kind": "expert_banner"
+    },
+    {
+      "page": "L2_10_output.md",
+      "kind": "expert_banner"
+    },
+    {
+      "page": "L4_e4m3_and_k32.md",
+      "kind": "expert_banner"
+    },
+    {
+      "page": "L4_half_arith.md",
+      "kind": "expert_banner"
+    },
+    {
+      "page": "L4_hmma.md",
+      "kind": "expert_banner"
+    },
+    {
+      "page": "L4_fp32_ftz.md",
+      "kind": "expert_banner"
+    },
+    {
+      "page": "L4_mufu.md",
+      "kind": "expert_banner"
+    },
+    {
+      "page": "L4_tex_filter.md",
+      "kind": "expert_banner"
+    },
+    {
+      "page": "APPENDIX_evidence_history.md",
+      "kind": "expert_banner"
+    },
+    {
+      "page": "APPENDIX_cpu_storage.md",
+      "kind": "expert_banner"
+    },
+    {
+      "page": "L3_workspace_map.md",
+      "kind": "expert_sections",
+      "anchors": [
+        "write-sets",
+        "padding",
+        "address-maps",
+        "release-contract-r04l",
+        "wr"
+      ]
+    }
+  ]
+}

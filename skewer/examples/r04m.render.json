@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "scope": "offline teaching illustrations only",
+  "rows": [
+    {
+      "source": "r04m.score_curve.svg",
+      "source_sha256": "4724605a2d2c4d3768232b02b2a28af417592d4ef62fec513111357fb11be055",
+      "png": "r04m.score_curve.png",
+      "png_sha256": "e04a04ee114038b032948241cca5211384e8a950b358d6ecbb7acc3dcacd37de"
+    },
+    {
+      "source": "r04m.colour_cards.svg",
+      "source_sha256": "2cdc342068b915129f5c52b8d6d31dc0851da04ea94f281d79850ad0cabf0231",
+      "png": "r04m.colour_cards.png",
+      "png_sha256": "1424884aa510d5f7b5605e98251c06d94a49a1915b4418e5734d1799d531c45b"
+    }
+  ]
+}

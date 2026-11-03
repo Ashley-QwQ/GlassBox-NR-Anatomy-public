@@ -1,0 +1,903 @@
+{
+  "status": "PASS",
+  "scope": "58 selected address/index cells, not a full map/model/chain run",
+  "formula_sha256": "12f4ea819859144f54ced9a45e17279de7ef49f0552156375b0024b516e502cd",
+  "research_source_sha256": {
+    "RESULT_ZH.md": "66b94a218b2362785199e2f0775502d3e5dc64b9d88d66973e1a57d99b1c92e3",
+    "FORMULAS_ZH.md": "fcc7d30d3e41dee38ad7859e83b5c15396fbd4e75112ee994de66ac713a8c739",
+    "formula_qkv.py": "12f4ea819859144f54ced9a45e17279de7ef49f0552156375b0024b516e502cd",
+    "FREEZE.json": "7e393503909caca11b379c065d5a89d57dbad5f5cbf56408c88a5c5c81c62d9b",
+    "INVENTORY.json": "1a010315fa12b78e77c608c20cbeb27b2773bb31a9d1827462477c2c45faa4f8",
+    "SUMMARY.json": "16174da9eb38b55c9eec369111888c62c73ff33de0a6777df0f4e4c3f98e31ce"
+  },
+  "source_tables": [
+    {
+      "label": "1080",
+      "path": "E:\\dlssnr-pytorch-cpu-20260909\\experiments\\parity-cpp-opt-g0b-exec-r01-20261011-codex\\maps\\L31-strategy-B.npz",
+      "sha256": "98a375c913c6c3110b0c14e3027905beb0970dd8b4e2b1bc0767c31ebe7b5f71",
+      "set": "derivation",
+      "geometry": {
+        "H": 36,
+        "W": 60,
+        "shift_x": -4,
+        "shift_y": -4
+      },
+      "window": [
+        0,
+        0
+      ],
+      "GX": 8,
+      "GY": 5,
+      "Q": 40,
+      "A": 160,
+      "a": 0,
+      "y": 2,
+      "lane": 5
+    },
+    {
+      "label": "4K",
+      "path": "E:\\dlssnr-cpp-work\\step2a-r01-codex\\maps\\H2160-L107-lane.npz",
+      "sha256": "5df01506c5a0f5fe45dd8bad865b7467ebab4e3c7c791ad5cb4089ffa3bea900",
+      "set": "heldout",
+      "geometry": {
+        "H": 68,
+        "W": 120,
+        "shift_x": -4,
+        "shift_y": -4
+      },
+      "window": [
+        1,
+        1
+      ],
+      "GX": 16,
+      "GY": 9,
+      "Q": 144,
+      "A": 576,
+      "a": 17,
+      "y": 2,
+      "lane": 5
+    }
+  ],
+  "rows": [
+    {
+      "geometry": "1080",
+      "field": "wload_off",
+      "coordinate": [
+        0,
+        2,
+        5,
+        0
+      ],
+      "formula": 6224,
+      "document_formula": 6224,
+      "stored": 6224,
+      "status": "EXACT"
+    },
+    {
+      "geometry": "1080",
+      "field": "wload_off",
+      "coordinate": [
+        0,
+        2,
+        5,
+        95
+      ],
+      "formula": 746064,
+      "document_formula": 746064,
+      "stored": 746064,
+      "status": "EXACT"
+    },
+    {
+      "geometry": "1080",
+      "field": "wload_off",
+      "coordinate": [
+        0,
+        2,
+        5,
+        96
+      ],
+      "formula": 802896,
+      "document_formula": 802896,
+      "stored": 802896,
+      "status": "EXACT"
+    },
+    {
+      "geometry": "1080",
+      "field": "wload_off",
+      "coordinate": [
+        0,
+        2,
+        5,
+        111
+      ],
+      "formula": 810576,
+      "document_formula": 810576,
+      "stored": 810576,
+      "status": "EXACT"
+    },
+    {
+      "geometry": "1080",
+      "field": "sread_shared_off",
+      "coordinate": [
+        0,
+        2,
+        5,
+        0
+      ],
+      "formula": 80,
+      "document_formula": 80,
+      "stored": 80,
+      "status": "EXACT"
+    },
+    {
+      "geometry": "1080",
+      "field": "sread_shared_off",
+      "coordinate": [
+        0,
+        2,
+        5,
+        16
+      ],
+      "formula": 80,
+      "document_formula": 80,
+      "stored": 80,
+      "status": "EXACT"
+    },
+    {
+      "geometry": "1080",
+      "field": "sread_shared_off",
+      "coordinate": [
+        0,
+        2,
+        5,
+        63
+      ],
+      "formula": 7760,
+      "document_formula": 7760,
+      "stored": 7760,
+      "status": "EXACT"
+    },
+    {
+      "geometry": "1080",
+      "field": "sread_src",
+      "coordinate": [
+        0,
+        2,
+        5,
+        0,
+        0
+      ],
+      "formula": -1,
+      "document_formula": -1,
+      "stored": -1,
+      "status": "EXACT"
+    },
+    {
+      "geometry": "1080",
+      "field": "sread_src",
+      "coordinate": [
+        0,
+        2,
+        5,
+        0,
+        15
+      ],
+      "formula": -1,
+      "document_formula": -1,
+      "stored": -1,
+      "status": "EXACT"
+    },
+    {
+      "geometry": "1080",
+      "field": "sread_src",
+      "coordinate": [
+        0,
+        2,
+        5,
+        6,
+        7
+      ],
+      "formula": 87,
+      "document_formula": 87,
+      "stored": 87,
+      "status": "EXACT"
+    },
+    {
+      "geometry": "1080",
+      "field": "sread_src",
+      "coordinate": [
+        0,
+        2,
+        5,
+        63,
+        15
+      ],
+      "formula": 7775,
+      "document_formula": 7775,
+      "stored": 7775,
+      "status": "EXACT"
+    },
+    {
+      "geometry": "1080",
+      "field": "xsite_src",
+      "coordinate": [
+        0,
+        2,
+        5,
+        0,
+        0
+      ],
+      "formula": -3,
+      "document_formula": -3,
+      "stored": -3,
+      "status": "EXACT"
+    },
+    {
+      "geometry": "1080",
+      "field": "xsite_src",
+      "coordinate": [
+        0,
+        2,
+        5,
+        1,
+        3
+      ],
+      "formula": -3,
+      "document_formula": -3,
+      "stored": -3,
+      "status": "EXACT"
+    },
+    {
+      "geometry": "1080",
+      "field": "xsite_wsrc",
+      "coordinate": [
+        0,
+        2,
+        5,
+        0,
+        0
+      ],
+      "formula": 917512,
+      "document_formula": 917512,
+      "stored": 917512,
+      "status": "EXACT"
+    },
+    {
+      "geometry": "1080",
+      "field": "xsite_wsrc",
+      "coordinate": [
+        0,
+        2,
+        5,
+        1,
+        3
+      ],
+      "formula": 917515,
+      "document_formula": 917515,
+      "stored": 917515,
+      "status": "EXACT"
+    },
+    {
+      "geometry": "1080",
+      "field": "gstore_off",
+      "coordinate": [
+        0,
+        2,
+        5,
+        0
+      ],
+      "formula": -1,
+      "document_formula": -1,
+      "stored": -1,
+      "status": "EXACT"
+    },
+    {
+      "geometry": "1080",
+      "field": "gstore_off",
+      "coordinate": [
+        0,
+        2,
+        5,
+        3
+      ],
+      "formula": 1104,
+      "document_formula": 1104,
+      "stored": 1104,
+      "status": "EXACT"
+    },
+    {
+      "geometry": "1080",
+      "field": "shfl_idx",
+      "coordinate": [
+        0,
+        2,
+        5,
+        0
+      ],
+      "formula": 20,
+      "document_formula": 20,
+      "stored": 20,
+      "status": "EXACT"
+    },
+    {
+      "geometry": "1080",
+      "field": "shfl_idx",
+      "coordinate": [
+        0,
+        2,
+        5,
+        3
+      ],
+      "formula": 23,
+      "document_formula": 23,
+      "stored": 23,
+      "status": "EXACT"
+    },
+    {
+      "geometry": "1080",
+      "field": "shfl_idx",
+      "coordinate": [
+        0,
+        2,
+        5,
+        4
+      ],
+      "formula": 1,
+      "document_formula": 1,
+      "stored": 1,
+      "status": "EXACT"
+    },
+    {
+      "geometry": "1080",
+      "field": "shfl_idx",
+      "coordinate": [
+        0,
+        2,
+        5,
+        35
+      ],
+      "formula": 25,
+      "document_formula": 25,
+      "stored": 25,
+      "status": "EXACT"
+    },
+    {
+      "geometry": "1080",
+      "field": "shfl_idx",
+      "coordinate": [
+        0,
+        2,
+        5,
+        36
+      ],
+      "formula": 20,
+      "document_formula": 20,
+      "stored": 20,
+      "status": "EXACT"
+    },
+    {
+      "geometry": "1080",
+      "field": "shfl_idx",
+      "coordinate": [
+        0,
+        2,
+        5,
+        71
+      ],
+      "formula": 25,
+      "document_formula": 25,
+      "stored": 25,
+      "status": "EXACT"
+    },
+    {
+      "geometry": "1080",
+      "field": "psel",
+      "coordinate": [
+        0,
+        2,
+        5,
+        0
+      ],
+      "formula": 1,
+      "document_formula": 1,
+      "stored": 1,
+      "status": "EXACT"
+    },
+    {
+      "geometry": "1080",
+      "field": "psel",
+      "coordinate": [
+        0,
+        2,
+        5,
+        4
+      ],
+      "formula": 1,
+      "document_formula": 1,
+      "stored": 1,
+      "status": "EXACT"
+    },
+    {
+      "geometry": "1080",
+      "field": "psel",
+      "coordinate": [
+        0,
+        2,
+        5,
+        8
+      ],
+      "formula": 1,
+      "document_formula": 1,
+      "stored": 1,
+      "status": "EXACT"
+    },
+    {
+      "geometry": "1080",
+      "field": "psel",
+      "coordinate": [
+        0,
+        2,
+        21,
+        12
+      ],
+      "formula": 0,
+      "document_formula": 0,
+      "stored": 0,
+      "status": "EXACT"
+    },
+    {
+      "geometry": "1080",
+      "field": "psel",
+      "coordinate": [
+        0,
+        2,
+        21,
+        16
+      ],
+      "formula": 1,
+      "document_formula": 1,
+      "stored": 1,
+      "status": "EXACT"
+    },
+    {
+      "geometry": "1080",
+      "field": "psel",
+      "coordinate": [
+        0,
+        2,
+        21,
+        31
+      ],
+      "formula": 0,
+      "document_formula": 0,
+      "stored": 0,
+      "status": "EXACT"
+    },
+    {
+      "geometry": "4K",
+      "field": "wload_off",
+      "coordinate": [
+        17,
+        2,
+        5,
+        0
+      ],
+      "formula": 6224,
+      "document_formula": 6224,
+      "stored": 6224,
+      "status": "EXACT"
+    },
+    {
+      "geometry": "4K",
+      "field": "wload_off",
+      "coordinate": [
+        17,
+        2,
+        5,
+        95
+      ],
+      "formula": 746064,
+      "document_formula": 746064,
+      "stored": 746064,
+      "status": "EXACT"
+    },
+    {
+      "geometry": "4K",
+      "field": "wload_off",
+      "coordinate": [
+        17,
+        2,
+        5,
+        96
+      ],
+      "formula": 802896,
+      "document_formula": 802896,
+      "stored": 802896,
+      "status": "EXACT"
+    },
+    {
+      "geometry": "4K",
+      "field": "wload_off",
+      "coordinate": [
+        17,
+        2,
+        5,
+        111
+      ],
+      "formula": 810576,
+      "document_formula": 810576,
+      "stored": 810576,
+      "status": "EXACT"
+    },
+    {
+      "geometry": "4K",
+      "field": "sread_shared_off",
+      "coordinate": [
+        17,
+        2,
+        5,
+        0
+      ],
+      "formula": 80,
+      "document_formula": 80,
+      "stored": 80,
+      "status": "EXACT"
+    },
+    {
+      "geometry": "4K",
+      "field": "sread_shared_off",
+      "coordinate": [
+        17,
+        2,
+        5,
+        16
+      ],
+      "formula": 80,
+      "document_formula": 80,
+      "stored": 80,
+      "status": "EXACT"
+    },
+    {
+      "geometry": "4K",
+      "field": "sread_shared_off",
+      "coordinate": [
+        17,
+        2,
+        5,
+        63
+      ],
+      "formula": 7760,
+      "document_formula": 7760,
+      "stored": 7760,
+      "status": "EXACT"
+    },
+    {
+      "geometry": "4K",
+      "field": "sread_src",
+      "coordinate": [
+        17,
+        2,
+        5,
+        0,
+        0
+      ],
+      "formula": 254032,
+      "document_formula": 254032,
+      "stored": 254032,
+      "status": "EXACT"
+    },
+    {
+      "geometry": "4K",
+      "field": "sread_src",
+      "coordinate": [
+        17,
+        2,
+        5,
+        0,
+        15
+      ],
+      "formula": 254047,
+      "document_formula": 254047,
+      "stored": 254047,
+      "status": "EXACT"
+    },
+    {
+      "geometry": "4K",
+      "field": "sread_src",
+      "coordinate": [
+        17,
+        2,
+        5,
+        6,
+        7
+      ],
+      "formula": 507991,
+      "document_formula": 507991,
+      "stored": 507991,
+      "status": "EXACT"
+    },
+    {
+      "geometry": "4K",
+      "field": "sread_src",
+      "coordinate": [
+        17,
+        2,
+        5,
+        63,
+        15
+      ],
+      "formula": 515679,
+      "document_formula": 515679,
+      "stored": 515679,
+      "status": "EXACT"
+    },
+    {
+      "geometry": "4K",
+      "field": "xsite_src",
+      "coordinate": [
+        17,
+        2,
+        5,
+        0,
+        0
+      ],
+      "formula": -3,
+      "document_formula": -3,
+      "stored": -3,
+      "status": "EXACT"
+    },
+    {
+      "geometry": "4K",
+      "field": "xsite_src",
+      "coordinate": [
+        17,
+        2,
+        5,
+        1,
+        3
+      ],
+      "formula": -3,
+      "document_formula": -3,
+      "stored": -3,
+      "status": "EXACT"
+    },
+    {
+      "geometry": "4K",
+      "field": "xsite_wsrc",
+      "coordinate": [
+        17,
+        2,
+        5,
+        0,
+        0
+      ],
+      "formula": 917512,
+      "document_formula": 917512,
+      "stored": 917512,
+      "status": "EXACT"
+    },
+    {
+      "geometry": "4K",
+      "field": "xsite_wsrc",
+      "coordinate": [
+        17,
+        2,
+        5,
+        1,
+        3
+      ],
+      "formula": 917515,
+      "document_formula": 917515,
+      "stored": 917515,
+      "status": "EXACT"
+    },
+    {
+      "geometry": "4K",
+      "field": "gstore_off",
+      "coordinate": [
+        17,
+        2,
+        5,
+        0
+      ],
+      "formula": 255056,
+      "document_formula": 255056,
+      "stored": 255056,
+      "status": "EXACT"
+    },
+    {
+      "geometry": "4K",
+      "field": "gstore_off",
+      "coordinate": [
+        17,
+        2,
+        5,
+        3
+      ],
+      "formula": 509008,
+      "document_formula": 509008,
+      "stored": 509008,
+      "status": "EXACT"
+    },
+    {
+      "geometry": "4K",
+      "field": "shfl_idx",
+      "coordinate": [
+        17,
+        2,
+        5,
+        0
+      ],
+      "formula": 20,
+      "document_formula": 20,
+      "stored": 20,
+      "status": "EXACT"
+    },
+    {
+      "geometry": "4K",
+      "field": "shfl_idx",
+      "coordinate": [
+        17,
+        2,
+        5,
+        3
+      ],
+      "formula": 23,
+      "document_formula": 23,
+      "stored": 23,
+      "status": "EXACT"
+    },
+    {
+      "geometry": "4K",
+      "field": "shfl_idx",
+      "coordinate": [
+        17,
+        2,
+        5,
+        4
+      ],
+      "formula": 1,
+      "document_formula": 1,
+      "stored": 1,
+      "status": "EXACT"
+    },
+    {
+      "geometry": "4K",
+      "field": "shfl_idx",
+      "coordinate": [
+        17,
+        2,
+        5,
+        35
+      ],
+      "formula": 25,
+      "document_formula": 25,
+      "stored": 25,
+      "status": "EXACT"
+    },
+    {
+      "geometry": "4K",
+      "field": "shfl_idx",
+      "coordinate": [
+        17,
+        2,
+        5,
+        36
+      ],
+      "formula": 20,
+      "document_formula": 20,
+      "stored": 20,
+      "status": "EXACT"
+    },
+    {
+      "geometry": "4K",
+      "field": "shfl_idx",
+      "coordinate": [
+        17,
+        2,
+        5,
+        71
+      ],
+      "formula": 25,
+      "document_formula": 25,
+      "stored": 25,
+      "status": "EXACT"
+    },
+    {
+      "geometry": "4K",
+      "field": "psel",
+      "coordinate": [
+        17,
+        2,
+        5,
+        0
+      ],
+      "formula": 1,
+      "document_formula": 1,
+      "stored": 1,
+      "status": "EXACT"
+    },
+    {
+      "geometry": "4K",
+      "field": "psel",
+      "coordinate": [
+        17,
+        2,
+        5,
+        4
+      ],
+      "formula": 1,
+      "document_formula": 1,
+      "stored": 1,
+      "status": "EXACT"
+    },
+    {
+      "geometry": "4K",
+      "field": "psel",
+      "coordinate": [
+        17,
+        2,
+        5,
+        8
+      ],
+      "formula": 1,
+      "document_formula": 1,
+      "stored": 1,
+      "status": "EXACT"
+    },
+    {
+      "geometry": "4K",
+      "field": "psel",
+      "coordinate": [
+        17,
+        2,
+        21,
+        12
+      ],
+      "formula": 0,
+      "document_formula": 0,
+      "stored": 0,
+      "status": "EXACT"
+    },
+    {
+      "geometry": "4K",
+      "field": "psel",
+      "coordinate": [
+        17,
+        2,
+        21,
+        16
+      ],
+      "formula": 1,
+      "document_formula": 1,
+      "stored": 1,
+      "status": "EXACT"
+    },
+    {
+      "geometry": "4K",
+      "field": "psel",
+      "coordinate": [
+        17,
+        2,
+        21,
+        31
+      ],
+      "formula": 0,
+      "document_formula": 0,
+      "stored": 0,
+      "status": "EXACT"
+    }
+  ],
+  "samples": 58,
+  "mismatches": 0,
+  "uncompressed_prefix_bytes_read": 23656400,
+  "thread_class": "NOT_CHECKED_HERE; frozen hypothesis failure retained from research",
+  "new_GPU_runs": 0,
+  "new_model_runs": 0,
+  "new_chain_runs": 0,
+  "new_compile_runs": 0,
+  "external_writes": 0,
+  "network_calls": 0,
+  "remote_calls": 0,
+  "version_control_calls": 0
+}

@@ -1,0 +1,40 @@
+GlassBox-NR Anatomy -- implementation-level dissection of nvngx_dlssnr.dll 310.8.0.0.
+Companion documentation to GlassBox-NR (https://github.com/Ashley-QwQ/GlassBox-NR), an independent CPU C++
+reimplementation of the inference chain of that one fixed target library. Not applicable to other versions.
+
+Licensing scopes
+================
+
+1. Documentation written by this project: the Markdown pages in `skewer/` and `skewer-en/`, the figures
+   (`*.svg`, `*.png`) and `README.md`:
+
+     SPDX-License-Identifier: CC-BY-4.0
+     Copyright 2026 GlassBox-NR contributors
+
+   Full text: `LICENSE-docs` (Creative Commons Attribution 4.0 International).
+
+2. Code and data written by this project in `skewer/examples/` and `skewer-en/examples/` (`*.py` scripts and the
+   `*.json` data, receipts and pins):
+
+     SPDX-License-Identifier: Apache-2.0
+     Copyright 2026 GlassBox-NR contributors
+
+   Full text: `LICENSE` (Apache License 2.0, unmodified).
+
+NVIDIA materials
+================
+
+No NVIDIA library, DLL, weights, or any bytes derived from the weight bytes are included in this repository.
+Running the examples that need the companion release requires the user's own, lawfully obtained copy of
+`nvngx_dlssnr.dll`, as described in GlassBox-NR. NVIDIA and related names are trademarks of their owners; this
+project is not affiliated with or endorsed by NVIDIA.
+
+Provenance records
+==================
+
+Many pages and receipts cite the authors' private project archive (relative `../../../experiments/...` links,
+local absolute paths and internal round names). They are kept unchanged as provenance records: several are covered
+by sha256 pins in `skewer/examples/`, and rewriting them would change those pins. They do not resolve outside the
+original project layout.
+
+If you redistribute a modified version of this documentation, please note that it is based on GlassBox-NR Anatomy.

@@ -1,0 +1,48 @@
+{
+  "status": "PASS",
+  "scope": "artificial one-point scalar/layout examples; no GPU/model/network chain",
+  "QKV_layout": {
+    "logical_t_h_d": [
+      9,
+      0,
+      4
+    ],
+    "Q_byte": 84,
+    "K_byte": 88,
+    "V_byte": 289,
+    "scope": "actual source operand selection and pinned maps; artificial address example"
+  },
+  "stdout": "B0_full_pool 85 30741\nTEX_joint 0.482421875 37b8\nTEX_midpoint 3c01 3c00\nfive_coords 1.5 0.5 0.25 0.75 1.70714283 1.29285717\nfive_weights_LTCBR -0.07690429688 -0.02563476562 1.196289062 -0.07690429688 -0.02563476562 0.9912109375\nfive_samples_TLCBR 0.1379394531 0.1616210938 0.2370605469 0.3879394531 0.3491210938\nfive_tap_RGB b44e b29c b09c\ncurve 0 0.25 0.2332582474 0.25711146 0.2571115196\ncurve 1 0.5 0.4665164948 0.4706831574 0.4706831872\ncurve 2 0.75 0.6997747421 0.6787893772 0.6787894964\nHSL_Fwd 0.5822532773 0.4505583048 0.4679505229\ntemporary 0.4704099298 0.2781954408 0.657705605\nHSL_Rev 0.5822532773 0.4055024683 0.4679505229\nL157_RGBA 3473 3786 3942 3c00\n",
+  "source_sha256": {
+    "E:/GlassBox-NR/cpp/chain_outtail_optm/outtail.cpp": "b2d807fd1d4fe015eefa234918028709dbb0e98ade3b97145ae8653bd29a2aef",
+    "E:/GlassBox-NR/cpp/chain_outtail_optm/primitives.hpp": "aad1fe9554d8e25394b49d58cfcc655e5599cbc9529e2c34887bb70a4ce23420",
+    "E:/GlassBox-NR/cpp/chain_entry_optm/native_temporal.hpp": "017710cd6c0a10ce45b606130fa6ebc05e98df760fac1055abda6dc3399b8bd9",
+    "E:/GlassBox-NR/cpp/chain_entry_optm/b00.hpp": "932e0c805f020420f0e6fad9543d3e1710d0561b6afa14a30263d6f9bd939392",
+    "E:/GlassBox-NR/cpp/chain_entry_optm/entry.cpp": "c9f1977d816c5e65757625a59859f6673578920ab7b69127efdc92e5870d313e",
+    "E:/GlassBox-NR/cpp/fam_attention_chain_r02/attention_impl.hpp": "713f0a6b5522e63ebdcb3652bae13c6903d5baaf16ba56fd0738a297d5157206",
+    "E:/dlssnr-pytorch-cpu-20260909/experiments/parity-cpp-step2b-vit-r02-20260928-codex/s00-bindings.json": "f81dc2374c601d0432d8e7488fa7a6086b1551caa592adbcf4d9eb68e25c16dc",
+    "F:/dlssnr-work/l62-epoch-fix-r02-claude/maps-base/t640/cy0/l62-address-map.npz": "21eb60df89a1d972a0cd3eafeeefc2688b81a4fb639bf55f63fc2aaea3678d67",
+    "F:/dlssnr-work/l62-epoch-fix-r02-claude/maps-base/t640/cy0/l62-templates-and-checks.json": "8037735246b6c41c95a85191eb785bfd1d42043cca087ffe485c02f935a49205",
+    "E:/dlssnr-cpp-work/chain-outtail-r01-codex/tables/manifest.json": "2047779d4fc5bb14a7dc5421ea71e00b18b4d48d90e7fd7ffec6e7dd7501a9f8",
+    "E:/dlssnr-cpp-work/chain-outtail-r01-codex/tables/ex2.bin": "cce5df10202dbfcde720ca547d147edb3e2a406a5fed189323f419177a72a1a5",
+    "E:/dlssnr-cpp-work/chain-outtail-r01-codex/tables/rcp.bin": "c408381446132e07fa5581e930dc33fb790bea7ec4276ef3621e322df2492a55",
+    "E:/dlssnr-pytorch-cpu-20260909/experiments/parity-cpp-opt-e1-r01-20261001-codex/encoded/manifest.json": "4255d067e6a618342182a86f44fbf2feceb92a7d148e0dcdfaabe304f8c72138",
+    "E:/dlssnr-pytorch-cpu-20260909/experiments/parity-cpp-opt-e1-r01-20261001-codex/encoded/base_E127.bin": "7fd9be9a924e40a0ee18ba20e7f5158135112947597c8dd86131d3d4d8f9dbfa",
+    "E:/dlssnr-pytorch-cpu-20260909/experiments/parity-cpp-opt-e1-r01-20261001-codex/encoded/raw_E126.bin": "883e42d8f751983063b4c93a966fba006f08c1e111d90fe20e0fee3dd67ddd22",
+    "E:/dlssnr-pytorch-cpu-20260909/experiments/parity-cpp-opt-e1-r01-20261001-codex/encoded/level_3bit.bin": "1ad908d16acdfab5b1b810c076f1d6b403cf954b634955d8a8fe63da71e8cbf4",
+    "E:/GlassBox-NR/cpp/chain_outtail_optm/lg2_decoder.hpp": "6b1cf904e1bf7a9943c79b28f1675838e29ea51091d70c367932a1165ff520f8",
+    "E:/GlassBox-NR/cpp/chain_outtail_optm/reach_sites.hpp": "79e034afd87704afde842fdd1cc8de3cbbb2665770d73d6ab97c6e81ff6e8d09"
+  },
+  "generated_scalar_sha256": "d4e2b645a36b6c32e6f15dfa74e024fb9dd88875f4d506ef4766412026f8ef0b",
+  "flags": [
+    "-std=c++20",
+    "-O2",
+    "-fno-fast-math",
+    "-ffp-contract=off",
+    "-frounding-math",
+    "-static"
+  ],
+  "compiler": "C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WinGet\\Packages\\BrechtSanders.WinLibs.POSIX.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\\mingw64\\bin\\g++.EXE",
+  "raw_fallback": "throws if invoked; chosen pixel required none",
+  "tracing": "entire original s157 executed; trace copy adds output only and must match final 8 bytes"
+}

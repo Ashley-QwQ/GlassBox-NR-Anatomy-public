@@ -1,0 +1,266 @@
+{
+  "status": "DOCUMENT_RESPONSE_COMPLETED",
+  "review": "../../reviews/REVIEW_NOVICE_R5_codex_20261027.md",
+  "review_sha256": "b1db9d0b4014c150e859e11f229e75c94e78ee8aa6e32ac16a279144ce886940",
+  "scope": "Added teaching layer; original expert text is reversibly preserved. No new novice acceptance test.",
+  "top_five": [
+    {
+      "id": 1,
+      "evidence": "INDEX.md#beginner-entry",
+      "answer": "外部输入与内部数分开；同尺寸输出；用途未知；无身份完整的成对视觉组"
+    },
+    {
+      "id": 2,
+      "evidence": "L0_frame.md#beginner-frame",
+      "answer": "六条内部旁路、原图备份、固定每位置项数、同尺寸显示及空间问号"
+    },
+    {
+      "id": 3,
+      "evidence": "L1_00_one_block_primer.md",
+      "answer": "每位置改数、人工QKV对照、量化位置与两条残差的首步相加"
+    },
+    {
+      "id": 4,
+      "evidence": "L1_00_history_primer.md",
+      "answer": "两帧加重置、五轨、B0/B70独立路径、先置信检查、156支路、工作区必需记忆未定"
+    },
+    {
+      "id": 5,
+      "evidence": "L1_00_numbers_primer.md",
+      "answer": "有限数点、两种舍入、公共格与32项篮、可选E4、复用A/B/C及适用限制"
+    }
+  ],
+  "lost_rows": [
+    {
+      "rank": 1,
+      "review_term": "网络到底对画面做什么",
+      "evidence": "INDEX.md#beginner-entry",
+      "response": "外部输入、同尺寸输出、用途未知与缺少成对视觉证据"
+    },
+    {
+      "rank": 2,
+      "review_term": "特征、通道、编码、瓶颈、解码",
+      "evidence": "L0_frame.md#beginner-frame",
+      "response": "每位置数字卡与显示尺寸分开"
+    },
+    {
+      "rank": 3,
+      "review_term": "运动矢量、重投影、五 tap",
+      "evidence": "L1_00_history_primer.md#moving-point",
+      "response": "人工两帧坐标、移动数和尺度，不推广通用方向"
+    },
+    {
+      "rank": 4,
+      "review_term": "用“与教科书模型的差异”开场",
+      "evidence": "L0_frame.md#beginner-frame",
+      "response": "先作用图，后原有差异框；先进入一块的三步"
+    },
+    {
+      "rank": 5,
+      "review_term": "Q/K/V、注意力与普通 softmax",
+      "evidence": "L1_00_one_block_primer.md#qkv-story",
+      "response": "三位置人工比较、份额和内容组合，普通路径并排"
+    },
+    {
+      "rank": 6,
+      "review_term": "FFN、投影、扩张、收缩、分组",
+      "evidence": "L1_00_one_block_primer.md#per-position",
+      "response": "两位置各自2→4→函数→2，真实32→128→32另明示"
+    },
+    {
+      "rank": 7,
+      "review_term": "两条残差、seed 与相加位置",
+      "evidence": "L1_00_one_block_primer.md#two-residuals",
+      "response": "红蓝两线及矩阵首步起始小计"
+    },
+    {
+      "rank": 8,
+      "review_term": "解码桥的空间恢复",
+      "evidence": "L1_06_decoder_bridge.md",
+      "response": "已知通道合并；完整空间关系未定，连接作用图"
+    },
+    {
+      "rank": 9,
+      "review_term": "历史、整片工作区、reset",
+      "evidence": "L1_00_history_primer.md#timeline",
+      "response": "五轨时间线；重置不消费旧图，帧尾覆盖；最小工作存储依赖未定"
+    },
+    {
+      "rank": 10,
+      "review_term": "32 项步末舍入与先放公共格",
+      "evidence": "L1_00_numbers_primer.md#baskets",
+      "response": "公共刻度朝零截断、32项相加、F16和下一篮"
+    },
+    {
+      "rank": 11,
+      "review_term": "E4M3/F16/F32 与各类舍入",
+      "evidence": "L1_00_numbers_primer.md",
+      "response": "人工有限数点尺、实际F16中点、二进制位数含义"
+    },
+    {
+      "rank": 12,
+      "review_term": "16 通道里为什么放扰动、常数和控制数",
+      "evidence": "L3_b0_input.md#beginner-b0",
+      "response": "16格条件，扰动另生成，视觉目的不全知道"
+    },
+    {
+      "rank": 13,
+      "review_term": "窗口、头、FFN组、执行轴",
+      "evidence": "L1_00_one_block_primer.md#groups",
+      "response": "网格、窗口、头、头内32项；FFN组和执行轴另分"
+    },
+    {
+      "rank": 14,
+      "review_term": "把分数编码移位来产生权重",
+      "evidence": "L1_00_one_block_primer.md#score-comparison",
+      "response": "人工分数曲线与1.5的存储编码/数值变化分开"
+    },
+    {
+      "rank": 15,
+      "review_term": "全局与窗口先除总量还是后除",
+      "evidence": "L1_00_one_block_primer.md#quantisation-position",
+      "response": "窗口/全局两线将粗格式转换染色"
+    },
+    {
+      "rank": 16,
+      "review_term": "三个颜色预测、第四预测量、alpha",
+      "evidence": "L3_b70_history_output.md#beginner-tail",
+      "response": "三预测量、第四预测量、图像第四分量、显示强度四对象图"
+    },
+    {
+      "rank": 17,
+      "review_term": "HSL 型两轮分解与重组",
+      "evidence": "L3_b70_history_output.md#beginner-colour",
+      "response": "人工色样与真实两轮分解重组的简化路线"
+    },
+    {
+      "rank": 18,
+      "review_term": "归一化、平方和、查询尺度",
+      "evidence": "L3_norm_nonfinite.md#beginner-norm",
+      "response": "人工两项缩放例；实际Q/K的32项范围，不处理V"
+    },
+    {
+      "rank": 19,
+      "review_term": "五次取样与每次的四邻域过滤",
+      "evidence": "L1_00_history_primer.md#nested-sampling",
+      "response": "五个外层取样点与中心四邻域嵌套，两套权重"
+    },
+    {
+      "rank": 20,
+      "review_term": "CB+0xNN 既像位置又像规则名称",
+      "evidence": "L4_tex_filter.md#beginner-sampler-fields",
+      "response": "参数字节位置与1/256过滤刻度分开，无已定控制关系"
+    },
+    {
+      "rank": 21,
+      "review_term": "L0层级、launch L0、B编号和核名",
+      "evidence": "INDEX.md#beginner-entry",
+      "response": "目录、整帧及十个L1页固定阅读/执行/逻辑三行"
+    },
+    {
+      "rank": 22,
+      "review_term": "工作区、逻辑布局、物理字节、map",
+      "evidence": "L3_workspace_map.md#beginner-storage",
+      "response": "人工相同数字换盒子；读取、算术、写入与实格虚格"
+    },
+    {
+      "rank": 23,
+      "review_term": "融合、两阶段软件舍入、16项规则",
+      "evidence": "L4_half_arith.md#beginner-rounding",
+      "response": "五种操作舍入点及软件合同分栏"
+    },
+    {
+      "rank": 24,
+      "review_term": "极小数、FTZ、函数表与准入域",
+      "evidence": "L1_00_numbers_primer.md#three-cards",
+      "response": "格式可表示、本操作怎样算、当前实现允许什么"
+    },
+    {
+      "rank": 25,
+      "review_term": "构建代号与验证范围穿插讲解",
+      "evidence": "INDEX.md#beginner-entry",
+      "response": "构建检查代号不是网络层；111组词义与专家账分开"
+    }
+  ],
+  "jargon_groups": 111,
+  "glossary": "APPENDIX_beginner_glossary.md",
+  "beginner_pages": [
+    "INDEX.md",
+    "L0_frame.md",
+    "L3_b0_input.md",
+    "L3_ffn.md",
+    "L3_tin_window.md",
+    "L3_split16_window.md",
+    "L3_attention_softmax.md",
+    "L3_norm_nonfinite.md",
+    "L3_qmma_e4m3.md",
+    "L3_b70_history_output.md",
+    "L3_workspace_map.md",
+    "L1_01_prepare.md",
+    "L1_02_input_b0.md",
+    "L1_03_tin_encoder.md",
+    "L1_04_split16_encoder.md",
+    "L1_05_vit.md",
+    "L1_06_decoder_bridge.md",
+    "L1_07_split16_decoder.md",
+    "L1_08_tin_decoder.md",
+    "L1_09_b70.md",
+    "L1_10_output.md"
+  ],
+  "expert_banner_pages": [
+    "L2_01_prepare.md",
+    "L2_02_b0.md",
+    "L2_03_tin_encoder.md",
+    "L2_04_split16_encoder.md",
+    "L2_05_vit.md",
+    "L2_06_decoder_bridge.md",
+    "L2_07_split16_decoder.md",
+    "L2_08_tin_decoder.md",
+    "L2_09_b70.md",
+    "L2_10_output.md",
+    "L4_e4m3_and_k32.md",
+    "L4_half_arith.md",
+    "L4_hmma.md",
+    "L4_fp32_ftz.md",
+    "L4_mufu.md",
+    "L4_tex_filter.md",
+    "APPENDIX_evidence_history.md",
+    "APPENDIX_cpu_storage.md"
+  ],
+  "workspace_expert_sections": [
+    "write-sets",
+    "padding",
+    "address-maps",
+    "release-contract-r04l",
+    "wr"
+  ],
+  "illustrations": [
+    {
+      "svg": "examples/r04m.score_curve.svg",
+      "png": "examples/r04m.score_curve.png",
+      "content": "人工选定分数对已公布转换式的教学曲线；不是模型系数、激活或画面测量",
+      "labelled": true
+    },
+    {
+      "svg": "examples/r04m.colour_cards.svg",
+      "png": "examples/r04m.colour_cards.png",
+      "content": "人工合成概念色块；不是网络前后成对画面",
+      "labelled": true
+    }
+  ],
+  "not_adopted": [
+    {
+      "request": "真实前后画面对照",
+      "reason": "缺少同一对象、输入、历史和控制身份完整的成对证据，未拼接零散图"
+    },
+    {
+      "request": "确定运动通用单位/方向、桥的完整空间算子、score编码训练意图或工作区最小跨帧记忆",
+      "reason": "现有证据未定；保留问号和UNKNOWN，未以教学简化补猜"
+    }
+  ],
+  "novice_acceptance_retest": "NOT_RUN",
+  "new_GPU_runs": 0,
+  "new_model_runs": 0,
+  "new_chain_runs": 0,
+  "new_compile_runs": 0
+}

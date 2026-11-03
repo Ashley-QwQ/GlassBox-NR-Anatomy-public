@@ -1,0 +1,2969 @@
+{
+  "status": "PASS",
+  "scope": "header metadata and integer size arithmetic only",
+  "source": "E:\\dlssnr-pytorch-cpu-20260909\\experiments\\parity-v1\\weights-packed.safetensors",
+  "source_file_bytes": 147716314,
+  "bytes_read": 32536,
+  "payload_bytes_read": 0,
+  "source_code_sha256": {
+    "E:\\GlassBox-NR\\devkit\\make_weights.py": "1dbf7c6e1f625c79e99ac5fd4ecc426a61eecd82b5f212ab140b24239565cf1b",
+    "E:\\GlassBox-NR\\third_party\\mlxdlss\\tools\\extract_dlssnr_weights.py": "3ac15bff829282369e27c7b95cdb8d39731b3f9e5207ebff582a3560fb8e356f"
+  },
+  "tensor_count": 153,
+  "payload_bytes": 147683778,
+  "alignment": 512,
+  "aligned_upload_bytes": 147719680,
+  "padding_bytes": 35902,
+  "resource_bytes": 147695410,
+  "resource_record_framing_bytes": 11632,
+  "order_note": "sum of padded slots is order-independent; source resource order is not inferred from the sorted header",
+  "stages": {
+    "B0": {
+      "block_range": [
+        0,
+        0
+      ],
+      "tensor_count": 1,
+      "payload_bytes": 21696,
+      "aligned_slot_bytes": 22016,
+      "shape_variants": [
+        {
+          "serialized_dimensions": [
+            10848
+          ],
+          "count": 1,
+          "names": [
+            "block0.layer0.layer"
+          ]
+        }
+      ]
+    },
+    "TIN_encoder": {
+      "block_range": [
+        1,
+        22
+      ],
+      "tensor_count": 22,
+      "payload_bytes": 7200720,
+      "aligned_slot_bytes": 7208960,
+      "shape_variants": [
+        {
+          "serialized_dimensions": [
+            10336
+          ],
+          "count": 3,
+          "names": [
+            "block1.layer0.layer",
+            "block2.layer0.layer",
+            "block3.layer0.layer"
+          ]
+        },
+        {
+          "serialized_dimensions": [
+            11360
+          ],
+          "count": 1,
+          "names": [
+            "block4.layer0.layer"
+          ]
+        },
+        {
+          "serialized_dimensions": [
+            30880
+          ],
+          "count": 3,
+          "names": [
+            "block5.layer0.layer",
+            "block6.layer0.layer",
+            "block7.layer0.layer"
+          ]
+        },
+        {
+          "serialized_dimensions": [
+            34968
+          ],
+          "count": 1,
+          "names": [
+            "block8.layer0.layer"
+          ]
+        },
+        {
+          "serialized_dimensions": [
+            98592
+          ],
+          "count": 5,
+          "names": [
+            "block10.layer0.layer",
+            "block11.layer0.layer",
+            "block12.layer0.layer",
+            "block13.layer0.layer",
+            "block9.layer0.layer"
+          ]
+        },
+        {
+          "serialized_dimensions": [
+            114968
+          ],
+          "count": 1,
+          "names": [
+            "block14.layer0.layer"
+          ]
+        },
+        {
+          "serialized_dimensions": [
+            344616
+          ],
+          "count": 7,
+          "names": [
+            "block15.layer0.layer",
+            "block16.layer0.layer",
+            "block17.layer0.layer",
+            "block18.layer0.layer",
+            "block19.layer0.layer",
+            "block20.layer0.layer",
+            "block21.layer0.layer"
+          ]
+        },
+        {
+          "serialized_dimensions": [
+            410144
+          ],
+          "count": 1,
+          "names": [
+            "block22.layer0.layer"
+          ]
+        }
+      ]
+    },
+    "split16_encoder": {
+      "block_range": [
+        23,
+        30
+      ],
+      "tensor_count": 33,
+      "payload_bytes": 16269840,
+      "aligned_slot_bytes": 16273920,
+      "shape_variants": [
+        {
+          "serialized_dimensions": [
+            131584
+          ],
+          "count": 16,
+          "names": [
+            "block23.layer1.layer",
+            "block23.layer3.layer",
+            "block24.layer1.layer",
+            "block24.layer3.layer",
+            "block25.layer1.layer",
+            "block25.layer3.layer",
+            "block26.layer1.layer",
+            "block26.layer3.layer",
+            "block27.layer1.layer",
+            "block27.layer3.layer",
+            "block28.layer1.layer",
+            "block28.layer3.layer",
+            "block29.layer1.layer",
+            "block29.layer3.layer",
+            "block30.layer1.layer",
+            "block30.layer3.layer"
+          ]
+        },
+        {
+          "serialized_dimensions": [
+            262144
+          ],
+          "count": 8,
+          "names": [
+            "block23.layer0.layer",
+            "block24.layer0.layer",
+            "block25.layer0.layer",
+            "block26.layer0.layer",
+            "block27.layer0.layer",
+            "block28.layer0.layer",
+            "block29.layer0.layer",
+            "block30.layer0.layer"
+          ]
+        },
+        {
+          "serialized_dimensions": [
+            262152
+          ],
+          "count": 1,
+          "names": [
+            "block30.layer4.layer"
+          ]
+        },
+        {
+          "serialized_dimensions": [
+            458784
+          ],
+          "count": 8,
+          "names": [
+            "block23.layer2.layer",
+            "block24.layer2.layer",
+            "block25.layer2.layer",
+            "block26.layer2.layer",
+            "block27.layer2.layer",
+            "block28.layer2.layer",
+            "block29.layer2.layer",
+            "block30.layer2.layer"
+          ]
+        }
+      ]
+    },
+    "ViT": {
+      "block_range": [
+        31,
+        38
+      ],
+      "tensor_count": 40,
+      "payload_bytes": 100697232,
+      "aligned_slot_bytes": 100708352,
+      "shape_variants": [
+        {
+          "serialized_dimensions": [
+            1
+          ],
+          "count": 8,
+          "names": [
+            "block31.layer3.layer",
+            "block32.layer3.layer",
+            "block33.layer3.layer",
+            "block34.layer3.layer",
+            "block35.layer3.layer",
+            "block36.layer3.layer",
+            "block37.layer3.layer",
+            "block38.layer3.layer"
+          ]
+        },
+        {
+          "serialized_dimensions": [
+            525312
+          ],
+          "count": 8,
+          "names": [
+            "block31.layer4.layer",
+            "block32.layer4.layer",
+            "block33.layer4.layer",
+            "block34.layer4.layer",
+            "block35.layer4.layer",
+            "block36.layer4.layer",
+            "block37.layer4.layer",
+            "block38.layer4.layer"
+          ]
+        },
+        {
+          "serialized_dimensions": [
+            1572928
+          ],
+          "count": 8,
+          "names": [
+            "block31.layer2.layer",
+            "block32.layer2.layer",
+            "block33.layer2.layer",
+            "block34.layer2.layer",
+            "block35.layer2.layer",
+            "block36.layer2.layer",
+            "block37.layer2.layer",
+            "block38.layer2.layer"
+          ]
+        },
+        {
+          "serialized_dimensions": [
+            2097160
+          ],
+          "count": 8,
+          "names": [
+            "block31.layer0.layer",
+            "block32.layer0.layer",
+            "block33.layer0.layer",
+            "block34.layer0.layer",
+            "block35.layer0.layer",
+            "block36.layer0.layer",
+            "block37.layer0.layer",
+            "block38.layer0.layer"
+          ]
+        },
+        {
+          "serialized_dimensions": [
+            2098176
+          ],
+          "count": 8,
+          "names": [
+            "block31.layer1.layer",
+            "block32.layer1.layer",
+            "block33.layer1.layer",
+            "block34.layer1.layer",
+            "block35.layer1.layer",
+            "block36.layer1.layer",
+            "block37.layer1.layer",
+            "block38.layer1.layer"
+          ]
+        }
+      ]
+    },
+    "bridge": {
+      "block_range": [
+        39,
+        39
+      ],
+      "tensor_count": 1,
+      "payload_bytes": 525312,
+      "aligned_slot_bytes": 525312,
+      "shape_variants": [
+        {
+          "serialized_dimensions": [
+            262656
+          ],
+          "count": 1,
+          "names": [
+            "block39.layer0.layer"
+          ]
+        }
+      ]
+    },
+    "split16_decoder": {
+      "block_range": [
+        40,
+        47
+      ],
+      "tensor_count": 32,
+      "payload_bytes": 15745536,
+      "aligned_slot_bytes": 15749120,
+      "shape_variants": [
+        {
+          "serialized_dimensions": [
+            131584
+          ],
+          "count": 16,
+          "names": [
+            "block40.layer1.layer",
+            "block40.layer3.layer",
+            "block41.layer1.layer",
+            "block41.layer3.layer",
+            "block42.layer1.layer",
+            "block42.layer3.layer",
+            "block43.layer1.layer",
+            "block43.layer3.layer",
+            "block44.layer1.layer",
+            "block44.layer3.layer",
+            "block45.layer1.layer",
+            "block45.layer3.layer",
+            "block46.layer1.layer",
+            "block46.layer3.layer",
+            "block47.layer1.layer",
+            "block47.layer3.layer"
+          ]
+        },
+        {
+          "serialized_dimensions": [
+            262144
+          ],
+          "count": 8,
+          "names": [
+            "block40.layer0.layer",
+            "block41.layer0.layer",
+            "block42.layer0.layer",
+            "block43.layer0.layer",
+            "block44.layer0.layer",
+            "block45.layer0.layer",
+            "block46.layer0.layer",
+            "block47.layer0.layer"
+          ]
+        },
+        {
+          "serialized_dimensions": [
+            458784
+          ],
+          "count": 8,
+          "names": [
+            "block40.layer2.layer",
+            "block41.layer2.layer",
+            "block42.layer2.layer",
+            "block43.layer2.layer",
+            "block44.layer2.layer",
+            "block45.layer2.layer",
+            "block46.layer2.layer",
+            "block47.layer2.layer"
+          ]
+        }
+      ]
+    },
+    "TIN_decoder": {
+      "block_range": [
+        48,
+        69
+      ],
+      "tensor_count": 22,
+      "payload_bytes": 7201632,
+      "aligned_slot_bytes": 7209472,
+      "shape_variants": [
+        {
+          "serialized_dimensions": [
+            10336
+          ],
+          "count": 3,
+          "names": [
+            "block67.layer0.layer",
+            "block68.layer0.layer",
+            "block69.layer0.layer"
+          ]
+        },
+        {
+          "serialized_dimensions": [
+            11392
+          ],
+          "count": 1,
+          "names": [
+            "block66.layer0.layer"
+          ]
+        },
+        {
+          "serialized_dimensions": [
+            30880
+          ],
+          "count": 3,
+          "names": [
+            "block63.layer0.layer",
+            "block64.layer0.layer",
+            "block65.layer0.layer"
+          ]
+        },
+        {
+          "serialized_dimensions": [
+            35024
+          ],
+          "count": 1,
+          "names": [
+            "block62.layer0.layer"
+          ]
+        },
+        {
+          "serialized_dimensions": [
+            98592
+          ],
+          "count": 5,
+          "names": [
+            "block57.layer0.layer",
+            "block58.layer0.layer",
+            "block59.layer0.layer",
+            "block60.layer0.layer",
+            "block61.layer0.layer"
+          ]
+        },
+        {
+          "serialized_dimensions": [
+            115088
+          ],
+          "count": 1,
+          "names": [
+            "block56.layer0.layer"
+          ]
+        },
+        {
+          "serialized_dimensions": [
+            344616
+          ],
+          "count": 7,
+          "names": [
+            "block49.layer0.layer",
+            "block50.layer0.layer",
+            "block51.layer0.layer",
+            "block52.layer0.layer",
+            "block53.layer0.layer",
+            "block54.layer0.layer",
+            "block55.layer0.layer"
+          ]
+        },
+        {
+          "serialized_dimensions": [
+            410392
+          ],
+          "count": 1,
+          "names": [
+            "block48.layer0.layer"
+          ]
+        }
+      ]
+    },
+    "B70": {
+      "block_range": [
+        70,
+        70
+      ],
+      "tensor_count": 2,
+      "payload_bytes": 21810,
+      "aligned_slot_bytes": 22528,
+      "shape_variants": [
+        {
+          "serialized_dimensions": [
+            1
+          ],
+          "count": 1,
+          "names": [
+            "block70.layer0.blend_scale"
+          ]
+        },
+        {
+          "serialized_dimensions": [
+            10904
+          ],
+          "count": 1,
+          "names": [
+            "block70.layer0.layer"
+          ]
+        }
+      ]
+    }
+  },
+  "tensors": [
+    {
+      "name": "block0.layer0.layer",
+      "block": 0,
+      "layer": 0,
+      "stage": "B0",
+      "serialized_dimensions": [
+        10848
+      ],
+      "serialized_dtype_code": 1,
+      "container_dtype": "U8",
+      "container_shape": [
+        21696
+      ],
+      "payload_bytes": 21696,
+      "aligned_slot_bytes": 22016
+    },
+    {
+      "name": "block1.layer0.layer",
+      "block": 1,
+      "layer": 0,
+      "stage": "TIN_encoder",
+      "serialized_dimensions": [
+        10336
+      ],
+      "serialized_dtype_code": 1,
+      "container_dtype": "U8",
+      "container_shape": [
+        20672
+      ],
+      "payload_bytes": 20672,
+      "aligned_slot_bytes": 20992
+    },
+    {
+      "name": "block10.layer0.layer",
+      "block": 10,
+      "layer": 0,
+      "stage": "TIN_encoder",
+      "serialized_dimensions": [
+        98592
+      ],
+      "serialized_dtype_code": 1,
+      "container_dtype": "U8",
+      "container_shape": [
+        197184
+      ],
+      "payload_bytes": 197184,
+      "aligned_slot_bytes": 197632
+    },
+    {
+      "name": "block11.layer0.layer",
+      "block": 11,
+      "layer": 0,
+      "stage": "TIN_encoder",
+      "serialized_dimensions": [
+        98592
+      ],
+      "serialized_dtype_code": 1,
+      "container_dtype": "U8",
+      "container_shape": [
+        197184
+      ],
+      "payload_bytes": 197184,
+      "aligned_slot_bytes": 197632
+    },
+    {
+      "name": "block12.layer0.layer",
+      "block": 12,
+      "layer": 0,
+      "stage": "TIN_encoder",
+      "serialized_dimensions": [
+        98592
+      ],
+      "serialized_dtype_code": 1,
+      "container_dtype": "U8",
+      "container_shape": [
+        197184
+      ],
+      "payload_bytes": 197184,
+      "aligned_slot_bytes": 197632
+    },
+    {
+      "name": "block13.layer0.layer",
+      "block": 13,
+      "layer": 0,
+      "stage": "TIN_encoder",
+      "serialized_dimensions": [
+        98592
+      ],
+      "serialized_dtype_code": 1,
+      "container_dtype": "U8",
+      "container_shape": [
+        197184
+      ],
+      "payload_bytes": 197184,
+      "aligned_slot_bytes": 197632
+    },
+    {
+      "name": "block14.layer0.layer",
+      "block": 14,
+      "layer": 0,
+      "stage": "TIN_encoder",
+      "serialized_dimensions": [
+        114968
+      ],
+      "serialized_dtype_code": 1,
+      "container_dtype": "U8",
+      "container_shape": [
+        229936
+      ],
+      "payload_bytes": 229936,
+      "aligned_slot_bytes": 230400
+    },
+    {
+      "name": "block15.layer0.layer",
+      "block": 15,
+      "layer": 0,
+      "stage": "TIN_encoder",
+      "serialized_dimensions": [
+        344616
+      ],
+      "serialized_dtype_code": 1,
+      "container_dtype": "U8",
+      "container_shape": [
+        689232
+      ],
+      "payload_bytes": 689232,
+      "aligned_slot_bytes": 689664
+    },
+    {
+      "name": "block16.layer0.layer",
+      "block": 16,
+      "layer": 0,
+      "stage": "TIN_encoder",
+      "serialized_dimensions": [
+        344616
+      ],
+      "serialized_dtype_code": 1,
+      "container_dtype": "U8",
+      "container_shape": [
+        689232
+      ],
+      "payload_bytes": 689232,
+      "aligned_slot_bytes": 689664
+    },
+    {
+      "name": "block17.layer0.layer",
+      "block": 17,
+      "layer": 0,
+      "stage": "TIN_encoder",
+      "serialized_dimensions": [
+        344616
+      ],
+      "serialized_dtype_code": 1,
+      "container_dtype": "U8",
+      "container_shape": [
+        689232
+      ],
+      "payload_bytes": 689232,
+      "aligned_slot_bytes": 689664
+    },
+    {
+      "name": "block18.layer0.layer",
+      "block": 18,
+      "layer": 0,
+      "stage": "TIN_encoder",
+      "serialized_dimensions": [
+        344616
+      ],
+      "serialized_dtype_code": 1,
+      "container_dtype": "U8",
+      "container_shape": [
+        689232
+      ],
+      "payload_bytes": 689232,
+      "aligned_slot_bytes": 689664
+    },
+    {
+      "name": "block19.layer0.layer",
+      "block": 19,
+      "layer": 0,
+      "stage": "TIN_encoder",
+      "serialized_dimensions": [
+        344616
+      ],
+      "serialized_dtype_code": 1,
+      "container_dtype": "U8",
+      "container_shape": [
+        689232
+      ],
+      "payload_bytes": 689232,
+      "aligned_slot_bytes": 689664
+    },
+    {
+      "name": "block2.layer0.layer",
+      "block": 2,
+      "layer": 0,
+      "stage": "TIN_encoder",
+      "serialized_dimensions": [
+        10336
+      ],
+      "serialized_dtype_code": 1,
+      "container_dtype": "U8",
+      "container_shape": [
+        20672
+      ],
+      "payload_bytes": 20672,
+      "aligned_slot_bytes": 20992
+    },
+    {
+      "name": "block20.layer0.layer",
+      "block": 20,
+      "layer": 0,
+      "stage": "TIN_encoder",
+      "serialized_dimensions": [
+        344616
+      ],
+      "serialized_dtype_code": 1,
+      "container_dtype": "U8",
+      "container_shape": [
+        689232
+      ],
+      "payload_bytes": 689232,
+      "aligned_slot_bytes": 689664
+    },
+    {
+      "name": "block21.layer0.layer",
+      "block": 21,
+      "layer": 0,
+      "stage": "TIN_encoder",
+      "serialized_dimensions": [
+        344616
+      ],
+      "serialized_dtype_code": 1,
+      "container_dtype": "U8",
+      "container_shape": [
+        689232
+      ],
+      "payload_bytes": 689232,
+      "aligned_slot_bytes": 689664
+    },
+    {
+      "name": "block22.layer0.layer",
+      "block": 22,
+      "layer": 0,
+      "stage": "TIN_encoder",
+      "serialized_dimensions": [
+        410144
+      ],
+      "serialized_dtype_code": 1,
+      "container_dtype": "U8",
+      "container_shape": [
+        820288
+      ],
+      "payload_bytes": 820288,
+      "aligned_slot_bytes": 820736
+    },
+    {
+      "name": "block23.layer0.layer",
+      "block": 23,
+      "layer": 0,
+      "stage": "split16_encoder",
+      "serialized_dimensions": [
+        262144
+      ],
+      "serialized_dtype_code": 1,
+      "container_dtype": "U8",
+      "container_shape": [
+        524288
+      ],
+      "payload_bytes": 524288,
+      "aligned_slot_bytes": 524288
+    },
+    {
+      "name": "block23.layer1.layer",
+      "block": 23,
+      "layer": 1,
+      "stage": "split16_encoder",
+      "serialized_dimensions": [
+        131584
+      ],
+      "serialized_dtype_code": 1,
+      "container_dtype": "U8",
+      "container_shape": [
+        263168
+      ],
+      "payload_bytes": 263168,
+      "aligned_slot_bytes": 263168
+    },
+    {
+      "name": "block23.layer2.layer",
+      "block": 23,
+      "layer": 2,
+      "stage": "split16_encoder",
+      "serialized_dimensions": [
+        458784
+      ],
+      "serialized_dtype_code": 1,
+      "container_dtype": "U8",
+      "container_shape": [
+        917568
+      ],
+      "payload_bytes": 917568,
+      "aligned_slot_bytes": 918016
+    },
+    {
+      "name": "block23.layer3.layer",
+      "block": 23,
+      "layer": 3,
+      "stage": "split16_encoder",
+      "serialized_dimensions": [
+        131584
+      ],
+      "serialized_dtype_code": 1,
+      "container_dtype": "U8",
+      "container_shape": [
+        263168
+      ],
+      "payload_bytes": 263168,
+      "aligned_slot_bytes": 263168
+    },
+    {
+      "name": "block24.layer0.layer",
+      "block": 24,
+      "layer": 0,
+      "stage": "split16_encoder",
+      "serialized_dimensions": [
+        262144
+      ],
+      "serialized_dtype_code": 1,
+      "container_dtype": "U8",
+      "container_shape": [
+        524288
+      ],
+      "payload_bytes": 524288,
+      "aligned_slot_bytes": 524288
+    },
+    {
+      "name": "block24.layer1.layer",
+      "block": 24,
+      "layer": 1,
+      "stage": "split16_encoder",
+      "serialized_dimensions": [
+        131584
+      ],
+      "serialized_dtype_code": 1,
+      "container_dtype": "U8",
+      "container_shape": [
+        263168
+      ],
+      "payload_bytes": 263168,
+      "aligned_slot_bytes": 263168
+    },
+    {
+      "name": "block24.layer2.layer",
+      "block": 24,
+      "layer": 2,
+      "stage": "split16_encoder",
+      "serialized_dimensions": [
+        458784
+      ],
+      "serialized_dtype_code": 1,
+      "container_dtype": "U8",
+      "container_shape": [
+        917568
+      ],
+      "payload_bytes": 917568,
+      "aligned_slot_bytes": 918016
+    },
+    {
+      "name": "block24.layer3.layer",
+      "block": 24,
+      "layer": 3,
+      "stage": "split16_encoder",
+      "serialized_dimensions": [
+        131584
+      ],
+      "serialized_dtype_code": 1,
+      "container_dtype": "U8",
+      "container_shape": [
+        263168
+      ],
+      "payload_bytes": 263168,
+      "aligned_slot_bytes": 263168
+    },
+    {
+      "name": "block25.layer0.layer",
+      "block": 25,
+      "layer": 0,
+      "stage": "split16_encoder",
+      "serialized_dimensions": [
+        262144
+      ],
+      "serialized_dtype_code": 1,
+      "container_dtype": "U8",
+      "container_shape": [
+        524288
+      ],
+      "payload_bytes": 524288,
+      "aligned_slot_bytes": 524288
+    },
+    {
+      "name": "block25.layer1.layer",
+      "block": 25,
+      "layer": 1,
+      "stage": "split16_encoder",
+      "serialized_dimensions": [
+        131584
+      ],
+      "serialized_dtype_code": 1,
+      "container_dtype": "U8",
+      "container_shape": [
+        263168
+      ],
+      "payload_bytes": 263168,
+      "aligned_slot_bytes": 263168
+    },
+    {
+      "name": "block25.layer2.layer",
+      "block": 25,
+      "layer": 2,
+      "stage": "split16_encoder",
+      "serialized_dimensions": [
+        458784
+      ],
+      "serialized_dtype_code": 1,
+      "container_dtype": "U8",
+      "container_shape": [
+        917568
+      ],
+      "payload_bytes": 917568,
+      "aligned_slot_bytes": 918016
+    },
+    {
+      "name": "block25.layer3.layer",
+      "block": 25,
+      "layer": 3,
+      "stage": "split16_encoder",
+      "serialized_dimensions": [
+        131584
+      ],
+      "serialized_dtype_code": 1,
+      "container_dtype": "U8",
+      "container_shape": [
+        263168
+      ],
+      "payload_bytes": 263168,
+      "aligned_slot_bytes": 263168
+    },
+    {
+      "name": "block26.layer0.layer",
+      "block": 26,
+      "layer": 0,
+      "stage": "split16_encoder",
+      "serialized_dimensions": [
+        262144
+      ],
+      "serialized_dtype_code": 1,
+      "container_dtype": "U8",
+      "container_shape": [
+        524288
+      ],
+      "payload_bytes": 524288,
+      "aligned_slot_bytes": 524288
+    },
+    {
+      "name": "block26.layer1.layer",
+      "block": 26,
+      "layer": 1,
+      "stage": "split16_encoder",
+      "serialized_dimensions": [
+        131584
+      ],
+      "serialized_dtype_code": 1,
+      "container_dtype": "U8",
+      "container_shape": [
+        263168
+      ],
+      "payload_bytes": 263168,
+      "aligned_slot_bytes": 263168
+    },
+    {
+      "name": "block26.layer2.layer",
+      "block": 26,
+      "layer": 2,
+      "stage": "split16_encoder",
+      "serialized_dimensions": [
+        458784
+      ],
+      "serialized_dtype_code": 1,
+      "container_dtype": "U8",
+      "container_shape": [
+        917568
+      ],
+      "payload_bytes": 917568,
+      "aligned_slot_bytes": 918016
+    },
+    {
+      "name": "block26.layer3.layer",
+      "block": 26,
+      "layer": 3,
+      "stage": "split16_encoder",
+      "serialized_dimensions": [
+        131584
+      ],
+      "serialized_dtype_code": 1,
+      "container_dtype": "U8",
+      "container_shape": [
+        263168
+      ],
+      "payload_bytes": 263168,
+      "aligned_slot_bytes": 263168
+    },
+    {
+      "name": "block27.layer0.layer",
+      "block": 27,
+      "layer": 0,
+      "stage": "split16_encoder",
+      "serialized_dimensions": [
+        262144
+      ],
+      "serialized_dtype_code": 1,
+      "container_dtype": "U8",
+      "container_shape": [
+        524288
+      ],
+      "payload_bytes": 524288,
+      "aligned_slot_bytes": 524288
+    },
+    {
+      "name": "block27.layer1.layer",
+      "block": 27,
+      "layer": 1,
+      "stage": "split16_encoder",
+      "serialized_dimensions": [
+        131584
+      ],
+      "serialized_dtype_code": 1,
+      "container_dtype": "U8",
+      "container_shape": [
+        263168
+      ],
+      "payload_bytes": 263168,
+      "aligned_slot_bytes": 263168
+    },
+    {
+      "name": "block27.layer2.layer",
+      "block": 27,
+      "layer": 2,
+      "stage": "split16_encoder",
+      "serialized_dimensions": [
+        458784
+      ],
+      "serialized_dtype_code": 1,
+      "container_dtype": "U8",
+      "container_shape": [
+        917568
+      ],
+      "payload_bytes": 917568,
+      "aligned_slot_bytes": 918016
+    },
+    {
+      "name": "block27.layer3.layer",
+      "block": 27,
+      "layer": 3,
+      "stage": "split16_encoder",
+      "serialized_dimensions": [
+        131584
+      ],
+      "serialized_dtype_code": 1,
+      "container_dtype": "U8",
+      "container_shape": [
+        263168
+      ],
+      "payload_bytes": 263168,
+      "aligned_slot_bytes": 263168
+    },
+    {
+      "name": "block28.layer0.layer",
+      "block": 28,
+      "layer": 0,
+      "stage": "split16_encoder",
+      "serialized_dimensions": [
+        262144
+      ],
+      "serialized_dtype_code": 1,
+      "container_dtype": "U8",
+      "container_shape": [
+        524288
+      ],
+      "payload_bytes": 524288,
+      "aligned_slot_bytes": 524288
+    },
+    {
+      "name": "block28.layer1.layer",
+      "block": 28,
+      "layer": 1,
+      "stage": "split16_encoder",
+      "serialized_dimensions": [
+        131584
+      ],
+      "serialized_dtype_code": 1,
+      "container_dtype": "U8",
+      "container_shape": [
+        263168
+      ],
+      "payload_bytes": 263168,
+      "aligned_slot_bytes": 263168
+    },
+    {
+      "name": "block28.layer2.layer",
+      "block": 28,
+      "layer": 2,
+      "stage": "split16_encoder",
+      "serialized_dimensions": [
+        458784
+      ],
+      "serialized_dtype_code": 1,
+      "container_dtype": "U8",
+      "container_shape": [
+        917568
+      ],
+      "payload_bytes": 917568,
+      "aligned_slot_bytes": 918016
+    },
+    {
+      "name": "block28.layer3.layer",
+      "block": 28,
+      "layer": 3,
+      "stage": "split16_encoder",
+      "serialized_dimensions": [
+        131584
+      ],
+      "serialized_dtype_code": 1,
+      "container_dtype": "U8",
+      "container_shape": [
+        263168
+      ],
+      "payload_bytes": 263168,
+      "aligned_slot_bytes": 263168
+    },
+    {
+      "name": "block29.layer0.layer",
+      "block": 29,
+      "layer": 0,
+      "stage": "split16_encoder",
+      "serialized_dimensions": [
+        262144
+      ],
+      "serialized_dtype_code": 1,
+      "container_dtype": "U8",
+      "container_shape": [
+        524288
+      ],
+      "payload_bytes": 524288,
+      "aligned_slot_bytes": 524288
+    },
+    {
+      "name": "block29.layer1.layer",
+      "block": 29,
+      "layer": 1,
+      "stage": "split16_encoder",
+      "serialized_dimensions": [
+        131584
+      ],
+      "serialized_dtype_code": 1,
+      "container_dtype": "U8",
+      "container_shape": [
+        263168
+      ],
+      "payload_bytes": 263168,
+      "aligned_slot_bytes": 263168
+    },
+    {
+      "name": "block29.layer2.layer",
+      "block": 29,
+      "layer": 2,
+      "stage": "split16_encoder",
+      "serialized_dimensions": [
+        458784
+      ],
+      "serialized_dtype_code": 1,
+      "container_dtype": "U8",
+      "container_shape": [
+        917568
+      ],
+      "payload_bytes": 917568,
+      "aligned_slot_bytes": 918016
+    },
+    {
+      "name": "block29.layer3.layer",
+      "block": 29,
+      "layer": 3,
+      "stage": "split16_encoder",
+      "serialized_dimensions": [
+        131584
+      ],
+      "serialized_dtype_code": 1,
+      "container_dtype": "U8",
+      "container_shape": [
+        263168
+      ],
+      "payload_bytes": 263168,
+      "aligned_slot_bytes": 263168
+    },
+    {
+      "name": "block3.layer0.layer",
+      "block": 3,
+      "layer": 0,
+      "stage": "TIN_encoder",
+      "serialized_dimensions": [
+        10336
+      ],
+      "serialized_dtype_code": 1,
+      "container_dtype": "U8",
+      "container_shape": [
+        20672
+      ],
+      "payload_bytes": 20672,
+      "aligned_slot_bytes": 20992
+    },
+    {
+      "name": "block30.layer0.layer",
+      "block": 30,
+      "layer": 0,
+      "stage": "split16_encoder",
+      "serialized_dimensions": [
+        262144
+      ],
+      "serialized_dtype_code": 1,
+      "container_dtype": "U8",
+      "container_shape": [
+        524288
+      ],
+      "payload_bytes": 524288,
+      "aligned_slot_bytes": 524288
+    },
+    {
+      "name": "block30.layer1.layer",
+      "block": 30,
+      "layer": 1,
+      "stage": "split16_encoder",
+      "serialized_dimensions": [
+        131584
+      ],
+      "serialized_dtype_code": 1,
+      "container_dtype": "U8",
+      "container_shape": [
+        263168
+      ],
+      "payload_bytes": 263168,
+      "aligned_slot_bytes": 263168
+    },
+    {
+      "name": "block30.layer2.layer",
+      "block": 30,
+      "layer": 2,
+      "stage": "split16_encoder",
+      "serialized_dimensions": [
+        458784
+      ],
+      "serialized_dtype_code": 1,
+      "container_dtype": "U8",
+      "container_shape": [
+        917568
+      ],
+      "payload_bytes": 917568,
+      "aligned_slot_bytes": 918016
+    },
+    {
+      "name": "block30.layer3.layer",
+      "block": 30,
+      "layer": 3,
+      "stage": "split16_encoder",
+      "serialized_dimensions": [
+        131584
+      ],
+      "serialized_dtype_code": 1,
+      "container_dtype": "U8",
+      "container_shape": [
+        263168
+      ],
+      "payload_bytes": 263168,
+      "aligned_slot_bytes": 263168
+    },
+    {
+      "name": "block30.layer4.layer",
+      "block": 30,
+      "layer": 4,
+      "stage": "split16_encoder",
+      "serialized_dimensions": [
+        262152
+      ],
+      "serialized_dtype_code": 1,
+      "container_dtype": "U8",
+      "container_shape": [
+        524304
+      ],
+      "payload_bytes": 524304,
+      "aligned_slot_bytes": 524800
+    },
+    {
+      "name": "block31.layer0.layer",
+      "block": 31,
+      "layer": 0,
+      "stage": "ViT",
+      "serialized_dimensions": [
+        2097160
+      ],
+      "serialized_dtype_code": 1,
+      "container_dtype": "U8",
+      "container_shape": [
+        4194320
+      ],
+      "payload_bytes": 4194320,
+      "aligned_slot_bytes": 4194816
+    },
+    {
+      "name": "block31.layer1.layer",
+      "block": 31,
+      "layer": 1,
+      "stage": "ViT",
+      "serialized_dimensions": [
+        2098176
+      ],
+      "serialized_dtype_code": 1,
+      "container_dtype": "U8",
+      "container_shape": [
+        4196352
+      ],
+      "payload_bytes": 4196352,
+      "aligned_slot_bytes": 4196352
+    },
+    {
+      "name": "block31.layer2.layer",
+      "block": 31,
+      "layer": 2,
+      "stage": "ViT",
+      "serialized_dimensions": [
+        1572928
+      ],
+      "serialized_dtype_code": 1,
+      "container_dtype": "U8",
+      "container_shape": [
+        3145856
+      ],
+      "payload_bytes": 3145856,
+      "aligned_slot_bytes": 3146240
+    },
+    {
+      "name": "block31.layer3.layer",
+      "block": 31,
+      "layer": 3,
+      "stage": "ViT",
+      "serialized_dimensions": [
+        1
+      ],
+      "serialized_dtype_code": 1,
+      "container_dtype": "U8",
+      "container_shape": [
+        2
+      ],
+      "payload_bytes": 2,
+      "aligned_slot_bytes": 512
+    },
+    {
+      "name": "block31.layer4.layer",
+      "block": 31,
+      "layer": 4,
+      "stage": "ViT",
+      "serialized_dimensions": [
+        525312
+      ],
+      "serialized_dtype_code": 1,
+      "container_dtype": "U8",
+      "container_shape": [
+        1050624
+      ],
+      "payload_bytes": 1050624,
+      "aligned_slot_bytes": 1050624
+    },
+    {
+      "name": "block32.layer0.layer",
+      "block": 32,
+      "layer": 0,
+      "stage": "ViT",
+      "serialized_dimensions": [
+        2097160
+      ],
+      "serialized_dtype_code": 1,
+      "container_dtype": "U8",
+      "container_shape": [
+        4194320
+      ],
+      "payload_bytes": 4194320,
+      "aligned_slot_bytes": 4194816
+    },
+    {
+      "name": "block32.layer1.layer",
+      "block": 32,
+      "layer": 1,
+      "stage": "ViT",
+      "serialized_dimensions": [
+        2098176
+      ],
+      "serialized_dtype_code": 1,
+      "container_dtype": "U8",
+      "container_shape": [
+        4196352
+      ],
+      "payload_bytes": 4196352,
+      "aligned_slot_bytes": 4196352
+    },
+    {
+      "name": "block32.layer2.layer",
+      "block": 32,
+      "layer": 2,
+      "stage": "ViT",
+      "serialized_dimensions": [
+        1572928
+      ],
+      "serialized_dtype_code": 1,
+      "container_dtype": "U8",
+      "container_shape": [
+        3145856
+      ],
+      "payload_bytes": 3145856,
+      "aligned_slot_bytes": 3146240
+    },
+    {
+      "name": "block32.layer3.layer",
+      "block": 32,
+      "layer": 3,
+      "stage": "ViT",
+      "serialized_dimensions": [
+        1
+      ],
+      "serialized_dtype_code": 1,
+      "container_dtype": "U8",
+      "container_shape": [
+        2
+      ],
+      "payload_bytes": 2,
+      "aligned_slot_bytes": 512
+    },
+    {
+      "name": "block32.layer4.layer",
+      "block": 32,
+      "layer": 4,
+      "stage": "ViT",
+      "serialized_dimensions": [
+        525312
+      ],
+      "serialized_dtype_code": 1,
+      "container_dtype": "U8",
+      "container_shape": [
+        1050624
+      ],
+      "payload_bytes": 1050624,
+      "aligned_slot_bytes": 1050624
+    },
+    {
+      "name": "block33.layer0.layer",
+      "block": 33,
+      "layer": 0,
+      "stage": "ViT",
+      "serialized_dimensions": [
+        2097160
+      ],
+      "serialized_dtype_code": 1,
+      "container_dtype": "U8",
+      "container_shape": [
+        4194320
+      ],
+      "payload_bytes": 4194320,
+      "aligned_slot_bytes": 4194816
+    },
+    {
+      "name": "block33.layer1.layer",
+      "block": 33,
+      "layer": 1,
+      "stage": "ViT",
+      "serialized_dimensions": [
+        2098176
+      ],
+      "serialized_dtype_code": 1,
+      "container_dtype": "U8",
+      "container_shape": [
+        4196352
+      ],
+      "payload_bytes": 4196352,
+      "aligned_slot_bytes": 4196352
+    },
+    {
+      "name": "block33.layer2.layer",
+      "block": 33,
+      "layer": 2,
+      "stage": "ViT",
+      "serialized_dimensions": [
+        1572928
+      ],
+      "serialized_dtype_code": 1,
+      "container_dtype": "U8",
+      "container_shape": [
+        3145856
+      ],
+      "payload_bytes": 3145856,
+      "aligned_slot_bytes": 3146240
+    },
+    {
+      "name": "block33.layer3.layer",
+      "block": 33,
+      "layer": 3,
+      "stage": "ViT",
+      "serialized_dimensions": [
+        1
+      ],
+      "serialized_dtype_code": 1,
+      "container_dtype": "U8",
+      "container_shape": [
+        2
+      ],
+      "payload_bytes": 2,
+      "aligned_slot_bytes": 512
+    },
+    {
+      "name": "block33.layer4.layer",
+      "block": 33,
+      "layer": 4,
+      "stage": "ViT",
+      "serialized_dimensions": [
+        525312
+      ],
+      "serialized_dtype_code": 1,
+      "container_dtype": "U8",
+      "container_shape": [
+        1050624
+      ],
+      "payload_bytes": 1050624,
+      "aligned_slot_bytes": 1050624
+    },
+    {
+      "name": "block34.layer0.layer",
+      "block": 34,
+      "layer": 0,
+      "stage": "ViT",
+      "serialized_dimensions": [
+        2097160
+      ],
+      "serialized_dtype_code": 1,
+      "container_dtype": "U8",
+      "container_shape": [
+        4194320
+      ],
+      "payload_bytes": 4194320,
+      "aligned_slot_bytes": 4194816
+    },
+    {
+      "name": "block34.layer1.layer",
+      "block": 34,
+      "layer": 1,
+      "stage": "ViT",
+      "serialized_dimensions": [
+        2098176
+      ],
+      "serialized_dtype_code": 1,
+      "container_dtype": "U8",
+      "container_shape": [
+        4196352
+      ],
+      "payload_bytes": 4196352,
+      "aligned_slot_bytes": 4196352
+    },
+    {
+      "name": "block34.layer2.layer",
+      "block": 34,
+      "layer": 2,
+      "stage": "ViT",
+      "serialized_dimensions": [
+        1572928
+      ],
+      "serialized_dtype_code": 1,
+      "container_dtype": "U8",
+      "container_shape": [
+        3145856
+      ],
+      "payload_bytes": 3145856,
+      "aligned_slot_bytes": 3146240
+    },
+    {
+      "name": "block34.layer3.layer",
+      "block": 34,
+      "layer": 3,
+      "stage": "ViT",
+      "serialized_dimensions": [
+        1
+      ],
+      "serialized_dtype_code": 1,
+      "container_dtype": "U8",
+      "container_shape": [
+        2
+      ],
+      "payload_bytes": 2,
+      "aligned_slot_bytes": 512
+    },
+    {
+      "name": "block34.layer4.layer",
+      "block": 34,
+      "layer": 4,
+      "stage": "ViT",
+      "serialized_dimensions": [
+        525312
+      ],
+      "serialized_dtype_code": 1,
+      "container_dtype": "U8",
+      "container_shape": [
+        1050624
+      ],
+      "payload_bytes": 1050624,
+      "aligned_slot_bytes": 1050624
+    },
+    {
+      "name": "block35.layer0.layer",
+      "block": 35,
+      "layer": 0,
+      "stage": "ViT",
+      "serialized_dimensions": [
+        2097160
+      ],
+      "serialized_dtype_code": 1,
+      "container_dtype": "U8",
+      "container_shape": [
+        4194320
+      ],
+      "payload_bytes": 4194320,
+      "aligned_slot_bytes": 4194816
+    },
+    {
+      "name": "block35.layer1.layer",
+      "block": 35,
+      "layer": 1,
+      "stage": "ViT",
+      "serialized_dimensions": [
+        2098176
+      ],
+      "serialized_dtype_code": 1,
+      "container_dtype": "U8",
+      "container_shape": [
+        4196352
+      ],
+      "payload_bytes": 4196352,
+      "aligned_slot_bytes": 4196352
+    },
+    {
+      "name": "block35.layer2.layer",
+      "block": 35,
+      "layer": 2,
+      "stage": "ViT",
+      "serialized_dimensions": [
+        1572928
+      ],
+      "serialized_dtype_code": 1,
+      "container_dtype": "U8",
+      "container_shape": [
+        3145856
+      ],
+      "payload_bytes": 3145856,
+      "aligned_slot_bytes": 3146240
+    },
+    {
+      "name": "block35.layer3.layer",
+      "block": 35,
+      "layer": 3,
+      "stage": "ViT",
+      "serialized_dimensions": [
+        1
+      ],
+      "serialized_dtype_code": 1,
+      "container_dtype": "U8",
+      "container_shape": [
+        2
+      ],
+      "payload_bytes": 2,
+      "aligned_slot_bytes": 512
+    },
+    {
+      "name": "block35.layer4.layer",
+      "block": 35,
+      "layer": 4,
+      "stage": "ViT",
+      "serialized_dimensions": [
+        525312
+      ],
+      "serialized_dtype_code": 1,
+      "container_dtype": "U8",
+      "container_shape": [
+        1050624
+      ],
+      "payload_bytes": 1050624,
+      "aligned_slot_bytes": 1050624
+    },
+    {
+      "name": "block36.layer0.layer",
+      "block": 36,
+      "layer": 0,
+      "stage": "ViT",
+      "serialized_dimensions": [
+        2097160
+      ],
+      "serialized_dtype_code": 1,
+      "container_dtype": "U8",
+      "container_shape": [
+        4194320
+      ],
+      "payload_bytes": 4194320,
+      "aligned_slot_bytes": 4194816
+    },
+    {
+      "name": "block36.layer1.layer",
+      "block": 36,
+      "layer": 1,
+      "stage": "ViT",
+      "serialized_dimensions": [
+        2098176
+      ],
+      "serialized_dtype_code": 1,
+      "container_dtype": "U8",
+      "container_shape": [
+        4196352
+      ],
+      "payload_bytes": 4196352,
+      "aligned_slot_bytes": 4196352
+    },
+    {
+      "name": "block36.layer2.layer",
+      "block": 36,
+      "layer": 2,
+      "stage": "ViT",
+      "serialized_dimensions": [
+        1572928
+      ],
+      "serialized_dtype_code": 1,
+      "container_dtype": "U8",
+      "container_shape": [
+        3145856
+      ],
+      "payload_bytes": 3145856,
+      "aligned_slot_bytes": 3146240
+    },
+    {
+      "name": "block36.layer3.layer",
+      "block": 36,
+      "layer": 3,
+      "stage": "ViT",
+      "serialized_dimensions": [
+        1
+      ],
+      "serialized_dtype_code": 1,
+      "container_dtype": "U8",
+      "container_shape": [
+        2
+      ],
+      "payload_bytes": 2,
+      "aligned_slot_bytes": 512
+    },
+    {
+      "name": "block36.layer4.layer",
+      "block": 36,
+      "layer": 4,
+      "stage": "ViT",
+      "serialized_dimensions": [
+        525312
+      ],
+      "serialized_dtype_code": 1,
+      "container_dtype": "U8",
+      "container_shape": [
+        1050624
+      ],
+      "payload_bytes": 1050624,
+      "aligned_slot_bytes": 1050624
+    },
+    {
+      "name": "block37.layer0.layer",
+      "block": 37,
+      "layer": 0,
+      "stage": "ViT",
+      "serialized_dimensions": [
+        2097160
+      ],
+      "serialized_dtype_code": 1,
+      "container_dtype": "U8",
+      "container_shape": [
+        4194320
+      ],
+      "payload_bytes": 4194320,
+      "aligned_slot_bytes": 4194816
+    },
+    {
+      "name": "block37.layer1.layer",
+      "block": 37,
+      "layer": 1,
+      "stage": "ViT",
+      "serialized_dimensions": [
+        2098176
+      ],
+      "serialized_dtype_code": 1,
+      "container_dtype": "U8",
+      "container_shape": [
+        4196352
+      ],
+      "payload_bytes": 4196352,
+      "aligned_slot_bytes": 4196352
+    },
+    {
+      "name": "block37.layer2.layer",
+      "block": 37,
+      "layer": 2,
+      "stage": "ViT",
+      "serialized_dimensions": [
+        1572928
+      ],
+      "serialized_dtype_code": 1,
+      "container_dtype": "U8",
+      "container_shape": [
+        3145856
+      ],
+      "payload_bytes": 3145856,
+      "aligned_slot_bytes": 3146240
+    },
+    {
+      "name": "block37.layer3.layer",
+      "block": 37,
+      "layer": 3,
+      "stage": "ViT",
+      "serialized_dimensions": [
+        1
+      ],
+      "serialized_dtype_code": 1,
+      "container_dtype": "U8",
+      "container_shape": [
+        2
+      ],
+      "payload_bytes": 2,
+      "aligned_slot_bytes": 512
+    },
+    {
+      "name": "block37.layer4.layer",
+      "block": 37,
+      "layer": 4,
+      "stage": "ViT",
+      "serialized_dimensions": [
+        525312
+      ],
+      "serialized_dtype_code": 1,
+      "container_dtype": "U8",
+      "container_shape": [
+        1050624
+      ],
+      "payload_bytes": 1050624,
+      "aligned_slot_bytes": 1050624
+    },
+    {
+      "name": "block38.layer0.layer",
+      "block": 38,
+      "layer": 0,
+      "stage": "ViT",
+      "serialized_dimensions": [
+        2097160
+      ],
+      "serialized_dtype_code": 1,
+      "container_dtype": "U8",
+      "container_shape": [
+        4194320
+      ],
+      "payload_bytes": 4194320,
+      "aligned_slot_bytes": 4194816
+    },
+    {
+      "name": "block38.layer1.layer",
+      "block": 38,
+      "layer": 1,
+      "stage": "ViT",
+      "serialized_dimensions": [
+        2098176
+      ],
+      "serialized_dtype_code": 1,
+      "container_dtype": "U8",
+      "container_shape": [
+        4196352
+      ],
+      "payload_bytes": 4196352,
+      "aligned_slot_bytes": 4196352
+    },
+    {
+      "name": "block38.layer2.layer",
+      "block": 38,
+      "layer": 2,
+      "stage": "ViT",
+      "serialized_dimensions": [
+        1572928
+      ],
+      "serialized_dtype_code": 1,
+      "container_dtype": "U8",
+      "container_shape": [
+        3145856
+      ],
+      "payload_bytes": 3145856,
+      "aligned_slot_bytes": 3146240
+    },
+    {
+      "name": "block38.layer3.layer",
+      "block": 38,
+      "layer": 3,
+      "stage": "ViT",
+      "serialized_dimensions": [
+        1
+      ],
+      "serialized_dtype_code": 1,
+      "container_dtype": "U8",
+      "container_shape": [
+        2
+      ],
+      "payload_bytes": 2,
+      "aligned_slot_bytes": 512
+    },
+    {
+      "name": "block38.layer4.layer",
+      "block": 38,
+      "layer": 4,
+      "stage": "ViT",
+      "serialized_dimensions": [
+        525312
+      ],
+      "serialized_dtype_code": 1,
+      "container_dtype": "U8",
+      "container_shape": [
+        1050624
+      ],
+      "payload_bytes": 1050624,
+      "aligned_slot_bytes": 1050624
+    },
+    {
+      "name": "block39.layer0.layer",
+      "block": 39,
+      "layer": 0,
+      "stage": "bridge",
+      "serialized_dimensions": [
+        262656
+      ],
+      "serialized_dtype_code": 1,
+      "container_dtype": "U8",
+      "container_shape": [
+        525312
+      ],
+      "payload_bytes": 525312,
+      "aligned_slot_bytes": 525312
+    },
+    {
+      "name": "block4.layer0.layer",
+      "block": 4,
+      "layer": 0,
+      "stage": "TIN_encoder",
+      "serialized_dimensions": [
+        11360
+      ],
+      "serialized_dtype_code": 1,
+      "container_dtype": "U8",
+      "container_shape": [
+        22720
+      ],
+      "payload_bytes": 22720,
+      "aligned_slot_bytes": 23040
+    },
+    {
+      "name": "block40.layer0.layer",
+      "block": 40,
+      "layer": 0,
+      "stage": "split16_decoder",
+      "serialized_dimensions": [
+        262144
+      ],
+      "serialized_dtype_code": 1,
+      "container_dtype": "U8",
+      "container_shape": [
+        524288
+      ],
+      "payload_bytes": 524288,
+      "aligned_slot_bytes": 524288
+    },
+    {
+      "name": "block40.layer1.layer",
+      "block": 40,
+      "layer": 1,
+      "stage": "split16_decoder",
+      "serialized_dimensions": [
+        131584
+      ],
+      "serialized_dtype_code": 1,
+      "container_dtype": "U8",
+      "container_shape": [
+        263168
+      ],
+      "payload_bytes": 263168,
+      "aligned_slot_bytes": 263168
+    },
+    {
+      "name": "block40.layer2.layer",
+      "block": 40,
+      "layer": 2,
+      "stage": "split16_decoder",
+      "serialized_dimensions": [
+        458784
+      ],
+      "serialized_dtype_code": 1,
+      "container_dtype": "U8",
+      "container_shape": [
+        917568
+      ],
+      "payload_bytes": 917568,
+      "aligned_slot_bytes": 918016
+    },
+    {
+      "name": "block40.layer3.layer",
+      "block": 40,
+      "layer": 3,
+      "stage": "split16_decoder",
+      "serialized_dimensions": [
+        131584
+      ],
+      "serialized_dtype_code": 1,
+      "container_dtype": "U8",
+      "container_shape": [
+        263168
+      ],
+      "payload_bytes": 263168,
+      "aligned_slot_bytes": 263168
+    },
+    {
+      "name": "block41.layer0.layer",
+      "block": 41,
+      "layer": 0,
+      "stage": "split16_decoder",
+      "serialized_dimensions": [
+        262144
+      ],
+      "serialized_dtype_code": 1,
+      "container_dtype": "U8",
+      "container_shape": [
+        524288
+      ],
+      "payload_bytes": 524288,
+      "aligned_slot_bytes": 524288
+    },
+    {
+      "name": "block41.layer1.layer",
+      "block": 41,
+      "layer": 1,
+      "stage": "split16_decoder",
+      "serialized_dimensions": [
+        131584
+      ],
+      "serialized_dtype_code": 1,
+      "container_dtype": "U8",
+      "container_shape": [
+        263168
+      ],
+      "payload_bytes": 263168,
+      "aligned_slot_bytes": 263168
+    },
+    {
+      "name": "block41.layer2.layer",
+      "block": 41,
+      "layer": 2,
+      "stage": "split16_decoder",
+      "serialized_dimensions": [
+        458784
+      ],
+      "serialized_dtype_code": 1,
+      "container_dtype": "U8",
+      "container_shape": [
+        917568
+      ],
+      "payload_bytes": 917568,
+      "aligned_slot_bytes": 918016
+    },
+    {
+      "name": "block41.layer3.layer",
+      "block": 41,
+      "layer": 3,
+      "stage": "split16_decoder",
+      "serialized_dimensions": [
+        131584
+      ],
+      "serialized_dtype_code": 1,
+      "container_dtype": "U8",
+      "container_shape": [
+        263168
+      ],
+      "payload_bytes": 263168,
+      "aligned_slot_bytes": 263168
+    },
+    {
+      "name": "block42.layer0.layer",
+      "block": 42,
+      "layer": 0,
+      "stage": "split16_decoder",
+      "serialized_dimensions": [
+        262144
+      ],
+      "serialized_dtype_code": 1,
+      "container_dtype": "U8",
+      "container_shape": [
+        524288
+      ],
+      "payload_bytes": 524288,
+      "aligned_slot_bytes": 524288
+    },
+    {
+      "name": "block42.layer1.layer",
+      "block": 42,
+      "layer": 1,
+      "stage": "split16_decoder",
+      "serialized_dimensions": [
+        131584
+      ],
+      "serialized_dtype_code": 1,
+      "container_dtype": "U8",
+      "container_shape": [
+        263168
+      ],
+      "payload_bytes": 263168,
+      "aligned_slot_bytes": 263168
+    },
+    {
+      "name": "block42.layer2.layer",
+      "block": 42,
+      "layer": 2,
+      "stage": "split16_decoder",
+      "serialized_dimensions": [
+        458784
+      ],
+      "serialized_dtype_code": 1,
+      "container_dtype": "U8",
+      "container_shape": [
+        917568
+      ],
+      "payload_bytes": 917568,
+      "aligned_slot_bytes": 918016
+    },
+    {
+      "name": "block42.layer3.layer",
+      "block": 42,
+      "layer": 3,
+      "stage": "split16_decoder",
+      "serialized_dimensions": [
+        131584
+      ],
+      "serialized_dtype_code": 1,
+      "container_dtype": "U8",
+      "container_shape": [
+        263168
+      ],
+      "payload_bytes": 263168,
+      "aligned_slot_bytes": 263168
+    },
+    {
+      "name": "block43.layer0.layer",
+      "block": 43,
+      "layer": 0,
+      "stage": "split16_decoder",
+      "serialized_dimensions": [
+        262144
+      ],
+      "serialized_dtype_code": 1,
+      "container_dtype": "U8",
+      "container_shape": [
+        524288
+      ],
+      "payload_bytes": 524288,
+      "aligned_slot_bytes": 524288
+    },
+    {
+      "name": "block43.layer1.layer",
+      "block": 43,
+      "layer": 1,
+      "stage": "split16_decoder",
+      "serialized_dimensions": [
+        131584
+      ],
+      "serialized_dtype_code": 1,
+      "container_dtype": "U8",
+      "container_shape": [
+        263168
+      ],
+      "payload_bytes": 263168,
+      "aligned_slot_bytes": 263168
+    },
+    {
+      "name": "block43.layer2.layer",
+      "block": 43,
+      "layer": 2,
+      "stage": "split16_decoder",
+      "serialized_dimensions": [
+        458784
+      ],
+      "serialized_dtype_code": 1,
+      "container_dtype": "U8",
+      "container_shape": [
+        917568
+      ],
+      "payload_bytes": 917568,
+      "aligned_slot_bytes": 918016
+    },
+    {
+      "name": "block43.layer3.layer",
+      "block": 43,
+      "layer": 3,
+      "stage": "split16_decoder",
+      "serialized_dimensions": [
+        131584
+      ],
+      "serialized_dtype_code": 1,
+      "container_dtype": "U8",
+      "container_shape": [
+        263168
+      ],
+      "payload_bytes": 263168,
+      "aligned_slot_bytes": 263168
+    },
+    {
+      "name": "block44.layer0.layer",
+      "block": 44,
+      "layer": 0,
+      "stage": "split16_decoder",
+      "serialized_dimensions": [
+        262144
+      ],
+      "serialized_dtype_code": 1,
+      "container_dtype": "U8",
+      "container_shape": [
+        524288
+      ],
+      "payload_bytes": 524288,
+      "aligned_slot_bytes": 524288
+    },
+    {
+      "name": "block44.layer1.layer",
+      "block": 44,
+      "layer": 1,
+      "stage": "split16_decoder",
+      "serialized_dimensions": [
+        131584
+      ],
+      "serialized_dtype_code": 1,
+      "container_dtype": "U8",
+      "container_shape": [
+        263168
+      ],
+      "payload_bytes": 263168,
+      "aligned_slot_bytes": 263168
+    },
+    {
+      "name": "block44.layer2.layer",
+      "block": 44,
+      "layer": 2,
+      "stage": "split16_decoder",
+      "serialized_dimensions": [
+        458784
+      ],
+      "serialized_dtype_code": 1,
+      "container_dtype": "U8",
+      "container_shape": [
+        917568
+      ],
+      "payload_bytes": 917568,
+      "aligned_slot_bytes": 918016
+    },
+    {
+      "name": "block44.layer3.layer",
+      "block": 44,
+      "layer": 3,
+      "stage": "split16_decoder",
+      "serialized_dimensions": [
+        131584
+      ],
+      "serialized_dtype_code": 1,
+      "container_dtype": "U8",
+      "container_shape": [
+        263168
+      ],
+      "payload_bytes": 263168,
+      "aligned_slot_bytes": 263168
+    },
+    {
+      "name": "block45.layer0.layer",
+      "block": 45,
+      "layer": 0,
+      "stage": "split16_decoder",
+      "serialized_dimensions": [
+        262144
+      ],
+      "serialized_dtype_code": 1,
+      "container_dtype": "U8",
+      "container_shape": [
+        524288
+      ],
+      "payload_bytes": 524288,
+      "aligned_slot_bytes": 524288
+    },
+    {
+      "name": "block45.layer1.layer",
+      "block": 45,
+      "layer": 1,
+      "stage": "split16_decoder",
+      "serialized_dimensions": [
+        131584
+      ],
+      "serialized_dtype_code": 1,
+      "container_dtype": "U8",
+      "container_shape": [
+        263168
+      ],
+      "payload_bytes": 263168,
+      "aligned_slot_bytes": 263168
+    },
+    {
+      "name": "block45.layer2.layer",
+      "block": 45,
+      "layer": 2,
+      "stage": "split16_decoder",
+      "serialized_dimensions": [
+        458784
+      ],
+      "serialized_dtype_code": 1,
+      "container_dtype": "U8",
+      "container_shape": [
+        917568
+      ],
+      "payload_bytes": 917568,
+      "aligned_slot_bytes": 918016
+    },
+    {
+      "name": "block45.layer3.layer",
+      "block": 45,
+      "layer": 3,
+      "stage": "split16_decoder",
+      "serialized_dimensions": [
+        131584
+      ],
+      "serialized_dtype_code": 1,
+      "container_dtype": "U8",
+      "container_shape": [
+        263168
+      ],
+      "payload_bytes": 263168,
+      "aligned_slot_bytes": 263168
+    },
+    {
+      "name": "block46.layer0.layer",
+      "block": 46,
+      "layer": 0,
+      "stage": "split16_decoder",
+      "serialized_dimensions": [
+        262144
+      ],
+      "serialized_dtype_code": 1,
+      "container_dtype": "U8",
+      "container_shape": [
+        524288
+      ],
+      "payload_bytes": 524288,
+      "aligned_slot_bytes": 524288
+    },
+    {
+      "name": "block46.layer1.layer",
+      "block": 46,
+      "layer": 1,
+      "stage": "split16_decoder",
+      "serialized_dimensions": [
+        131584
+      ],
+      "serialized_dtype_code": 1,
+      "container_dtype": "U8",
+      "container_shape": [
+        263168
+      ],
+      "payload_bytes": 263168,
+      "aligned_slot_bytes": 263168
+    },
+    {
+      "name": "block46.layer2.layer",
+      "block": 46,
+      "layer": 2,
+      "stage": "split16_decoder",
+      "serialized_dimensions": [
+        458784
+      ],
+      "serialized_dtype_code": 1,
+      "container_dtype": "U8",
+      "container_shape": [
+        917568
+      ],
+      "payload_bytes": 917568,
+      "aligned_slot_bytes": 918016
+    },
+    {
+      "name": "block46.layer3.layer",
+      "block": 46,
+      "layer": 3,
+      "stage": "split16_decoder",
+      "serialized_dimensions": [
+        131584
+      ],
+      "serialized_dtype_code": 1,
+      "container_dtype": "U8",
+      "container_shape": [
+        263168
+      ],
+      "payload_bytes": 263168,
+      "aligned_slot_bytes": 263168
+    },
+    {
+      "name": "block47.layer0.layer",
+      "block": 47,
+      "layer": 0,
+      "stage": "split16_decoder",
+      "serialized_dimensions": [
+        262144
+      ],
+      "serialized_dtype_code": 1,
+      "container_dtype": "U8",
+      "container_shape": [
+        524288
+      ],
+      "payload_bytes": 524288,
+      "aligned_slot_bytes": 524288
+    },
+    {
+      "name": "block47.layer1.layer",
+      "block": 47,
+      "layer": 1,
+      "stage": "split16_decoder",
+      "serialized_dimensions": [
+        131584
+      ],
+      "serialized_dtype_code": 1,
+      "container_dtype": "U8",
+      "container_shape": [
+        263168
+      ],
+      "payload_bytes": 263168,
+      "aligned_slot_bytes": 263168
+    },
+    {
+      "name": "block47.layer2.layer",
+      "block": 47,
+      "layer": 2,
+      "stage": "split16_decoder",
+      "serialized_dimensions": [
+        458784
+      ],
+      "serialized_dtype_code": 1,
+      "container_dtype": "U8",
+      "container_shape": [
+        917568
+      ],
+      "payload_bytes": 917568,
+      "aligned_slot_bytes": 918016
+    },
+    {
+      "name": "block47.layer3.layer",
+      "block": 47,
+      "layer": 3,
+      "stage": "split16_decoder",
+      "serialized_dimensions": [
+        131584
+      ],
+      "serialized_dtype_code": 1,
+      "container_dtype": "U8",
+      "container_shape": [
+        263168
+      ],
+      "payload_bytes": 263168,
+      "aligned_slot_bytes": 263168
+    },
+    {
+      "name": "block48.layer0.layer",
+      "block": 48,
+      "layer": 0,
+      "stage": "TIN_decoder",
+      "serialized_dimensions": [
+        410392
+      ],
+      "serialized_dtype_code": 1,
+      "container_dtype": "U8",
+      "container_shape": [
+        820784
+      ],
+      "payload_bytes": 820784,
+      "aligned_slot_bytes": 821248
+    },
+    {
+      "name": "block49.layer0.layer",
+      "block": 49,
+      "layer": 0,
+      "stage": "TIN_decoder",
+      "serialized_dimensions": [
+        344616
+      ],
+      "serialized_dtype_code": 1,
+      "container_dtype": "U8",
+      "container_shape": [
+        689232
+      ],
+      "payload_bytes": 689232,
+      "aligned_slot_bytes": 689664
+    },
+    {
+      "name": "block5.layer0.layer",
+      "block": 5,
+      "layer": 0,
+      "stage": "TIN_encoder",
+      "serialized_dimensions": [
+        30880
+      ],
+      "serialized_dtype_code": 1,
+      "container_dtype": "U8",
+      "container_shape": [
+        61760
+      ],
+      "payload_bytes": 61760,
+      "aligned_slot_bytes": 61952
+    },
+    {
+      "name": "block50.layer0.layer",
+      "block": 50,
+      "layer": 0,
+      "stage": "TIN_decoder",
+      "serialized_dimensions": [
+        344616
+      ],
+      "serialized_dtype_code": 1,
+      "container_dtype": "U8",
+      "container_shape": [
+        689232
+      ],
+      "payload_bytes": 689232,
+      "aligned_slot_bytes": 689664
+    },
+    {
+      "name": "block51.layer0.layer",
+      "block": 51,
+      "layer": 0,
+      "stage": "TIN_decoder",
+      "serialized_dimensions": [
+        344616
+      ],
+      "serialized_dtype_code": 1,
+      "container_dtype": "U8",
+      "container_shape": [
+        689232
+      ],
+      "payload_bytes": 689232,
+      "aligned_slot_bytes": 689664
+    },
+    {
+      "name": "block52.layer0.layer",
+      "block": 52,
+      "layer": 0,
+      "stage": "TIN_decoder",
+      "serialized_dimensions": [
+        344616
+      ],
+      "serialized_dtype_code": 1,
+      "container_dtype": "U8",
+      "container_shape": [
+        689232
+      ],
+      "payload_bytes": 689232,
+      "aligned_slot_bytes": 689664
+    },
+    {
+      "name": "block53.layer0.layer",
+      "block": 53,
+      "layer": 0,
+      "stage": "TIN_decoder",
+      "serialized_dimensions": [
+        344616
+      ],
+      "serialized_dtype_code": 1,
+      "container_dtype": "U8",
+      "container_shape": [
+        689232
+      ],
+      "payload_bytes": 689232,
+      "aligned_slot_bytes": 689664
+    },
+    {
+      "name": "block54.layer0.layer",
+      "block": 54,
+      "layer": 0,
+      "stage": "TIN_decoder",
+      "serialized_dimensions": [
+        344616
+      ],
+      "serialized_dtype_code": 1,
+      "container_dtype": "U8",
+      "container_shape": [
+        689232
+      ],
+      "payload_bytes": 689232,
+      "aligned_slot_bytes": 689664
+    },
+    {
+      "name": "block55.layer0.layer",
+      "block": 55,
+      "layer": 0,
+      "stage": "TIN_decoder",
+      "serialized_dimensions": [
+        344616
+      ],
+      "serialized_dtype_code": 1,
+      "container_dtype": "U8",
+      "container_shape": [
+        689232
+      ],
+      "payload_bytes": 689232,
+      "aligned_slot_bytes": 689664
+    },
+    {
+      "name": "block56.layer0.layer",
+      "block": 56,
+      "layer": 0,
+      "stage": "TIN_decoder",
+      "serialized_dimensions": [
+        115088
+      ],
+      "serialized_dtype_code": 1,
+      "container_dtype": "U8",
+      "container_shape": [
+        230176
+      ],
+      "payload_bytes": 230176,
+      "aligned_slot_bytes": 230400
+    },
+    {
+      "name": "block57.layer0.layer",
+      "block": 57,
+      "layer": 0,
+      "stage": "TIN_decoder",
+      "serialized_dimensions": [
+        98592
+      ],
+      "serialized_dtype_code": 1,
+      "container_dtype": "U8",
+      "container_shape": [
+        197184
+      ],
+      "payload_bytes": 197184,
+      "aligned_slot_bytes": 197632
+    },
+    {
+      "name": "block58.layer0.layer",
+      "block": 58,
+      "layer": 0,
+      "stage": "TIN_decoder",
+      "serialized_dimensions": [
+        98592
+      ],
+      "serialized_dtype_code": 1,
+      "container_dtype": "U8",
+      "container_shape": [
+        197184
+      ],
+      "payload_bytes": 197184,
+      "aligned_slot_bytes": 197632
+    },
+    {
+      "name": "block59.layer0.layer",
+      "block": 59,
+      "layer": 0,
+      "stage": "TIN_decoder",
+      "serialized_dimensions": [
+        98592
+      ],
+      "serialized_dtype_code": 1,
+      "container_dtype": "U8",
+      "container_shape": [
+        197184
+      ],
+      "payload_bytes": 197184,
+      "aligned_slot_bytes": 197632
+    },
+    {
+      "name": "block6.layer0.layer",
+      "block": 6,
+      "layer": 0,
+      "stage": "TIN_encoder",
+      "serialized_dimensions": [
+        30880
+      ],
+      "serialized_dtype_code": 1,
+      "container_dtype": "U8",
+      "container_shape": [
+        61760
+      ],
+      "payload_bytes": 61760,
+      "aligned_slot_bytes": 61952
+    },
+    {
+      "name": "block60.layer0.layer",
+      "block": 60,
+      "layer": 0,
+      "stage": "TIN_decoder",
+      "serialized_dimensions": [
+        98592
+      ],
+      "serialized_dtype_code": 1,
+      "container_dtype": "U8",
+      "container_shape": [
+        197184
+      ],
+      "payload_bytes": 197184,
+      "aligned_slot_bytes": 197632
+    },
+    {
+      "name": "block61.layer0.layer",
+      "block": 61,
+      "layer": 0,
+      "stage": "TIN_decoder",
+      "serialized_dimensions": [
+        98592
+      ],
+      "serialized_dtype_code": 1,
+      "container_dtype": "U8",
+      "container_shape": [
+        197184
+      ],
+      "payload_bytes": 197184,
+      "aligned_slot_bytes": 197632
+    },
+    {
+      "name": "block62.layer0.layer",
+      "block": 62,
+      "layer": 0,
+      "stage": "TIN_decoder",
+      "serialized_dimensions": [
+        35024
+      ],
+      "serialized_dtype_code": 1,
+      "container_dtype": "U8",
+      "container_shape": [
+        70048
+      ],
+      "payload_bytes": 70048,
+      "aligned_slot_bytes": 70144
+    },
+    {
+      "name": "block63.layer0.layer",
+      "block": 63,
+      "layer": 0,
+      "stage": "TIN_decoder",
+      "serialized_dimensions": [
+        30880
+      ],
+      "serialized_dtype_code": 1,
+      "container_dtype": "U8",
+      "container_shape": [
+        61760
+      ],
+      "payload_bytes": 61760,
+      "aligned_slot_bytes": 61952
+    },
+    {
+      "name": "block64.layer0.layer",
+      "block": 64,
+      "layer": 0,
+      "stage": "TIN_decoder",
+      "serialized_dimensions": [
+        30880
+      ],
+      "serialized_dtype_code": 1,
+      "container_dtype": "U8",
+      "container_shape": [
+        61760
+      ],
+      "payload_bytes": 61760,
+      "aligned_slot_bytes": 61952
+    },
+    {
+      "name": "block65.layer0.layer",
+      "block": 65,
+      "layer": 0,
+      "stage": "TIN_decoder",
+      "serialized_dimensions": [
+        30880
+      ],
+      "serialized_dtype_code": 1,
+      "container_dtype": "U8",
+      "container_shape": [
+        61760
+      ],
+      "payload_bytes": 61760,
+      "aligned_slot_bytes": 61952
+    },
+    {
+      "name": "block66.layer0.layer",
+      "block": 66,
+      "layer": 0,
+      "stage": "TIN_decoder",
+      "serialized_dimensions": [
+        11392
+      ],
+      "serialized_dtype_code": 1,
+      "container_dtype": "U8",
+      "container_shape": [
+        22784
+      ],
+      "payload_bytes": 22784,
+      "aligned_slot_bytes": 23040
+    },
+    {
+      "name": "block67.layer0.layer",
+      "block": 67,
+      "layer": 0,
+      "stage": "TIN_decoder",
+      "serialized_dimensions": [
+        10336
+      ],
+      "serialized_dtype_code": 1,
+      "container_dtype": "U8",
+      "container_shape": [
+        20672
+      ],
+      "payload_bytes": 20672,
+      "aligned_slot_bytes": 20992
+    },
+    {
+      "name": "block68.layer0.layer",
+      "block": 68,
+      "layer": 0,
+      "stage": "TIN_decoder",
+      "serialized_dimensions": [
+        10336
+      ],
+      "serialized_dtype_code": 1,
+      "container_dtype": "U8",
+      "container_shape": [
+        20672
+      ],
+      "payload_bytes": 20672,
+      "aligned_slot_bytes": 20992
+    },
+    {
+      "name": "block69.layer0.layer",
+      "block": 69,
+      "layer": 0,
+      "stage": "TIN_decoder",
+      "serialized_dimensions": [
+        10336
+      ],
+      "serialized_dtype_code": 1,
+      "container_dtype": "U8",
+      "container_shape": [
+        20672
+      ],
+      "payload_bytes": 20672,
+      "aligned_slot_bytes": 20992
+    },
+    {
+      "name": "block7.layer0.layer",
+      "block": 7,
+      "layer": 0,
+      "stage": "TIN_encoder",
+      "serialized_dimensions": [
+        30880
+      ],
+      "serialized_dtype_code": 1,
+      "container_dtype": "U8",
+      "container_shape": [
+        61760
+      ],
+      "payload_bytes": 61760,
+      "aligned_slot_bytes": 61952
+    },
+    {
+      "name": "block70.layer0.blend_scale",
+      "block": 70,
+      "layer": 0,
+      "stage": "B70",
+      "serialized_dimensions": [
+        1
+      ],
+      "serialized_dtype_code": 1,
+      "container_dtype": "U8",
+      "container_shape": [
+        2
+      ],
+      "payload_bytes": 2,
+      "aligned_slot_bytes": 512
+    },
+    {
+      "name": "block70.layer0.layer",
+      "block": 70,
+      "layer": 0,
+      "stage": "B70",
+      "serialized_dimensions": [
+        10904
+      ],
+      "serialized_dtype_code": 1,
+      "container_dtype": "U8",
+      "container_shape": [
+        21808
+      ],
+      "payload_bytes": 21808,
+      "aligned_slot_bytes": 22016
+    },
+    {
+      "name": "block8.layer0.layer",
+      "block": 8,
+      "layer": 0,
+      "stage": "TIN_encoder",
+      "serialized_dimensions": [
+        34968
+      ],
+      "serialized_dtype_code": 1,
+      "container_dtype": "U8",
+      "container_shape": [
+        69936
+      ],
+      "payload_bytes": 69936,
+      "aligned_slot_bytes": 70144
+    },
+    {
+      "name": "block9.layer0.layer",
+      "block": 9,
+      "layer": 0,
+      "stage": "TIN_encoder",
+      "serialized_dimensions": [
+        98592
+      ],
+      "serialized_dtype_code": 1,
+      "container_dtype": "U8",
+      "container_shape": [
+        197184
+      ],
+      "payload_bytes": 197184,
+      "aligned_slot_bytes": 197632
+    }
+  ]
+}

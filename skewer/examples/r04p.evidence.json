@@ -1,0 +1,343 @@
+{
+  "status": "PASS",
+  "scope": "saved receipt reconciliation only; no new full-map, model, GPU or chain run",
+  "sources": {
+    "experiments/mapform-split16-r04-20261027-codex/RESULT_ZH.md": "0ae42d4684ce63864e7fb7323a9b72df777aad760c1b45d4c28daa8672250dca",
+    "experiments/mapform-split16-r04-20261027-codex/BINDINGS_ZH.md": "3bc1b9f7953be642854be32c950fdcba45bea42deb1f6a0ff560011af976cb15",
+    "experiments/mapform-split16-r04-20261027-codex/RESULT_ZH.md.garbled-ascii": "e6400b44aa2d7800781a72ff7a3a6d963bad900a187954d3cefeead1e813ca58",
+    "experiments/mapform-split16-r04-20261027-codex/BINDINGS_ZH.md.garbled-ascii": "e031eb6b916787933d318f4fa2938e34e417d79e9d55a993f5f32cd67c4a3181",
+    "experiments/mapform-split16-r04-20261027-codex/PREDECL_ZH.md.garbled-ascii": "5d7d997ae1e6b094d62b54a03b2911f0e4fdc954996914950633c1fb21e2d78e",
+    "experiments/mapform-split16-r04-20261027-codex/PREDECL_RECOVERED_NOTE_ZH.md": "956a0d630a336aee21499abd5c63fcf75af8219c01ef1d87b56d14ec15667d84",
+    "experiments/mapform-split16-r04-20261027-codex/repair_reports.py": "9364407c5a326bf9badc990103772b27af081db90e02c3e70ee1e9af72e73bd3",
+    "experiments/mapform-split16-r04-20261027-codex/BINDINGS.json": "969f060d0e0c6532bb8f4ddc9e702c367599306898ecf2b836f84cda82b575f8",
+    "experiments/mapform-split16-r04-20261027-codex/COMPARISONS.json": "758521bfe71dd905bc36cfea0064a0176fb7f073f6be1554fad7a6cd903a2dc8",
+    "experiments/mapform-split16-r04-20261027-codex/VALIDATION.json": "a99d58945582827059e28af979429b00646380b36ed8f030a89e54422e9201e4",
+    "experiments/mapform-split16-rest-r02-20261027-codex/heldout_receipts.json": "b58cb97f8ef62a4cc8d8de68b7aa1eb76d416d3b4740912e1cb29e23119572db",
+    "experiments/mapform-split16-qkv-r01-20261027-codex/SUMMARY.json": "16174da9eb38b55c9eec369111888c62c73ff33de0a6777df0f4e4c3f98e31ce",
+    "experiments/mapform-split16-qkv-r01-20261027-codex/INVENTORY.json": "1a010315fa12b78e77c608c20cbeb27b2773bb31a9d1827462477c2c45faa4f8"
+  },
+  "r04_report_chinese_corrupted": true,
+  "r04_report_repaired": true,
+  "candidate_status_counts": {
+    "OUT_OF_SCOPE": 28,
+    "BOUND": 31,
+    "NOT_RUN": 3
+  },
+  "unique_comparisons": 10,
+  "elements": 416023808,
+  "r04_4k_physical_68x120": {
+    "F16": {
+      "paths": 3,
+      "distinct_containers": 1,
+      "fields": {
+        "wload_off": {
+          "elements": 4423680,
+          "status": "EXACT"
+        },
+        "sread_shared_off": {
+          "elements": 2211840,
+          "status": "EXACT"
+        },
+        "sread_src": {
+          "elements": 35389440,
+          "status": "EXACT"
+        },
+        "gstore_off": {
+          "elements": 276480,
+          "status": "EXACT"
+        }
+      }
+    },
+    "F17": {
+      "paths": 1,
+      "distinct_containers": 1,
+      "fields": {
+        "wload_off": {
+          "elements": 2211840,
+          "status": "EXACT"
+        },
+        "sread_shared_off": {
+          "elements": 2211840,
+          "status": "EXACT"
+        },
+        "sread_src": {
+          "elements": 35389440,
+          "status": "EXACT"
+        },
+        "gstore_off": {
+          "elements": 276480,
+          "status": "EXACT"
+        },
+        "xsite_src": {
+          "elements": 13271040,
+          "status": "EXACT"
+        },
+        "xsite_wsrc": {
+          "elements": 13271040,
+          "status": "EXACT"
+        }
+      }
+    },
+    "F19": {
+      "paths": 7,
+      "distinct_containers": 1,
+      "fields": {
+        "wload_off": {
+          "elements": 4423680,
+          "status": "EXACT"
+        },
+        "sread_shared_off": {
+          "elements": 2211840,
+          "status": "EXACT"
+        },
+        "sread_src": {
+          "elements": 35389440,
+          "status": "EXACT"
+        },
+        "gstore_off": {
+          "elements": 276480,
+          "status": "EXACT"
+        },
+        "xsite_src": {
+          "elements": 13271040,
+          "status": "EXACT"
+        },
+        "xsite_wsrc": {
+          "elements": 13271040,
+          "status": "EXACT"
+        }
+      }
+    },
+    "F20": {
+      "paths": 7,
+      "distinct_containers": 1,
+      "fields": {
+        "wload_off": {
+          "elements": 8847360,
+          "status": "EXACT"
+        },
+        "sread_shared_off": {
+          "elements": 2211840,
+          "status": "EXACT"
+        },
+        "sread_src": {
+          "elements": 35389440,
+          "status": "EXACT"
+        },
+        "gstore_off": {
+          "elements": 276480,
+          "status": "EXACT"
+        },
+        "xsite_src": {
+          "elements": 0,
+          "status": "EXACT"
+        },
+        "xsite_wsrc": {
+          "elements": 0,
+          "status": "EXACT"
+        }
+      }
+    },
+    "F21": {
+      "paths": 7,
+      "distinct_containers": 1,
+      "fields": {
+        "wload_off": {
+          "elements": 2211840,
+          "status": "EXACT"
+        },
+        "sread_shared_off": {
+          "elements": 2211840,
+          "status": "EXACT"
+        },
+        "sread_src": {
+          "elements": 35389440,
+          "status": "EXACT"
+        },
+        "gstore_off": {
+          "elements": 276480,
+          "status": "EXACT"
+        },
+        "xsite_src": {
+          "elements": 13271040,
+          "status": "EXACT"
+        },
+        "xsite_wsrc": {
+          "elements": 13271040,
+          "status": "EXACT"
+        }
+      }
+    },
+    "F22": {
+      "paths": 2,
+      "distinct_containers": 1,
+      "fields": {
+        "wload_off": {
+          "elements": 2211840,
+          "status": "EXACT"
+        },
+        "sread_shared_off": {
+          "elements": 2211840,
+          "status": "EXACT"
+        },
+        "sread_src": {
+          "elements": 35389440,
+          "status": "EXACT"
+        },
+        "gstore_off": {
+          "elements": 345600,
+          "status": "EXACT"
+        },
+        "xsite_src": {
+          "elements": 13271040,
+          "status": "EXACT"
+        },
+        "xsite_wsrc": {
+          "elements": 13271040,
+          "status": "EXACT"
+        },
+        "thread_class": {
+          "elements": 34560,
+          "status": "EXACT"
+        },
+        "shfl_idx": {
+          "elements": 8847360,
+          "status": "EXACT"
+        },
+        "psel": {
+          "elements": 2211840,
+          "status": "EXACT"
+        }
+      }
+    }
+  },
+  "f16_1440": {
+    "geometry": {
+      "H": 48,
+      "W": 80
+    },
+    "fields": {
+      "wload_off": 1966080,
+      "sread_shared_off": 983040,
+      "sread_src": 15728640,
+      "gstore_off": 122880
+    },
+    "sha256": "696f366e6b409bc4049c9218980d7e4aec6885ceb326ed3aa7b11835eab32077"
+  },
+  "qkv_F18_4k": {
+    "source": "r01, not r02 or r04",
+    "paths": 12,
+    "distinct_containers": 4,
+    "fields": {
+      "wload_off": 31997952,
+      "sread_shared_off": 18284544,
+      "sread_src": 292552704,
+      "gstore_off": 1142784,
+      "xsite_src": 2285568,
+      "xsite_wsrc": 2285568,
+      "shfl_idx": 20570112,
+      "psel": 9142272
+    }
+  },
+  "F23": {
+    "geometry": {
+      "H": 36,
+      "W": 60
+    },
+    "source_path": "E:\\dlssnr-pytorch-cpu-20260909\\experiments\\parity-cpp-geo2-tin-diagnostic-r01-20261011-codex\\resume16\\resume16b\\c6\\products\\S1\\L057\\high2160\\L57-map.npz",
+    "sha256": "191bf135579bd017048f894c55f198a418b31be03a8dc184f054383c8c8addbe",
+    "fields": {
+      "wload_off": {
+        "elements": 2621440,
+        "status": "EXACT"
+      },
+      "sread_shared_off": {
+        "elements": 1310720,
+        "status": "EXACT"
+      },
+      "sread_src": {
+        "elements": 20971520,
+        "status": "EXACT"
+      },
+      "gstore_off": {
+        "elements": 163840,
+        "status": "EXACT"
+      },
+      "xsite_src": {
+        "elements": 0,
+        "status": "EXACT"
+      },
+      "xsite_wsrc": {
+        "elements": 0,
+        "status": "EXACT"
+      }
+    },
+    "frame_identity": "4K input frame not independently bound in inspected r04 binding; path label alone is insufficient"
+  },
+  "accepted_maps": [
+    {
+      "family": "F16",
+      "path": "E:\\dlssnr-pytorch-cpu-20260909\\experiments\\parity-astra-opus-split16-b23-b30-20260913\\maps\\L25-lane.npz",
+      "sha256": "35981a94ee4bd90f2ea403010cfb5b0ee6fc8200a2936b08dc30f2a0094722de",
+      "geometry": {
+        "H": 12,
+        "W": 12
+      },
+      "fields": {
+        "sread_src": {
+          "elements": 1048576,
+          "status": "EXACT"
+        }
+      }
+    },
+    {
+      "family": "F17",
+      "path": "E:\\dlssnr-pytorch-cpu-20260909\\experiments\\parity-astra-opus-split16-b23-b30-20260913\\maps\\L26-lane.npz",
+      "sha256": "025eb191cf8b2e090b1f1cfd729178d7c08a302861c0216c14ac1152461e70e4",
+      "geometry": {
+        "H": 12,
+        "W": 12
+      },
+      "fields": {
+        "sread_src": {
+          "elements": 1048576,
+          "status": "EXACT"
+        }
+      }
+    },
+    {
+      "family": "F19",
+      "path": "E:\\dlssnr-pytorch-cpu-20260909\\experiments\\parity-astra-opus-split16-b23-b30-20260913\\revisions\\r02-l27-l28\\maps\\L28-lane.npz",
+      "sha256": "494965bf947a03588b2e06562554dc3d767a6ab343042112c1a9d1811b12fe7b",
+      "geometry": {
+        "H": 12,
+        "W": 12
+      },
+      "fields": {
+        "wload_off": {
+          "elements": 131072,
+          "status": "EXACT"
+        },
+        "xsite_src": {
+          "elements": 393216,
+          "status": "EXACT"
+        },
+        "xsite_wsrc": {
+          "elements": 393216,
+          "status": "EXACT"
+        }
+      }
+    }
+  ],
+  "historical_status": "NON_PRODUCTION_VARIANT; retain r02 MISMATCH / SHAPE_MISMATCH",
+  "cpp_executor_12x12_map_read": "NOT_ESTABLISHED",
+  "L132_candidates": 28,
+  "B31_candidates": 3,
+  "new_gpu_runs": 0,
+  "new_model_runs": 0,
+  "new_chain_runs": 0,
+  "new_full_map_runs": 0,
+  "network_calls": 0,
+  "git_calls": 0,
+  "external_writes": 0
+}

@@ -1,0 +1,202 @@
+{
+  "status": "PASS",
+  "scope": "artificial B70 arithmetic and repack; logical shape costs, no network/GPU",
+  "source_sha256": {
+    "E:/GlassBox-NR/cpp/chain_outtail_optm/outtail.cpp": "b2d807fd1d4fe015eefa234918028709dbb0e98ade3b97145ae8653bd29a2aef",
+    "E:/GlassBox-NR/cpp/chain_outtail_optm/primitives.hpp": "aad1fe9554d8e25394b49d58cfcc655e5599cbc9529e2c34887bb70a4ce23420",
+    "E:/GlassBox-NR/cpp/chain_outtail_optm/b70_temporal.hpp": "93af4fc635fde05c4930d11a33bcd4e5257d238c04184d1a1a68d41ada111179",
+    "E:/GlassBox-NR/cpp/fam_repack/repack.cpp": "8d721e2dc8d4a2530a92548c0e19a4f4854dc9ef6652e75472a269bf2480663b",
+    "E:/GlassBox-NR/cpp/chain_tin_optm/tin.cpp": "371d33d205655f75c809f0f9990a8054edf8e930a31733f72dbf916f87b4f1f8",
+    "E:/GlassBox-NR/cpp/chain_entry_optm/b00.hpp": "932e0c805f020420f0e6fad9543d3e1710d0561b6afa14a30263d6f9bd939392",
+    "E:/GlassBox-NR/cpp/chain_entry_optm/entry.cpp": "c9f1977d816c5e65757625a59859f6673578920ab7b69127efdc92e5870d313e",
+    "E:/dlssnr-pytorch-cpu-20260909/WEIGHTS_IDENTITY.json": "b82274df6c2d19a8059ce2ed0c47d7ce3c6f8007ef05459473e9d7c53cad1c9b",
+    "E:/dlssnr-cpp-work/chain-outtail-r01-codex/tables/manifest.json": "2047779d4fc5bb14a7dc5421ea71e00b18b4d48d90e7fd7ffec6e7dd7501a9f8",
+    "E:/dlssnr-cpp-work/chain-outtail-r01-codex/tables/ex2.bin": "cce5df10202dbfcde720ca547d147edb3e2a406a5fed189323f419177a72a1a5",
+    "E:/dlssnr-cpp-work/chain-outtail-r01-codex/tables/rcp.bin": "c408381446132e07fa5581e930dc33fb790bea7ec4276ef3621e322df2492a55"
+  },
+  "generated_scalar_sha256": "7468bb82361c05413ba7e1b1ec7e0705a0064e9058d71eb481de35bac0054a31",
+  "flags": [
+    "-std=c++20",
+    "-O2",
+    "-fno-fast-math",
+    "-ffp-contract=off",
+    "-frounding-math",
+    "-static"
+  ],
+  "compiler": "C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WinGet\\Packages\\BrechtSanders.WinLibs.POSIX.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\\mingw64\\bin\\g++.EXE",
+  "stdout_tokens": [
+    [
+      "color",
+      "0",
+      "0.01000213623",
+      "0",
+      "0.0003125667572",
+      "0.5025005341"
+    ],
+    [
+      "color",
+      "1",
+      "0",
+      "0",
+      "0",
+      "0.5"
+    ],
+    [
+      "color",
+      "2",
+      "-0.01000213623",
+      "0",
+      "-0.0003125667572",
+      "0.4974994659"
+    ],
+    [
+      "gate",
+      "-1.442695022",
+      "0.3678794503",
+      "0.7310585976",
+      "0.3655292988",
+      "1"
+    ],
+    [
+      "blend",
+      "0",
+      "0.2474994659",
+      "0.5929688215",
+      "38be"
+    ],
+    [
+      "blend",
+      "1",
+      "-0.25",
+      "0.4086176753",
+      "3689"
+    ],
+    [
+      "blend",
+      "2",
+      "0.002500534058",
+      "0.4984134734",
+      "37f9"
+    ],
+    [
+      "pi",
+      "725",
+      "276"
+    ],
+    [
+      "bit",
+      "0",
+      "2"
+    ],
+    [
+      "bit",
+      "2",
+      "1"
+    ],
+    [
+      "bit",
+      "5",
+      "9"
+    ],
+    [
+      "bit",
+      "8",
+      "4"
+    ],
+    [
+      "bit",
+      "9",
+      "5"
+    ],
+    [
+      "bit",
+      "10",
+      "6"
+    ],
+    [
+      "sqrt32",
+      "5.65625",
+      "45a8"
+    ]
+  ],
+  "B70_inputs": {
+    "color": [
+      0.5,
+      0.5,
+      0.5
+    ],
+    "dh_before_half": [
+      0.01,
+      0,
+      -0.01,
+      1
+    ],
+    "host_scale": 0.03125,
+    "artificial_confidence": 0.5,
+    "supplied_weighted_history": [
+      0.75,
+      0.25,
+      0.5
+    ],
+    "denominator": 1
+  },
+  "canonical_resource": {
+    "bytes": 147695410,
+    "sha256": "836f445d06ecd2e59bb9f17b84b91c143396fd76ccda1c9dc7fe81d5edd548f4"
+  },
+  "cost_scope": "1080/internal1920x1152; logical valid positions; matrix slots only, excluding biases/scales/alignment, no executed-lane or FLOP claim",
+  "stages": {
+    "B0": {
+      "matrix_bytes": 13312,
+      "linear_MAC": 28311552000,
+      "attention_MAC": 9059696640,
+      "complete": true
+    },
+    "TIN_encoder": {
+      "matrix_bytes": 6367232,
+      "linear_MAC": 130233139200,
+      "attention_MAC": 19251855360,
+      "complete": true
+    },
+    "split16_encoder": {
+      "matrix_bytes": 8388608,
+      "linear_MAC": 18119393280,
+      "attention_MAC": 1132462080,
+      "complete": false,
+      "omitted": "QKV projection, pooled extra projection and L57 internal MKN"
+    },
+    "ViT": {
+      "matrix_bytes": 100663296,
+      "linear_MAC": 64424509440,
+      "attention_MAC": 6710886400,
+      "complete": true
+    },
+    "L100": {
+      "matrix_bytes": 524288,
+      "linear_MAC": 1132462080,
+      "attention_MAC": 0,
+      "complete": true
+    },
+    "split16_decoder": {
+      "matrix_bytes": 8388608,
+      "linear_MAC": 18119393280,
+      "attention_MAC": 1132462080,
+      "complete": false,
+      "omitted": "QKV projection"
+    },
+    "TIN_decoder": {
+      "matrix_bytes": 6367232,
+      "linear_MAC": 130233139200,
+      "attention_MAC": 19251855360,
+      "complete": true
+    },
+    "B70": {
+      "matrix_bytes": 12544,
+      "linear_MAC_reset": 27391426560,
+      "linear_MAC_history": 27462205440,
+      "attention_MAC": 9059696640,
+      "complete": true
+    }
+  },
+  "complete_network_total": "NOT_ESTABLISHED: split16 entries are explicit known subtotals"
+}

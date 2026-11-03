@@ -1,0 +1,402 @@
+{
+  "scope": "accepted saved child-candidate results only; M/M2 unchanged",
+  "source_sha256": {
+    "E:/dlssnr-pytorch-cpu-20260909/experiments/parity-cpp-param-change-r01-20261024-codex/RESULT_ZH.md": "ac5084211dd9e8880bb20c6b5fc6e9680f06d3bf54d4047616ed9cd3bc12c833",
+    "E:/dlssnr-pytorch-cpu-20260909/experiments/parity-cpp-param-change-r01-20261024-codex/STAGE_B_ZH.md": "dc2ef9b501ac201c4d5cb30058955b2b7c0bcb23d17f02c498edfcadcabd92f1",
+    "E:/dlssnr-pytorch-cpu-20260909/experiments/parity-cpp-param-change-r01-20261024-codex/STAGE_C_ZH.md": "98c5da22d81456f804d3e5ae918bea8b15bedf92a977b9782ded5d8c0f113a9e",
+    "E:/dlssnr-pytorch-cpu-20260909/experiments/parity-cpp-param-change-r01-20261024-codex/stage_c_r1/G2_RESULT_ZH.md": "0989eea4cf024548cbd13799da375a162afa4b9d616af63459b48245f958971d",
+    "E:/dlssnr-pytorch-cpu-20260909/experiments/parity-cpp-param-change-r01-20261024-codex/STAGE_D1_ZH.md": "2121cc83081e29dd640dbf72825a1e0de159c816325fe7ca7e937a511b684a67",
+    "E:/dlssnr-pytorch-cpu-20260909/experiments/parity-cpp-param-change-r01-20261024-codex/STAGE_D1A_ZH.md": "dfaeddd9bd9a94927fbc6438774f06b26b4e98a390714bba99334d2dfece9072",
+    "E:/dlssnr-pytorch-cpu-20260909/experiments/parity-cpp-param-change-r01-20261024-codex/stage_c/WITHDRAW_R0.json": "4a63f64b0a1f3da85c556c466e437832982607103233bcde0152fd3b3c55b5b4",
+    "E:/dlssnr-pytorch-cpu-20260909/experiments/parity-cpp-param-change-r01-20261024-codex/stage_c/NATIVE_B00_DISCRIMINANT_C.json": "5360724e36a3f3887f32131e7f913ce4113b4c314f8fb96164737b4423a83636",
+    "E:/dlssnr-pytorch-cpu-20260909/experiments/parity-cpp-param-change-r01-20261024-codex/stage_d1_r2/PROPOSAL_R2_ZH.md": "ba96d53b9cd34bd7142e138190556d5746f1e435215adeb3ab2fba1971098c21",
+    "E:/dlssnr-pytorch-cpu-20260909/experiments/parity-cpp-param-change-r01-20261024-codex/stage_d1_r2/DIAG_S157_GUARD_ZH.md": "8fca1515b1fff212025c5120bf2cef88d85146d372d4b640701b35f5dff0a274",
+    "E:/dlssnr-pytorch-cpu-20260909/experiments/parity-cpp-param-change-r01-20261024-codex/stage_d1a_r2b/DIAG_REACH_GUARD_ZH.md": "d237f3d888caf8eb7018a46019589d437cafcec1d5b63c3fcb9c8cbdffb85ed8",
+    "E:/dlssnr-pytorch-cpu-20260909/experiments/parity-cpp-param-change-r01-20261024-codex/stage_d1b_r2c/SITE_TUPLE_BACKINGS.json": "d2f8c106fdafe22b0d2d81b53372fe84b67f4adb0db8c1a7b6ce31a836e9f82e",
+    "E:/dlssnr-pytorch-cpu-20260909/experiments/parity-cpp-param-change-r01-20261024-codex/stage_d1b_r2c/REACH_CENSUS.json": "c8741ebf8ac76db8df20f7db5fb49193a5da5645aca8e26b6dd8d78e6e4db602",
+    "E:/dlssnr-pytorch-cpu-20260909/experiments/parity-cpp-param-change-r01-20261024-codex/stage_d1b_r2c/returned/snapshot/CERTIFICATE_R2C.json": "7f39fe3a0202dc3d721b5ad87d65ca25c545998ee879aeaee69997d283f0838f",
+    "E:/dlssnr-pytorch-cpu-20260909/experiments/parity-cpp-param-change-r01-20261024-codex/stage_c_r1/DIAG_COPY6_ZH.md": "6302bcaa1a7e4e6b49ddf0579ac8a606764e3fecf7686c8f36be4a28b29ebc64"
+  },
+  "stage_B": {
+    "FULL_MATCH": 624,
+    "FINAL_MATCH": 4,
+    "WR_Bii_PASS": 624
+  },
+  "stage_C_G2": {
+    "FULL_MATCH": 315,
+    "FULL_NOT_OBSERVED": 1,
+    "FINAL_MATCH": 2,
+    "WR_Bii_PASS": 316
+  },
+  "stage_D1": {
+    "calls": 3476,
+    "FULL_MATCH": 473,
+    "FULL_NOT_OBSERVED": 3003,
+    "FINAL_MATCH": 22,
+    "distinct_logical_frames": 19,
+    "WR_Bii_PASS": 3476,
+    "DIFF": 0
+  },
+  "independent_S157": {
+    "FINAL_MATCH": 4,
+    "remaining_NOT_RUN_STATE_UNAVAILABLE": 75
+  },
+  "S157_new_control_tuples": [
+    {
+      "index": 0,
+      "u32": [
+        "3f800000",
+        "00000000",
+        "00000000",
+        "be19999a",
+        "00000000"
+      ],
+      "floats": [
+        1.0,
+        0.0,
+        0.0,
+        -0.15000000596046448,
+        0.0
+      ]
+    },
+    {
+      "index": 1,
+      "u32": [
+        "00000000",
+        "bdcccccd",
+        "be800000",
+        "bdcccccd",
+        "00000000"
+      ],
+      "floats": [
+        0.0,
+        -0.10000000149011612,
+        -0.25,
+        -0.10000000149011612,
+        0.0
+      ]
+    },
+    {
+      "index": 2,
+      "u32": [
+        "3e800000",
+        "bdcccccd",
+        "be800000",
+        "bdcccccd",
+        "00000000"
+      ],
+      "floats": [
+        0.25,
+        -0.10000000149011612,
+        -0.25,
+        -0.10000000149011612,
+        0.0
+      ]
+    },
+    {
+      "index": 3,
+      "u32": [
+        "3f000000",
+        "bdcccccd",
+        "be800000",
+        "bdcccccd",
+        "00000000"
+      ],
+      "floats": [
+        0.5,
+        -0.10000000149011612,
+        -0.25,
+        -0.10000000149011612,
+        0.0
+      ]
+    },
+    {
+      "index": 4,
+      "u32": [
+        "3f400000",
+        "bdcccccd",
+        "be800000",
+        "bdcccccd",
+        "00000000"
+      ],
+      "floats": [
+        0.75,
+        -0.10000000149011612,
+        -0.25,
+        -0.10000000149011612,
+        0.0
+      ]
+    },
+    {
+      "index": 5,
+      "u32": [
+        "3fc00000",
+        "bdcccccd",
+        "be800000",
+        "bdcccccd",
+        "00000000"
+      ],
+      "floats": [
+        1.5,
+        -0.10000000149011612,
+        -0.25,
+        -0.10000000149011612,
+        0.0
+      ]
+    },
+    {
+      "index": 6,
+      "u32": [
+        "3f800000",
+        "bcf5c290",
+        "bd99999a",
+        "bcf5c290",
+        "00000000"
+      ],
+      "floats": [
+        1.0,
+        -0.030000001192092896,
+        -0.07500000298023224,
+        -0.030000001192092896,
+        0.0
+      ]
+    },
+    {
+      "index": 7,
+      "u32": [
+        "3f800000",
+        "bd4ccccd",
+        "be000000",
+        "bd4ccccd",
+        "00000000"
+      ],
+      "floats": [
+        1.0,
+        -0.05000000074505806,
+        -0.125,
+        -0.05000000074505806,
+        0.0
+      ]
+    },
+    {
+      "index": 8,
+      "u32": [
+        "3f800000",
+        "bd8f5c29",
+        "be333333",
+        "bd8f5c29",
+        "00000000"
+      ],
+      "floats": [
+        1.0,
+        -0.07000000029802322,
+        -0.17499999701976776,
+        -0.07000000029802322,
+        0.0
+      ]
+    },
+    {
+      "index": 9,
+      "u32": [
+        "3dcccccd",
+        "bdcccccd",
+        "be800000",
+        "bdcccccd",
+        "00000000"
+      ],
+      "floats": [
+        0.10000000149011612,
+        -0.10000000149011612,
+        -0.25,
+        -0.10000000149011612,
+        0.0
+      ]
+    },
+    {
+      "index": 10,
+      "u32": [
+        "3ea8f5c3",
+        "bdcccccd",
+        "be800000",
+        "bdcccccd",
+        "00000000"
+      ],
+      "floats": [
+        0.33000001311302185,
+        -0.10000000149011612,
+        -0.25,
+        -0.10000000149011612,
+        0.0
+      ]
+    },
+    {
+      "index": 11,
+      "u32": [
+        "3f666666",
+        "bdcccccd",
+        "be800000",
+        "bdcccccd",
+        "00000000"
+      ],
+      "floats": [
+        0.8999999761581421,
+        -0.10000000149011612,
+        -0.25,
+        -0.10000000149011612,
+        0.0
+      ]
+    },
+    {
+      "index": 12,
+      "u32": [
+        "3f7fbe77",
+        "bdcccccd",
+        "be800000",
+        "bdcccccd",
+        "00000000"
+      ],
+      "floats": [
+        0.9990000128746033,
+        -0.10000000149011612,
+        -0.25,
+        -0.10000000149011612,
+        0.0
+      ]
+    },
+    {
+      "index": 13,
+      "u32": [
+        "3f800000",
+        "bccccccd",
+        "bd800000",
+        "bccccccd",
+        "00000000"
+      ],
+      "floats": [
+        1.0,
+        -0.02500000037252903,
+        -0.0625,
+        -0.02500000037252903,
+        0.0
+      ]
+    },
+    {
+      "index": 14,
+      "u32": [
+        "3f800000",
+        "bd75c290",
+        "be19999a",
+        "bd75c290",
+        "00000000"
+      ],
+      "floats": [
+        1.0,
+        -0.06000000238418579,
+        -0.15000000596046448,
+        -0.06000000238418579,
+        0.0
+      ]
+    }
+  ],
+  "SFU_union_blocks": [
+    [
+      0,
+      103,
+      104,
+      105,
+      106,
+      107,
+      108,
+      109,
+      110,
+      111,
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127
+    ],
+    [
+      0,
+      372,
+      373,
+      374,
+      375,
+      376,
+      377,
+      378,
+      379,
+      380,
+      381,
+      382,
+      383,
+      384,
+      385,
+      386,
+      387,
+      511
+    ],
+    [
+      0,
+      103,
+      104,
+      105,
+      106,
+      107,
+      108,
+      109,
+      110,
+      111,
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127
+    ],
+    [
+      0,
+      372,
+      373,
+      374,
+      375,
+      376,
+      377,
+      378,
+      379,
+      380,
+      381,
+      382,
+      383,
+      384,
+      385,
+      386,
+      387,
+      511
+    ]
+  ],
+  "SFU_measured_backings": 44,
+  "SFU_old_inputs": 293601280,
+  "SFU_new_inputs": 75497472
+}

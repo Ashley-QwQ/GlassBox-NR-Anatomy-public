@@ -1,0 +1,50 @@
+{
+  "status": "PASS",
+  "scope": "artificial scalar CPU arithmetic only; zero GPU/model/chain runs",
+  "compiler": "C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WinGet\\Packages\\BrechtSanders.WinLibs.POSIX.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\\mingw64\\bin\\g++.EXE",
+  "compiler_version": "g++.EXE (MinGW-W64 x86_64-ucrt-posix-seh, built by Brecht Sanders, r4) 16.1.0",
+  "flags": [
+    "-std=c++20",
+    "-O2",
+    "-fno-fast-math",
+    "-ffp-contract=off",
+    "-frounding-math",
+    "-static"
+  ],
+  "extracted_functions": {
+    "half": [
+      "half_value",
+      "half_round",
+      "magnitude"
+    ],
+    "tail": [
+      "require",
+      "hmma_seed"
+    ],
+    "entry": [
+      "hmma_dot"
+    ],
+    "cached": [
+      "hmma_cached"
+    ]
+  },
+  "source_sha256": {
+    "E:/GlassBox-NR/cpp/chain_outtail_optm/primitives.hpp": "aad1fe9554d8e25394b49d58cfcc655e5599cbc9529e2c34887bb70a4ce23420",
+    "E:/GlassBox-NR/cpp/chain_entry_optm/mapexec_base.hpp": "0ac19678e7b4a31857434ffda3b250f508c98e76970485b3c70f7948b65eeb60",
+    "E:/GlassBox-NR/cpp/chain_entry_optm/decode_reuse.inc": "d4c579acf819c5fb3f2d891f6c6acab81ec1687cf8bfb5e386fd341037a7de0e",
+    "E:/GlassBox-NR/cpp/chain_outtail_optm/outtail.cpp": "b2d807fd1d4fe015eefa234918028709dbb0e98ade3b97145ae8653bd29a2aef"
+  },
+  "generated_scalar_sha256": "e52e71e20fcfdd834024e66c72e5f249d5268c97bc16ff26b8fb0abac4ea0676",
+  "stdout": "dot 0010\ncached 0010\nseeded 0010\nproduct_half_control 0000\nfirst_K16 6400\ntwo_K16 3800\nsingle_final_round_control 3c00\nnonfinite_operand_refused\nFP_ENV_RN_IEEE_NO_CONTROL_CHANGES\n",
+  "expected": [
+    "dot 0010",
+    "cached 0010",
+    "seeded 0010",
+    "product_half_control 0000",
+    "first_K16 6400",
+    "two_K16 3800",
+    "single_final_round_control 3c00",
+    "nonfinite_operand_refused",
+    "FP_ENV_RN_IEEE_NO_CONTROL_CHANGES"
+  ]
+}
